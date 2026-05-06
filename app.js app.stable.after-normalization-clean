@@ -229,79 +229,7 @@ function loadMovies() {
     });
 }
 
-// =========================
-// Normalisation
-// =========================
 
-function normalizeMovie(movie, index) {
-  if (!movie || typeof movie !== "object") {
-    return null;
-  }
-
-  const id = Number(movie.id);
-  const title = typeof movie.title === "string" ? movie.title.trim() : "";
-  const genre = typeof movie.genre === "string" ? movie.genre.trim() : "";
-  const tone = typeof movie.tone === "string" ? movie.tone.trim() : "";
-
-  const streaming = Array.isArray(movie.streaming)
-    ? movie.streaming
-        .map(normalizeServiceKey)
-        .filter(Boolean)
-    : [];
-
-  const tmdbId =
-    movie.tmdbId !== undefined &&
-    movie.tmdbId !== null &&
-    String(movie.tmdbId).trim() !== ""
-      ? Number(movie.tmdbId)
-      : null;
-
-  const poster =
-    typeof movie.poster === "string" && movie.poster.trim() !== ""
-      ? movie.poster.trim()
-      : "";
-
-  const energy = normalizeEnumValue(movie.energy, ALLOWED_ENERGY_VALUES, DEFAULT_ENERGY);
-  const weight = normalizeEnumValue(movie.weight, ALLOWED_WEIGHT_VALUES, DEFAULT_WEIGHT);
-  const style = normalizeEnumValue(movie.style, ALLOWED_STYLE_VALUES, DEFAULT_STYLE);
-  const humor = normalizeEnumValue(movie.humor, ALLOWED_HUMOR_VALUES, DEFAULT_HUMOR);
-
-  if (!id || !title || !genre || !tone || streaming.length === 0) {
-    console.warn("Skipping invalid movie record at index:", index, movie);
-    return null;
-  }
-
-  const ukProviders = Array.isArray(movie.ukProviders)
-    ? movie.ukProviders
-        .map(normalizeServiceKey)
-        .filter(Boolean)
-    : [];
-
-  return {
-    ...movie,
-    id,
-    title,
-    genre,
-    tone,
-    streaming,
-    poster,
-    tmdbId: Number.isFinite(tmdbId) ? tmdbId : null,
-    energy,
-    weight,
-    style,
-    humor,
-    ukProviders
-  };
-}
-
-function normalizeEnumValue(rawValue, allowedValues, fallbackValue) {
-  if (typeof rawValue !== "string") {
-    return fallbackValue;
-  }
-
-  const normalized = rawValue.trim().toLowerCase();
-  return allowedValues.includes(normalized) ? normalized : fallbackValue;
-}
 // =========================
 // Normalization / display helpers
 // =========================
@@ -340,7 +268,7 @@ function normalizeMovie(movie, index) {
   const style = normalizeEnumValue(movie.style, ALLOWED_STYLE_VALUES, DEFAULT_STYLE);
   const humor = normalizeEnumValue(movie.humor, ALLOWED_HUMOR_VALUES, DEFAULT_HUMOR);
 
-  if (!id || !title || !genre || !tone || streaming.length === 0) {
+  if (!id || !title || !genre || !tone) {
     console.warn("Skipping invalid movie record at index:", index, movie);
     return null;
   }
@@ -1339,8 +1267,7 @@ function getNextRatingMovie() {
   const shuffled = getStableShuffledCandidates(candidates);
   return shuffled[0] || candidates[0] || null;
 }
-function buildBalancedOpeningQueue() {
-  const candidates = getRecommendationCandidates();
+function buildBalancedOpeningQueue(candidates = getRatingCandidates()) {
   const curatedSet = new Set(CURATED_OPENING_IDS);
   const curated = [];
   const remainder = [];
@@ -1366,14 +1293,60 @@ function buildBalancedOpeningQueue() {
   return shuffleArray(mixed);
 }
 function getRatingCandidates() {
-  const baseCandidates = getRecommendationCandidates();
-  const unskippedCandidates = baseCandidates.filter((movie) => !isMovieSkippedForNow(movie.id));
+  const baseCandidates = movies.filter((movie) => {
+    if (seenMovies[movie.id]) return false;
+    if (watchlistMovies[movie.id]) return false;
+    return true;
+  });
 
-  if (unskippedCandidates.length > 0) {
-    return unskippedCandidates;
+  const unskippedCandidates = baseCandidates.filter((movie) => !isMovieSkippedForNow(movie.id));
+  const candidates = unskippedCandidates.length > 0 ? unskippedCandidates : baseCandidates;
+
+  return applyNewLibraryRatingBoost(candidates);
+}
+function applyNewLibraryRatingBoost(candidates) {
+  if (!Array.isArray(candidates) || candidates.length <= 1) {
+    return candidates || [];
   }
 
-  return baseCandidates;
+  const ratedCount = Object.keys(ratings).length;
+
+  // Only gently boost the new expansion batch during early rating.
+  if (ratedCount >= 30) {
+    return candidates;
+  }
+
+  const expansionCandidates = candidates.filter((movie) => movie.id >= 251 && movie.id <= 304);
+  const existingCandidates = candidates.filter((movie) => movie.id < 251 || movie.id > 304);
+
+  if (expansionCandidates.length === 0 || existingCandidates.length === 0) {
+    return candidates;
+  }
+
+  const boosted = [];
+  const shuffledExpansion = getStableShuffledCandidates(expansionCandidates);
+  const shuffledExisting = getStableShuffledCandidates(existingCandidates);
+
+  let expansionIndex = 0;
+  let existingIndex = 0;
+
+  while (
+    boosted.length < candidates.length &&
+    (expansionIndex < shuffledExpansion.length || existingIndex < shuffledExisting.length)
+  ) {
+    // Roughly 1 new expansion film for every 3 existing films.
+    for (let i = 0; i < 3 && existingIndex < shuffledExisting.length; i += 1) {
+      boosted.push(shuffledExisting[existingIndex]);
+      existingIndex += 1;
+    }
+
+    if (expansionIndex < shuffledExpansion.length) {
+      boosted.push(shuffledExpansion[expansionIndex]);
+      expansionIndex += 1;
+    }
+  }
+
+  return boosted;
 }
 function getRecommendationCandidates() {
   return movies.filter((movie) => {
@@ -1382,14 +1355,7 @@ function getRecommendationCandidates() {
 
     const ukProviders = Array.isArray(movie.ukProviders) ? movie.ukProviders : [];
 
-    // Prefer UK provider data when available
-    if (ukProviders.length > 0) {
-      return ukProviders.some((service) => availableServices[service]);
-    }
-
-    // Fallback to legacy static streaming field if UK data is missing
-    const legacyStreaming = Array.isArray(movie.streaming) ? movie.streaming : [];
-    return legacyStreaming.some((service) => availableServices[service]);
+    return ukProviders.some((service) => availableServices[service]);
   });
 }
 function getStableShuffledCandidates(candidates) {

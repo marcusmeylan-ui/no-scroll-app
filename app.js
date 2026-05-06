@@ -772,15 +772,11 @@ function renderPendingFollowUpCard() {
 
   return `
     <section class="section-card">
-      <h3 class="section-title">Did you watch ${escapeHtml(pendingFollowUp.title)}?</h3>
-      <p class="section-copy">Help improve your next recommendation with a quick rating.</p>
-
+<h3 class="section-title">Was ${escapeHtml(pendingFollowUp.title)} a good pick?</h3>
+<p class="section-copy">Tell NoScroll whether this recommendation worked for you. We will use it to improve the next one.</p>
       <div class="rating-row" style="margin-top: 14px;">
-        <button class="rating-btn" onclick="ratePendingFollowUp(1)">1</button>
-        <button class="rating-btn" onclick="ratePendingFollowUp(2)">2</button>
-        <button class="rating-btn" onclick="ratePendingFollowUp(3)">3</button>
-        <button class="rating-btn" onclick="ratePendingFollowUp(4)">4</button>
-        <button class="rating-btn" onclick="ratePendingFollowUp(5)">5</button>
+        <button class="rating-btn" onclick="ratePendingFollowUp(5)" aria-label="Yes, this pick worked">👍</button>
+        <button class="rating-btn" onclick="ratePendingFollowUp(1)" aria-label="No, this pick missed">👎</button>
       </div>
 
       <div style="margin-top: 12px;">
@@ -884,7 +880,6 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
   const displayConfidence = getDisplayConfidenceLabel(currentRecommendations.confidence);
   const confidenceClass = getConfidenceBadgeClass(currentRecommendations.confidence);
   const confidencePercent = getConfidencePercent(currentRecommendations.confidence, ratedCount);
-  const confidenceReasons = buildConfidenceReasonList(topPick);
   const whyList = buildWhyItWorksList(topPick);
     const matchedProviderLabels = getMatchedUkProviderLabels(topPick);
   const availableTonightCopy =
@@ -935,12 +930,7 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
         <span class="availability-pill">Available tonight in the UK</span>
 </div>
 
-<div class="section-card pick-info-card" style="margin-top: 14px;">
-  <h3 class="section-title">Why we think this fits</h3>
-  <ul class="why-list">
-    ${confidenceReasons.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
-  </ul>
-</div>
+
 
         <div class="availability-box">
           <p class="section-title">Available on your services</p>
@@ -958,11 +948,13 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
         </div>
 
         <div class="pick-action-row">
-          <button class="primary-btn" onclick="markRecommendationSeen(${topPick.id})">Play this tonight</button>
-          <button class="ghost-btn" onclick="addRecommendationToWatchlist(${topPick.id})">Save for later</button>
-          <button class="ghost-btn" onclick="dismissCurrentTopPick()">Not feeling it</button>
-          <button class="ghost-btn" onclick="returnToMovieList()">Rate more films</button>
-        </div>
+  <button class="primary-btn" onclick="markRecommendationSeen(${topPick.id})">Play this tonight</button>
+  <button class="ghost-btn" onclick="addRecommendationToWatchlist(${topPick.id})">Save for later</button>
+  <button class="ghost-btn" onclick="dismissCurrentTopPick()">Not feeling it</button>
+  <button class="ghost-btn" onclick="returnToMovieList()">Rate more films</button>
+</div>
+
+
 
         <div class="pick-info-grid">
           <div class="section-card pick-info-card">
@@ -1867,42 +1859,56 @@ function stableTieBreaker(movieId) {
 
   return hash / 100000;
 }
-function pickWithDiversity(sortedMovies) {
-  const result = [];
+function pickWithDiversity(sortedMovies, profile) {
+  if (!Array.isArray(sortedMovies) || sortedMovies.length === 0) return [];
 
-  if (sortedMovies.length === 0) return result;
+  const safePick = sortedMovies[0];
 
-  result.push(sortedMovies[0]);
+  // Slight stretch: similar but not identical
+  const stretchPick = sortedMovies.find((movie) => {
+    return (
+      movie.id !== safePick.id &&
+      (
+        movie.genre === safePick.genre ||
+        movie.style === safePick.style ||
+        movie.weight === safePick.weight
+      ) &&
+      (
+        movie.tone !== safePick.tone ||
+        movie.humor !== safePick.humor
+      )
+    );
+  });
 
-  for (let i = 1; i < sortedMovies.length; i++) {
-    const candidate = sortedMovies[i];
+  // Wildcard: outside profile comfort zone
+  const wildcardPick = sortedMovies.find((movie) => {
+    const genreScore = profile.genreScores[movie.genre] || 0;
+    const styleScore = profile.styleScores[movie.style] || 0;
+    const weightScore = profile.weightScores[movie.weight] || 0;
 
-    const duplicateProfile = result.some((picked) => {
-      return (
-        picked.genre === candidate.genre &&
-        picked.weight === candidate.weight &&
-        picked.style === candidate.style &&
-        picked.humor === candidate.humor
-      );
-    });
+    return (
+      movie.id !== safePick.id &&
+      movie.id !== stretchPick?.id &&
+      genreScore < 0.2 &&
+      styleScore < 0.2 &&
+      weightScore < 0.2
+    );
+  });
 
-    if (!duplicateProfile) {
-      result.push(candidate);
+  const results = [safePick];
+
+  if (stretchPick) results.push(stretchPick);
+  if (wildcardPick) results.push(wildcardPick);
+
+  // fallback if needed
+  for (const movie of sortedMovies) {
+    if (results.length >= 3) break;
+    if (!results.some((m) => m.id === movie.id)) {
+      results.push(movie);
     }
-
-    if (result.length === 3) break;
   }
 
-  let fallbackIndex = 1;
-  while (result.length < 3 && fallbackIndex < sortedMovies.length) {
-    const fallbackMovie = sortedMovies[fallbackIndex];
-    if (!result.includes(fallbackMovie)) {
-      result.push(fallbackMovie);
-    }
-    fallbackIndex++;
-  }
-
-  return result;
+  return results.slice(0, 3);
 }
 function getTopPreference(scores, minimumScore = 0.15) {
   const entries = Object.entries(scores).sort((a, b) => b[1] - a[1]);
@@ -2106,7 +2112,7 @@ function generateRecommendations() {
   );
   scored.sort((a, b) => b.recommendationScore - a.recommendationScore);
 
-  const selected = pickWithDiversity(scored);
+  const selected = pickWithDiversity(scored, profile);
   const topPick = selected[0] || null;
   const ratedCount = Object.keys(ratings).length;
   const topScore = scored[0]?.recommendationScore || 0;
@@ -2411,8 +2417,9 @@ function ratePendingFollowUp(rating) {
   if (!pendingFollowUp || !pendingFollowUp.movieId) return;
 
   const movieId = pendingFollowUp.movieId;
+  const normalizedRating = Number(rating) >= 4 ? 5 : 1;
 
-  ratings[movieId] = rating;
+  ratings[movieId] = normalizedRating;
   seenMovies[movieId] = true;
   delete skippedMovieState[movieId];
 
@@ -2421,7 +2428,15 @@ function ratePendingFollowUp(rating) {
   clearPendingFollowUp();
   clearDailyRecommendation();
   dismissedRecommendationIds = [];
-  devProfileMessage = "";
+  devProfileMessage =
+    normalizedRating === 5
+      ? "Feedback saved — we will lean further into picks like that."
+      : "Feedback saved — we will steer away from similar picks.";
+
+  if (Object.keys(ratings).length >= MIN_RATINGS) {
+    generateRecommendations();
+    return;
+  }
 
   renderApp();
 }
@@ -2608,8 +2623,10 @@ window.removeFromWatchlist = removeFromWatchlist;
 window.markWatchlistItemSeen = markWatchlistItemSeen;
 window.watchFromWatchlist = watchFromWatchlist;
 
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/sw.js");
-  });
-}
+// Service worker disabled during local development to prevent stale app.js caching.
+// Re-enable before production deployment if offline/PWA caching is required.
+// if ("serviceWorker" in navigator) {
+//   window.addEventListener("load", () => {
+//     navigator.serviceWorker.register("/sw.js");
+//   });
+// }
