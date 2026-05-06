@@ -1,4 +1,4 @@
-const CACHE_NAME = "noscroll-v13";
+const CACHE_NAME = "noscroll-v16";
 
 const APP_SHELL_FILES = [
   "/",

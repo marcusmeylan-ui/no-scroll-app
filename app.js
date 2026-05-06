@@ -883,6 +883,8 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
   const topPickStreaming = formatDisplayList(getDisplayServicesForMovie(topPick));
   const displayConfidence = getDisplayConfidenceLabel(currentRecommendations.confidence);
   const confidenceClass = getConfidenceBadgeClass(currentRecommendations.confidence);
+  const confidencePercent = getConfidencePercent(currentRecommendations.confidence, ratedCount);
+  const confidenceReasons = buildConfidenceReasonList(topPick);
   const whyList = buildWhyItWorksList(topPick);
     const matchedProviderLabels = getMatchedUkProviderLabels(topPick);
   const availableTonightCopy =
@@ -929,9 +931,16 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
         </p>
 
         <div class="pick-confidence-row strong">
-          <span class="confidence-pill ${escapeHtml(confidenceClass)}">${escapeHtml(displayConfidence)} • Based on your ratings</span>
-          <span class="availability-pill">Available tonight in the UK</span>
-        </div>
+<span class="confidence-pill ${escapeHtml(confidenceClass)}">We're ${confidencePercent}% confident you'll like this</span>
+        <span class="availability-pill">Available tonight in the UK</span>
+</div>
+
+<div class="section-card pick-info-card" style="margin-top: 14px;">
+  <h3 class="section-title">Why we think this fits</h3>
+  <ul class="why-list">
+    ${confidenceReasons.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+  </ul>
+</div>
 
         <div class="availability-box">
           <p class="section-title">Available on your services</p>
@@ -957,7 +966,7 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
 
         <div class="pick-info-grid">
           <div class="section-card pick-info-card">
-            <h3 class="section-title">Why this works for you</h3>
+            <h3 class="section-title">Why we think this fits</h3>
             <ul class="why-list">
               ${whyList.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
             </ul>
@@ -990,6 +999,24 @@ function getConfidenceBadgeClass(confidence) {
   if (confidence === "High") return "strong";
   if (confidence === "Medium") return "good";
   return "early";
+}
+function getConfidencePercent(confidence, ratedCount) {
+  const safeRatedCount = Number.isFinite(Number(ratedCount)) ? Number(ratedCount) : 0;
+
+  let basePercent = 58;
+
+  if (confidence === "High") {
+    basePercent = 82;
+  } else if (confidence === "Medium") {
+    basePercent = 70;
+  }
+
+  const ratingBonus = Math.min(Math.floor(safeRatedCount / 5), 8);
+  return Math.min(basePercent + ratingBonus, 92);
+}
+
+function buildConfidenceReasonList(topPick) {
+  return buildWhyItWorksList(topPick).slice(0, 3);
 }
 function buildWhyItWorksList(topPick) {
   const lines = [];
