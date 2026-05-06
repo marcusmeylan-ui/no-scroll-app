@@ -1,0 +1,8227 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime"
+    ],
+    "poster": "posters/1.png",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "cerebral",
+    "tmdbId": 27205,
+    "year": 2010,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 2,
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "tone": "epic",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/2.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "spectacle",
+    "tmdbId": 157336,
+    "year": 2014,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 3,
+    "title": "Arrival",
+    "genre": "Sci-Fi",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/3.png",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "tmdbId": 329865,
+    "year": 2016,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 4,
+    "title": "Blade Runner 2049",
+    "genre": "Sci-Fi",
+    "tone": "dark",
+    "streaming": [
+      "prime",
+      "hbo"
+    ],
+    "poster": "posters/4.png",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "spectacle",
+    "humor": "none",
+    "tmdbId": 335984,
+    "year": 2017,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 5,
+    "title": "The Martian",
+    "genre": "Sci-Fi",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/5.png",
+    "energy": "medium",
+    "weight": "light",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 286217,
+    "year": 2015,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 6,
+    "title": "Ex Machina",
+    "genre": "Sci-Fi",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/6.png",
+    "tmdbId": 264660,
+    "year": 2015,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 7,
+    "title": "Her",
+    "genre": "Sci-Fi",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/7.png",
+    "tmdbId": 152601,
+    "year": 2013,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 8,
+    "title": "District 9",
+    "genre": "Sci-Fi",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "hbo"
+    ],
+    "poster": "posters/8.png",
+    "tmdbId": 17654,
+    "year": 2009,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 9,
+    "title": "Looper",
+    "genre": "Sci-Fi",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/9.png",
+    "tmdbId": 59967,
+    "year": 2012,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Lionsgate+ Amazon Channels"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 10,
+    "title": "Minority Report",
+    "genre": "Sci-Fi",
+    "tone": "epic",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/10.png",
+    "tmdbId": 180,
+    "year": 2002,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "ITVX Premium",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 11,
+    "title": "Moon",
+    "genre": "Sci-Fi",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/11.png",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "tmdbId": 17431,
+    "year": 2009,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 12,
+    "title": "Edge of Tomorrow",
+    "genre": "Sci-Fi",
+    "tone": "fun",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/12.png",
+    "energy": "high",
+    "weight": "light",
+    "style": "spectacle",
+    "tmdbId": 137113,
+    "year": 2014,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 13,
+    "title": "Children of Men",
+    "genre": "Sci-Fi",
+    "tone": "dark",
+    "streaming": [
+      "prime",
+      "hbo"
+    ],
+    "poster": "posters/13.png",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "tmdbId": 9693,
+    "year": 2006,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 14,
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "genre": "Sci-Fi",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/14.png",
+    "tmdbId": 38,
+    "year": 2004,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 15,
+    "title": "Sunshine",
+    "genre": "Sci-Fi",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/15.png",
+    "tmdbId": 1272,
+    "year": 2007,
+    "ukProviders": [
+      "prime",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 16,
+    "title": "2001: A Space Odyssey",
+    "genre": "Sci-Fi",
+    "tone": "epic",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/16.png",
+    "tmdbId": 62,
+    "year": 1968,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "HBO Max Amazon Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 17,
+    "title": "A Quiet Place Part II",
+    "genre": "Sci-Fi",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/17.png",
+    "tmdbId": 520763,
+    "year": 2021,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Paramount Plus",
+      "Paramount+ Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 18,
+    "title": "Ready Player One",
+    "genre": "Sci-Fi",
+    "tone": "fun",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/18.png",
+    "tmdbId": 333339,
+    "year": 2018,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 19,
+    "title": "Oblivion",
+    "genre": "Sci-Fi",
+    "tone": "epic",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/19.png",
+    "tmdbId": 75612,
+    "year": 2013,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 20,
+    "title": "Annihilation",
+    "genre": "Sci-Fi",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/20.png",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "tmdbId": 300668,
+    "year": 2018,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 21,
+    "title": "Tenet",
+    "genre": "Sci-Fi",
+    "tone": "intense",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/21.png",
+    "tmdbId": 577922,
+    "year": 2020,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "BBC iPlayer"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 22,
+    "title": "Gravity",
+    "genre": "Sci-Fi",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/22.png",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "spectacle",
+    "tmdbId": 49047,
+    "year": 2013,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 23,
+    "title": "Ad Astra",
+    "genre": "Sci-Fi",
+    "tone": "emotional",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/23.png",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "tmdbId": 419704,
+    "year": 2019,
+    "ukProviders": [
+      "netflix",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Disney Plus",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 24,
+    "title": "Source Code",
+    "genre": "Sci-Fi",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/24.png",
+    "tmdbId": 45612,
+    "year": 2011,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 25,
+    "title": "War of the Worlds",
+    "genre": "Sci-Fi",
+    "tone": "epic",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/25.png",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "spectacle",
+    "tmdbId": 755898,
+    "year": 2025,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 26,
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/26.png",
+    "tmdbId": 155,
+    "year": 2008,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 27,
+    "title": "Mad Max: Fury Road",
+    "genre": "Action",
+    "tone": "epic",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/27.png",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "spectacle",
+    "tmdbId": 76341,
+    "year": 2015,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 28,
+    "title": "Gladiator",
+    "genre": "Action",
+    "tone": "epic",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/28.png",
+    "tmdbId": 98,
+    "year": 2000,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 29,
+    "title": "John Wick",
+    "genre": "Action",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/29.png",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "heightened",
+    "tmdbId": 245891,
+    "year": 2014,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 30,
+    "title": "Skyfall",
+    "genre": "Action",
+    "tone": "dark",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/30.png",
+    "tmdbId": 37724,
+    "year": 2012,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 31,
+    "title": "Casino Royale",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/31.png",
+    "tmdbId": 36557,
+    "year": 2006,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 32,
+    "title": "Mission: Impossible - Fallout",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "prime",
+      "hbo"
+    ],
+    "poster": "posters/32.png",
+    "tmdbId": 353081,
+    "year": 2018,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads",
+      "Channel 4 Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 33,
+    "title": "Top Gun: Maverick",
+    "genre": "Action",
+    "tone": "epic",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/33.png",
+    "tmdbId": 361743,
+    "year": 2022,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Channel 4"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 34,
+    "title": "Die Hard",
+    "genre": "Action",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/34.png",
+    "tmdbId": 562,
+    "year": 1988,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 35,
+    "title": "The Raid",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/Abnm1Ws3JH0ReCfEhLMPwPcMcGO.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "tmdbId": 94329,
+    "year": 2012,
+    "originalTitle": "Serbuan Maut",
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 36,
+    "title": "The Raid 2",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/36.png",
+    "tmdbId": 180299,
+    "year": 2014,
+    "originalTitle": "The Raid 2: Berandal",
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 37,
+    "title": "Heat",
+    "genre": "Action",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/37.png",
+    "tmdbId": 949,
+    "year": 1995,
+    "ukProviders": [
+      "netflix",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Disney Plus",
+      "Netflix Standard with Ads",
+      "Channel 4"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 38,
+    "title": "The Bourne Ultimatum",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/38.png",
+    "tmdbId": 2503,
+    "year": 2007,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 39,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "genre": "Action",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/39.png",
+    "tmdbId": 324857,
+    "year": 2018,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Sky Go",
+      "BBC iPlayer",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 40,
+    "title": "Avengers: Endgame",
+    "genre": "Action",
+    "tone": "epic",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/40.png",
+    "tmdbId": 299534,
+    "year": 2019,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 41,
+    "title": "Captain America: The Winter Soldier",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/41.png",
+    "tmdbId": 100402,
+    "year": 2014,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 42,
+    "title": "Thor: Ragnarok",
+    "genre": "Action",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/42.png",
+    "energy": "high",
+    "weight": "light",
+    "style": "spectacle",
+    "humor": "medium",
+    "tmdbId": 284053,
+    "year": 2017,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 43,
+    "title": "Deadpool",
+    "genre": "Action",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/43.png",
+    "tmdbId": 293660,
+    "year": 2016,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 44,
+    "title": "Logan",
+    "genre": "Action",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/44.png",
+    "tmdbId": 263115,
+    "year": 2017,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 45,
+    "title": "Black Panther",
+    "genre": "Action",
+    "tone": "epic",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/45.png",
+    "tmdbId": 284054,
+    "year": 2018,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 46,
+    "title": "Dredd",
+    "genre": "Action",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/46.png",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "heightened",
+    "tmdbId": 49049,
+    "year": 2012,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 47,
+    "title": "Baby Driver",
+    "genre": "Action",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/47.png",
+    "tmdbId": 339403,
+    "year": 2017,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 48,
+    "title": "Kill Bill: Vol. 1",
+    "genre": "Action",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/48.png",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "heightened",
+    "humor": "low",
+    "tmdbId": 24,
+    "year": 2003,
+    "ukProviders": [
+      "netflix",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Disney Plus",
+      "Netflix Standard with Ads",
+      "ITVX Premium",
+      "ITVX",
+      "YouTube Free"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 49,
+    "title": "Kill Bill: Vol. 2",
+    "genre": "Action",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/49.png",
+    "tmdbId": 393,
+    "year": 2004,
+    "ukProviders": [
+      "netflix",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Disney Plus",
+      "Netflix Standard with Ads",
+      "ITVX Premium",
+      "ITVX",
+      "YouTube Free"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 50,
+    "title": "Crouching Tiger, Hidden Dragon",
+    "genre": "Action",
+    "tone": "epic",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/50.png",
+    "tmdbId": 146,
+    "year": 2000,
+    "originalTitle": "卧虎藏龍",
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 51,
+    "title": "Superbad",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/51.png",
+    "energy": "high",
+    "weight": "light",
+    "style": "grounded",
+    "humor": "high",
+    "tmdbId": 8363,
+    "year": 2007,
+    "ukProviders": [
+      "prime",
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Sky Go",
+      "Now TV Cinema",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 52,
+    "title": "Step Brothers",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/52.png",
+    "energy": "high",
+    "weight": "light",
+    "style": "heightened",
+    "humor": "high",
+    "tmdbId": 12133,
+    "year": 2008,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 53,
+    "title": "The Hangover",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/53.png",
+    "humor": "high",
+    "tmdbId": 18785,
+    "year": 2009,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 54,
+    "title": "Mean Girls",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/54.png",
+    "energy": "medium",
+    "weight": "light",
+    "style": "heightened",
+    "humor": "high",
+    "tmdbId": 10625,
+    "year": 2004,
+    "ukProviders": [
+      "prime",
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Paramount Plus",
+      "Sky Go",
+      "Now TV Cinema",
+      "Paramount+ Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 55,
+    "title": "Bridesmaids",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/55.png",
+    "energy": "medium",
+    "weight": "light",
+    "style": "grounded",
+    "humor": "high",
+    "tmdbId": 55721,
+    "year": 2011,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 56,
+    "title": "Booksmart",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/56.png",
+    "tmdbId": 505600,
+    "year": 2019,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads",
+      "Lionsgate+ Amazon Channels"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 57,
+    "title": "Game Night",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/57.png",
+    "energy": "high",
+    "weight": "light",
+    "style": "heightened",
+    "humor": "high",
+    "tmdbId": 445571,
+    "year": 2018,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 58,
+    "title": "Palm Springs",
+    "genre": "Comedy",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/58.png",
+    "humor": "medium",
+    "tmdbId": 587792,
+    "year": 2020,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 59,
+    "title": "Groundhog Day",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/59.png",
+    "energy": "medium",
+    "weight": "light",
+    "style": "quirky",
+    "humor": "medium",
+    "tmdbId": 137,
+    "year": 1993,
+    "ukProviders": [
+      "prime",
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Sky Go",
+      "Now TV Cinema",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 60,
+    "title": "Hot Fuzz",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/60.png",
+    "energy": "high",
+    "weight": "light",
+    "style": "heightened",
+    "humor": "high",
+    "tmdbId": 4638,
+    "year": 2007,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "ITVX Premium",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 61,
+    "title": "Shaun of the Dead",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/61.png",
+    "energy": "medium",
+    "weight": "light",
+    "style": "heightened",
+    "humor": "high",
+    "tmdbId": 747,
+    "year": 2004,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 62,
+    "title": "21 Jump Street",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/62.png",
+    "energy": "high",
+    "weight": "light",
+    "style": "heightened",
+    "humor": "high",
+    "tmdbId": 64688,
+    "year": 2012,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "MGM Plus Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 63,
+    "title": "22 Jump Street",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/63.png",
+    "energy": "high",
+    "weight": "light",
+    "style": "heightened",
+    "humor": "high",
+    "tmdbId": 187017,
+    "year": 2014,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "FilmBox+",
+      "MGM Plus Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 64,
+    "title": "Anchorman",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/64.png",
+    "humor": "high",
+    "tmdbId": 8699,
+    "year": 2004,
+    "originalTitle": "Anchorman: The Legend of Ron Burgundy",
+    "ukProviders": [
+      "netflix",
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Netflix Standard with Ads",
+      "Amazon Prime Video with Ads",
+      "ITVX Premium",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 65,
+    "title": "School of Rock",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/65.png",
+    "energy": "medium",
+    "weight": "light",
+    "style": "grounded",
+    "humor": "high",
+    "tmdbId": 1584,
+    "year": 2003,
+    "ukProviders": [
+      "prime",
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Paramount Plus",
+      "Sky Go",
+      "Now TV Cinema",
+      "Paramount+ Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "ITVX Premium",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 66,
+    "title": "Napoleon Dynamite",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/66.png",
+    "tmdbId": 8193,
+    "year": 2004,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 67,
+    "title": "The Nice Guys",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/67.png",
+    "energy": "medium",
+    "weight": "light",
+    "style": "heightened",
+    "humor": "high",
+    "tmdbId": 290250,
+    "year": 2016,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "MGM Plus Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 68,
+    "title": "Crazy, Stupid, Love.",
+    "genre": "Comedy",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/68.png",
+    "humor": "medium",
+    "tmdbId": 50646,
+    "year": 2011,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "HBO Max Amazon Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 69,
+    "title": "The Grand Budapest Hotel",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/69.png",
+    "humor": "medium",
+    "tmdbId": 120467,
+    "year": 2014,
+    "ukProviders": [
+      "netflix",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Disney Plus",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 70,
+    "title": "Office Space",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/70.png",
+    "tmdbId": 1542,
+    "year": 1999,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 71,
+    "title": "Little Miss Sunshine",
+    "genre": "Comedy",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/71.png",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "quirky",
+    "humor": "medium",
+    "tmdbId": 773,
+    "year": 2006,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 72,
+    "title": "Pitch Perfect",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/72.png",
+    "energy": "high",
+    "weight": "light",
+    "style": "heightened",
+    "humor": "medium",
+    "tmdbId": 114150,
+    "year": 2012,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Netflix Standard with Ads",
+      "Amazon Prime Video with Ads",
+      "ITVX Premium",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 73,
+    "title": "The Devil Wears Prada",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/73.png",
+    "tmdbId": 350,
+    "year": 2006,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 74,
+    "title": "Ferris Bueller's Day Off",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/74.png",
+    "tmdbId": 9377,
+    "year": 1986,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Paramount Plus",
+      "Sky Go",
+      "Now TV Cinema",
+      "Paramount+ Amazon Channel",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 75,
+    "title": "Easy A",
+    "genre": "Comedy",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/75.png",
+    "energy": "medium",
+    "weight": "light",
+    "style": "grounded",
+    "humor": "high",
+    "tmdbId": 37735,
+    "year": 2010,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 76,
+    "title": "Titanic",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/76.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "spectacle",
+    "humor": "none",
+    "tmdbId": 597,
+    "year": 1997,
+    "ukProviders": [
+      "prime",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 77,
+    "title": "La La Land",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/77.png",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "heightened",
+    "humor": "low",
+    "tmdbId": 313369,
+    "year": 2016,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads",
+      "Lionsgate+ Amazon Channels",
+      "BBC iPlayer"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 78,
+    "title": "Before Sunrise",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/78.png",
+    "energy": "low",
+    "weight": "light",
+    "style": "grounded",
+    "tmdbId": 76,
+    "year": 1995,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 79,
+    "title": "Before Sunset",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/79.png",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "grounded",
+    "tmdbId": 80,
+    "year": 2004,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 80,
+    "title": "Pride & Prejudice",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/80.png",
+    "tmdbId": 4348,
+    "year": 2005,
+    "ukProviders": [
+      "netflix",
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Netflix Kids",
+      "Netflix Standard with Ads",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 81,
+    "title": "A Star Is Born",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/81.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "tmdbId": 332562,
+    "year": 2018,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 82,
+    "title": "About Time",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/82.png",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "quirky",
+    "tmdbId": 122906,
+    "year": 2013,
+    "ukProviders": [
+      "prime",
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Sky Go",
+      "Now TV Cinema",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 83,
+    "title": "Notting Hill",
+    "genre": "Romance",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/83.png",
+    "energy": "low",
+    "weight": "light",
+    "style": "grounded",
+    "humor": "medium",
+    "tmdbId": 509,
+    "year": 1999,
+    "ukProviders": [
+      "prime",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Amazon Prime Video with Ads",
+      "Channel 4 Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 84,
+    "title": "10 Things I Hate About You",
+    "genre": "Romance",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/84.png",
+    "tmdbId": 4951,
+    "year": 1999,
+    "ukProviders": [
+      "prime",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 85,
+    "title": "The Notebook",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/85.png",
+    "tmdbId": 11036,
+    "year": 2004,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 86,
+    "title": "500 Days of Summer",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/86.png",
+    "tmdbId": 19913,
+    "year": 2009,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 87,
+    "title": "When Harry Met Sally",
+    "genre": "Romance",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/87.png",
+    "tmdbId": 639,
+    "year": 1989,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "MUBI",
+      "MUBI Amazon Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 88,
+    "title": "Silver Linings Playbook",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/88.png",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "quirky",
+    "humor": "medium",
+    "tmdbId": 82693,
+    "year": 2012,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 89,
+    "title": "Roman Holiday",
+    "genre": "Romance",
+    "tone": "fun",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/89.png",
+    "tmdbId": 804,
+    "year": 1953,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Paramount Plus",
+      "Now TV Cinema",
+      "Paramount+ Amazon Channel",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 90,
+    "title": "Brooklyn",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/90.png",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "grounded",
+    "tmdbId": 167073,
+    "year": 2015,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Lionsgate+ Amazon Channels",
+      "BBC iPlayer"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 91,
+    "title": "Carol",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/91.png",
+    "tmdbId": 258480,
+    "year": 2015,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "STUDIOCANAL PRESENTS Apple TV Channel",
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 92,
+    "title": "The Big Sick",
+    "genre": "Romance",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/92.png",
+    "tmdbId": 416477,
+    "year": 2017,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 93,
+    "title": "To All the Boys I've Loved Before",
+    "genre": "Romance",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/93.png",
+    "tmdbId": 466282,
+    "year": 2018,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 94,
+    "title": "Crazy Rich Asians",
+    "genre": "Romance",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/94.png",
+    "tmdbId": 455207,
+    "year": 2018,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 95,
+    "title": "Love and Basketball",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/95.png",
+    "tmdbId": 14736,
+    "year": 2000,
+    "originalTitle": "Love & Basketball",
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 96,
+    "title": "Emma.",
+    "genre": "Romance",
+    "tone": "fun",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/96.png",
+    "tmdbId": 556678,
+    "year": 2020,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 97,
+    "title": "Moulin Rouge!",
+    "genre": "Romance",
+    "tone": "epic",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/97.png",
+    "tmdbId": 824,
+    "year": 2001,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 98,
+    "title": "The Fault in Our Stars",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/98.png",
+    "tmdbId": 222935,
+    "year": 2014,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 99,
+    "title": "Your Name",
+    "genre": "Romance",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/99.png",
+    "tmdbId": 553301,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 100,
+    "title": "Amélie",
+    "genre": "Romance",
+    "tone": "fun",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/100.png",
+    "energy": "medium",
+    "weight": "light",
+    "style": "quirky",
+    "humor": "medium",
+    "tmdbId": 194,
+    "year": 2001,
+    "originalTitle": "Le Fabuleux Destin d'Amélie Poulain",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "BFI Player",
+      "BFI Player Amazon Channel",
+      "BFI Player Apple TV Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 101,
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/101.png",
+    "tmdbId": 278,
+    "year": 1994,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 102,
+    "title": "Forrest Gump",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/102.png",
+    "tmdbId": 13,
+    "year": 1994,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "ITVX Premium",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 103,
+    "title": "Whiplash",
+    "genre": "Drama",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/103.png",
+    "tmdbId": 244786,
+    "year": 2014,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 104,
+    "title": "The Social Network",
+    "genre": "Drama",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/104.png",
+    "tmdbId": 37799,
+    "year": 2010,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 105,
+    "title": "There Will Be Blood",
+    "genre": "Drama",
+    "tone": "dark",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/105.png",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 7345,
+    "year": 2007,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 106,
+    "title": "No Country for Old Men",
+    "genre": "Drama",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/106.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "tmdbId": 6977,
+    "year": 2007,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 107,
+    "title": "The Green Mile",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/107.png",
+    "tmdbId": 497,
+    "year": 1999,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads",
+      "Channel 4 Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 108,
+    "title": "Manchester by the Sea",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/108.png",
+    "tmdbId": 334541,
+    "year": 2016,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Studiocanal Presents Amazon Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 109,
+    "title": "Good Will Hunting",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/109.png",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 489,
+    "year": 1997,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 110,
+    "title": "Moonlight",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/110.png",
+    "tmdbId": 376867,
+    "year": 2016,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 111,
+    "title": "Parasite",
+    "genre": "Drama",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/111.png",
+    "tmdbId": 496243,
+    "year": 2019,
+    "originalTitle": "기생충",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "MUBI",
+      "BFI Player",
+      "BFI Player Amazon Channel",
+      "MUBI Amazon Channel",
+      "Curzon Amazon Channel",
+      "BFI Player Apple TV Channel",
+      "ITVX Premium",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 112,
+    "title": "The Pursuit of Happyness",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/112.png",
+    "tmdbId": 1402,
+    "year": 2006,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 113,
+    "title": "The Truman Show",
+    "genre": "Drama",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/113.png",
+    "tmdbId": 37165,
+    "year": 1998,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 114,
+    "title": "Spotlight",
+    "genre": "Drama",
+    "tone": "intense",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/114.png",
+    "tmdbId": 314365,
+    "year": 2015,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Lionsgate+ Amazon Channels"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 115,
+    "title": "Prisoners",
+    "genre": "Drama",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/115.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 146233,
+    "year": 2013,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "BFI Player",
+      "BFI Player Amazon Channel",
+      "FilmBox+",
+      "Netflix Standard with Ads",
+      "BFI Player Apple TV Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 116,
+    "title": "The Departed",
+    "genre": "Drama",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/116.png",
+    "tmdbId": 1422,
+    "year": 2006,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 117,
+    "title": "A Beautiful Mind",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/117.png",
+    "tmdbId": 453,
+    "year": 2001,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "ITVX Premium",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 118,
+    "title": "Room",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/118.png",
+    "tmdbId": 264644,
+    "year": 2015,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Studiocanal Presents Amazon Channel",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 119,
+    "title": "The Revenant",
+    "genre": "Drama",
+    "tone": "intense",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/119.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 281957,
+    "year": 2015,
+    "ukProviders": [
+      "netflix",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Disney Plus",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 120,
+    "title": "The Fighter",
+    "genre": "Drama",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/120.png",
+    "tmdbId": 45317,
+    "year": 2010,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Sundance Now Amazon Channel",
+      "Artiflix"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 121,
+    "title": "Ford v Ferrari",
+    "genre": "Drama",
+    "tone": "epic",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/121.png",
+    "tmdbId": 359724,
+    "year": 2019,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 122,
+    "title": "The Prestige",
+    "genre": "Drama",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/122.png",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "cerebral",
+    "humor": "low",
+    "tmdbId": 1124,
+    "year": 2006,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "BBC iPlayer"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 123,
+    "title": "Marriage Story",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/123.png",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 492188,
+    "year": 2019,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 124,
+    "title": "Lady Bird",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/124.png",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "tmdbId": 391713,
+    "year": 2017,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 125,
+    "title": "The King's Speech",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/125.png",
+    "tmdbId": 45269,
+    "year": 2010,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Lionsgate+ Amazon Channels",
+      "BBC iPlayer"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 126,
+    "title": "Get Out",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/126.png",
+    "tmdbId": 419430,
+    "year": 2017,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 127,
+    "title": "A Quiet Place",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/127.png",
+    "tmdbId": 447332,
+    "year": 2018,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads",
+      "Channel 4 Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 128,
+    "title": "Zodiac",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/128.png",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 1949,
+    "year": 2007,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "HBO Max Amazon Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 129,
+    "title": "Gone Girl",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/129.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "heightened",
+    "tmdbId": 210577,
+    "year": 2014,
+    "ukProviders": [
+      "prime",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 130,
+    "title": "Nightcrawler",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/130.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "heightened",
+    "tmdbId": 242582,
+    "year": 2014,
+    "ukProviders": [
+      "netflix",
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Sky Go",
+      "BFI Player",
+      "BFI Player Amazon Channel",
+      "Now TV Cinema",
+      "Sundance Now Amazon Channel",
+      "Netflix Standard with Ads",
+      "BFI Player Apple TV Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 131,
+    "title": "Shutter Island",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/131.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "heightened",
+    "tmdbId": 11324,
+    "year": 2010,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 132,
+    "title": "Sicario",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/132.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "tmdbId": 273481,
+    "year": 2015,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "ITVX Premium",
+      "Lionsgate+ Amazon Channels",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 133,
+    "title": "Se7en",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/133.png",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "tmdbId": 807,
+    "year": 1995,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 134,
+    "title": "The Silence of the Lambs",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/134.png",
+    "tmdbId": 274,
+    "year": 1991,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "MUBI",
+      "MUBI Amazon Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 135,
+    "title": "Enemy",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/135.png",
+    "tmdbId": 181886,
+    "year": 2014,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "BFI Player",
+      "BFI Player Amazon Channel",
+      "Curzon Amazon Channel",
+      "BFI Player Apple TV Channel",
+      "ITVX Premium",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 136,
+    "title": "The Girl with the Dragon Tattoo",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/136.png",
+    "tmdbId": 65754,
+    "year": 2011,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 137,
+    "title": "Wind River",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/137.png",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "tmdbId": 395834,
+    "year": 2017,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "MGM Plus Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 138,
+    "title": "Memento",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/138.png",
+    "tmdbId": 77,
+    "year": 2000,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 139,
+    "title": "The Invisible Man",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/139.png",
+    "tmdbId": 570670,
+    "year": 2020,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 140,
+    "title": "Blue Ruin",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/140.png",
+    "tmdbId": 188166,
+    "year": 2014,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "MGM Plus Amazon Channel",
+      "YouTube Free"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 141,
+    "title": "Misery",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/141.png",
+    "tmdbId": 1700,
+    "year": 1990,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "MGM Plus Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 142,
+    "title": "Primal Fear",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/142.png",
+    "tmdbId": 1592,
+    "year": 1996,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 143,
+    "title": "The Game",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/143.png",
+    "tmdbId": 2649,
+    "year": 1997,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 144,
+    "title": "Collateral",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/144.png",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "tmdbId": 1538,
+    "year": 2004,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 145,
+    "title": "Searching",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/145.png",
+    "tmdbId": 489999,
+    "year": 2018,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 146,
+    "title": "Phone Booth",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/146.png",
+    "tmdbId": 1817,
+    "year": 2003,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 147,
+    "title": "Panic Room",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/147.png",
+    "tmdbId": 4547,
+    "year": 2002,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 148,
+    "title": "The Menu",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/148.png",
+    "tmdbId": 593643,
+    "year": 2022,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 149,
+    "title": "10 Cloverfield Lane",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/149.png",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "tmdbId": 333371,
+    "year": 2016,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 150,
+    "title": "Cape Fear",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/150.png",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "heightened",
+    "tmdbId": 1598,
+    "year": 1991,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 151,
+    "title": "Toy Story",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/151.png",
+    "energy": "high",
+    "weight": "light",
+    "style": "heightened",
+    "tmdbId": 862,
+    "year": 1995,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus",
+      "Channel 4"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 152,
+    "title": "Finding Nemo",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/152.png",
+    "tmdbId": 12,
+    "year": 2003,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 153,
+    "title": "Inside Out",
+    "genre": "Animation",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/153.png",
+    "tmdbId": 150540,
+    "year": 2015,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 154,
+    "title": "Coco",
+    "genre": "Animation",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/154.png",
+    "tmdbId": 354912,
+    "year": 2017,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 155,
+    "title": "Up",
+    "genre": "Animation",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/155.png",
+    "tmdbId": 14160,
+    "year": 2009,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 156,
+    "title": "Toy Story 3",
+    "genre": "Animation",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/156.png",
+    "tmdbId": 10193,
+    "year": 2010,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus",
+      "Channel 4"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 157,
+    "title": "Ratatouille",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/157.png",
+    "tmdbId": 2062,
+    "year": 2007,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 158,
+    "title": "WALL-E",
+    "genre": "Animation",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
+    "tmdbId": 10681,
+    "year": 2025,
+    "originalTitle": "East of Wall",
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 159,
+    "title": "The Incredibles",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/159.png",
+    "tmdbId": 9806,
+    "year": 2004,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 160,
+    "title": "The Incredibles 2",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/160.png",
+    "tmdbId": 260513,
+    "year": 2018,
+    "originalTitle": "Incredibles 2",
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 161,
+    "title": "Monsters, Inc.",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/161.png",
+    "tmdbId": 585,
+    "year": 2001,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 162,
+    "title": "Soul",
+    "genre": "Animation",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/162.png",
+    "tmdbId": 508442,
+    "year": 2020,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus",
+      "Channel 4"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 163,
+    "title": "Luca",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/163.png",
+    "tmdbId": 508943,
+    "year": 2021,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus",
+      "Channel 4"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 164,
+    "title": "Turning Red",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/164.png",
+    "tmdbId": 508947,
+    "year": 2022,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 165,
+    "title": "Encanto",
+    "genre": "Animation",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/165.png",
+    "tmdbId": 568124,
+    "year": 2021,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 166,
+    "title": "Frozen",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/166.png",
+    "tmdbId": 109445,
+    "year": 2013,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 167,
+    "title": "Frozen II",
+    "genre": "Animation",
+    "tone": "epic",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/167.png",
+    "tmdbId": 330457,
+    "year": 2019,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 168,
+    "title": "Moana",
+    "genre": "Animation",
+    "tone": "epic",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/168.png",
+    "tmdbId": 1108427,
+    "year": 2026,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 169,
+    "title": "Zootopia",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/169.png",
+    "tmdbId": 269149,
+    "year": 2016,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 170,
+    "title": "Big Hero 6",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/170.png",
+    "tmdbId": 177572,
+    "year": 2014,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 171,
+    "title": "Tangled",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/171.png",
+    "tmdbId": 38757,
+    "year": 2010,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 172,
+    "title": "The Lion King",
+    "genre": "Animation",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/172.png",
+    "tmdbId": 8587,
+    "year": 1994,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 173,
+    "title": "Mulan",
+    "genre": "Animation",
+    "tone": "epic",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/173.png",
+    "tmdbId": 10674,
+    "year": 1998,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 174,
+    "title": "Beauty and the Beast",
+    "genre": "Animation",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/174.png",
+    "tmdbId": 321612,
+    "year": 2017,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 175,
+    "title": "Aladdin",
+    "genre": "Animation",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/175.png",
+    "tmdbId": 812,
+    "year": 1992,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 176,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "genre": "Fantasy",
+    "tone": "epic",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/176.png",
+    "tmdbId": 120,
+    "year": 2001,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 177,
+    "title": "The Lord of the Rings: The Two Towers",
+    "genre": "Fantasy",
+    "tone": "epic",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/177.png",
+    "tmdbId": 121,
+    "year": 2002,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 178,
+    "title": "The Lord of the Rings: The Return of the King",
+    "genre": "Fantasy",
+    "tone": "epic",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/178.png",
+    "tmdbId": 122,
+    "year": 2003,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 179,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "genre": "Fantasy",
+    "tone": "dark",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/179.png",
+    "tmdbId": 673,
+    "year": 2004,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 180,
+    "title": "Harry Potter and the Goblet of Fire",
+    "genre": "Fantasy",
+    "tone": "epic",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/180.png",
+    "tmdbId": 674,
+    "year": 2005,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 181,
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "genre": "Fantasy",
+    "tone": "epic",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/181.png",
+    "tmdbId": 12445,
+    "year": 2011,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 182,
+    "title": "Pan's Labyrinth",
+    "genre": "Fantasy",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/182.png",
+    "tmdbId": 1417,
+    "year": 2006,
+    "originalTitle": "El laberinto del fauno",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "STUDIOCANAL PRESENTS Apple TV Channel",
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 183,
+    "title": "The Shape of Water",
+    "genre": "Fantasy",
+    "tone": "emotional",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/183.png",
+    "tmdbId": 399055,
+    "year": 2017,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 184,
+    "title": "Stardust",
+    "genre": "Fantasy",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/184.png",
+    "tmdbId": 2270,
+    "year": 2007,
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "Paramount Plus",
+      "Sky Go",
+      "Now TV Cinema",
+      "Paramount+ Amazon Channel",
+      "ITVX Premium",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads",
+      "Channel 4 Plus",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 185,
+    "title": "The Princess Bride",
+    "genre": "Fantasy",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/185.png",
+    "tmdbId": 2493,
+    "year": 1987,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus",
+      "Lionsgate+ Amazon Channels"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 186,
+    "title": "Spirited Away",
+    "genre": "Fantasy",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/186.png",
+    "tmdbId": 129,
+    "year": 2001,
+    "originalTitle": "千と千尋の神隠し",
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 187,
+    "title": "Howl's Moving Castle",
+    "genre": "Fantasy",
+    "tone": "fun",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/187.png",
+    "tmdbId": 4935,
+    "year": 2004,
+    "originalTitle": "ハウルの動く城",
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Kids",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 188,
+    "title": "Princess Mononoke",
+    "genre": "Fantasy",
+    "tone": "epic",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "posters/188.png",
+    "tmdbId": 128,
+    "year": 1997,
+    "originalTitle": "もののけ姫",
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 189,
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "genre": "Fantasy",
+    "tone": "epic",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/189.png",
+    "tmdbId": 411,
+    "year": 2005,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 190,
+    "title": "Coraline",
+    "genre": "Fantasy",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/190.png",
+    "tmdbId": 14836,
+    "year": 2009,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "ITVX Premium",
+      "ITVX"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 191,
+    "title": "Fantastic Mr. Fox",
+    "genre": "Fantasy",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/191.png",
+    "tmdbId": 10315,
+    "year": 2009,
+    "ukProviders": [
+      "prime",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 192,
+    "title": "The Green Knight",
+    "genre": "Fantasy",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/192.png",
+    "tmdbId": 559907,
+    "year": 2021,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 193,
+    "title": "Willow",
+    "genre": "Fantasy",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/193.png",
+    "tmdbId": 847,
+    "year": 1988,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 194,
+    "title": "Legend",
+    "genre": "Fantasy",
+    "tone": "dark",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/194.png",
+    "tmdbId": 276907,
+    "year": 2015,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "STUDIOCANAL PRESENTS Apple TV Channel",
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 195,
+    "title": "Dragonheart",
+    "genre": "Fantasy",
+    "tone": "epic",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/195.png",
+    "tmdbId": 8840,
+    "year": 1996,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 196,
+    "title": "Labyrinth",
+    "genre": "Fantasy",
+    "tone": "fun",
+    "streaming": [
+      "hbo"
+    ],
+    "poster": "posters/196.png",
+    "tmdbId": 13597,
+    "year": 1986,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads",
+      "ITVX Premium",
+      "Plex",
+      "Amazon Prime Video Free with Ads",
+      "ITVX",
+      "Pluto TV"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 197,
+    "title": "The NeverEnding Story",
+    "genre": "Fantasy",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "posters/197.png",
+    "tmdbId": 34584,
+    "year": 1984,
+    "originalTitle": "Die unendliche Geschichte",
+    "ukProviders": [
+      "nowtv"
+    ],
+    "ukProviderLabels": [
+      "HBO Max Amazon Channel",
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 198,
+    "title": "Eragon",
+    "genre": "Fantasy",
+    "tone": "epic",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/198.png",
+    "tmdbId": 2486,
+    "year": 2006,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 199,
+    "title": "Onward",
+    "genre": "Fantasy",
+    "tone": "fun",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/199.png",
+    "tmdbId": 508439,
+    "year": 2020,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney Plus"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 200,
+    "title": "Bridge to Terabithia",
+    "genre": "Fantasy",
+    "tone": "emotional",
+    "streaming": [
+      "disney"
+    ],
+    "poster": "posters/200.png",
+    "tmdbId": 1265,
+    "year": 2007,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads",
+      "Lionsgate+ Amazon Channels"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 201,
+    "title": "Ringu",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1YINof6kN5yRdePEbcU5360ejoq.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 2671,
+    "year": 1998,
+    "originalTitle": "リング",
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Shudder Amazon Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 202,
+    "title": "Ju-On: The Grudge",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1J7zudfR3VLPwAf9lK5YPfSu0n6.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 11838,
+    "year": 2002,
+    "originalTitle": "呪怨",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Arrow Video Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 203,
+    "title": "Dark Water",
+    "genre": "Horror",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iSq6J55RFLfwcceDKxYtMjOr1sz.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 12205,
+    "year": 1969,
+    "originalTitle": "Support Your Local Sheriff!",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Arrow Video Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 204,
+    "title": "Pulse",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uYYLz67e5xEQMsY858VSSCDsLU6.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 27324,
+    "year": 2001,
+    "originalTitle": "回路",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Arrow Video Amazon Channel",
+      "Shudder Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 205,
+    "title": "Audition",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zwGaUMm0wAqi0wkO7LJDlwoA5LP.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 11075,
+    "year": 2000,
+    "originalTitle": "オーディション",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "BFI Player",
+      "Arrow Video Amazon Channel",
+      "BFI Player Amazon Channel",
+      "BFI Player Apple TV Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 206,
+    "title": "Cure",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yTRrqIGusJuzG5Pe3iFQTnHg1Ps.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 36095,
+    "year": 1989,
+    "originalTitle": "Leviathan",
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 207,
+    "title": "One Cut of the Dead",
+    "genre": "Horror",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rws34k2bqYVo2B5MkhKAbV8925j.jpg",
+    "energy": "medium",
+    "weight": "light",
+    "style": "quirky",
+    "humor": "high",
+    "tmdbId": 513434,
+    "year": 2017,
+    "originalTitle": "カメラを止めるな！",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Shudder Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 208,
+    "title": "Noroi: The Curse",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6jTxgTN3rS2p1DH36IsBsVpdF5e.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 21506,
+    "year": 2005,
+    "originalTitle": "ノロイ",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Arrow Video Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 209,
+    "title": "Onibaba",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lTobEFDo921mqYG4VZ81oPbteNJ.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 3763,
+    "year": 1964,
+    "originalTitle": "鬼婆",
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "BFI Player",
+      "BFI Player Amazon Channel",
+      "BFI Player Apple TV Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 210,
+    "title": "Kwaidan",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/t9UMfViYl47SdZZatKQ1JKjjCgs.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "spectacle",
+    "humor": "none",
+    "tmdbId": 30959,
+    "year": 1965,
+    "originalTitle": "怪談",
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "BFI Player",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 211,
+    "title": "A Tale of Two Sisters",
+    "genre": "Horror",
+    "tone": "emotional",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/l3exwhwyGE0NnHJ3lFQ7eXoBSkH.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 4552,
+    "year": 2007,
+    "originalTitle": "Across the Universe",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Arrow Video Amazon Channel",
+      "Shudder Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 212,
+    "title": "The Wailing",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aXlL7yYwpXInhltamtzKQFBG08G.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 293670,
+    "year": 2016,
+    "originalTitle": "곡성",
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads",
+      "Bloodstream"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 213,
+    "title": "Train to Busan",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 396535,
+    "year": 2016,
+    "originalTitle": "부산행",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "STUDIOCANAL PRESENTS Apple TV Channel",
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 214,
+    "title": "I Saw the Devil",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zp5NrmYp80axIGiEiYPmm1CW6uH.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 49797,
+    "year": 2010,
+    "originalTitle": "악마를 보았다",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 215,
+    "title": "Thirst",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/g5IoYeudx9XBEfwNL0fHvSckLBz.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "heightened",
+    "humor": "low",
+    "tmdbId": 22538,
+    "year": 2010,
+    "originalTitle": "Scott Pilgrim vs. the World",
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 216,
+    "title": "Gonjiam: Haunted Asylum",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 508642,
+    "year": 2018,
+    "originalTitle": "곤지암",
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Shudder",
+      "Shudder Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "FOUND TV"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 217,
+    "title": "The Host",
+    "genre": "Horror",
+    "tone": "fun",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/m3OE5bpcGHMWYlPkYvgIrncuuGN.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "heightened",
+    "humor": "medium",
+    "tmdbId": 1255,
+    "year": 2006,
+    "originalTitle": "괴물",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "STUDIOCANAL PRESENTS Apple TV Channel",
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 218,
+    "title": "Bedevilled",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3ZgFJY1kje1XhXPvC8UtRKA2tX.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 59421,
+    "year": 2003,
+    "originalTitle": "Stanley Spring Fever",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Studiocanal Presents Amazon Channel",
+      "Plex"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 219,
+    "title": "The Medium",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tWoSE8SH6XhgWKHIL3p0sj7lA3V.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 745881,
+    "year": 2021,
+    "originalTitle": "Diary of a Wimpy Kid",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Shudder Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 220,
+    "title": "Shutter",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zUyaVtyugDaDHtOC6kCMJhbZsWu.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 17111,
+    "year": 2006,
+    "originalTitle": "Breaking and Entering",
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 221,
+    "title": "Impetigore",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iXvQnzy6JCAx1PiQEKXuTY04ZHl.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 572468,
+    "year": 2019,
+    "originalTitle": "Perempuan Tanah Jahanam",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Shudder Amazon Channel",
+      "5"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 222,
+    "title": "Satan's Slaves",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/k16xOaI9x5fqepxVwBwUJAozsW8.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 467012,
+    "year": 2017,
+    "originalTitle": "メアリと魔女の花",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Shudder Amazon Channel",
+      "Tubi TV",
+      "5"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 223,
+    "title": "The Queen of Black Magic",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tQOBVQjXiBGstCGYvzmgm97EkMF.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 590593,
+    "year": 2023,
+    "originalTitle": "Evil Dead Rise",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Shudder Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 224,
+    "title": "May the Devil Take You",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/i3UqtKPPWmDX4514kWF8hluCbsk.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 524738,
+    "year": 2019,
+    "originalTitle": "Guava Island",
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 225,
+    "title": "Under the Shadow",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3hxT9XviA3VzUtelHBk2xA6I9FY.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 375012,
+    "year": 2015,
+    "originalTitle": "A Very Murray Christmas",
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 226,
+    "title": "Verónica",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xHP6mYLQKbJY9pg99PGoGKmmBZX.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 441701,
+    "year": 2017,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 228,
+    "title": "Titane",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mBlpouG3gqB8WLdP65LCOXb3jFb.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "heightened",
+    "humor": "low",
+    "tmdbId": 630240,
+    "year": 2022,
+    "originalTitle": "The Northman",
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 229,
+    "title": "Raw",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kc8jT1MAiKM0iwdjAwC5lQrTNry.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 393519,
+    "year": 2017,
+    "originalTitle": "Grave",
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 230,
+    "title": "Speak No Evil",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ukYuuFzPTumN1QNpQyz863bcNvr.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 833339,
+    "year": 2022,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Shudder Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 231,
+    "title": "The Sadness",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mi5lh2brPMzuWYddyUKuCtcnjt1.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 776797,
+    "year": 2022,
+    "originalTitle": "After Ever Happy",
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Shudder Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 232,
+    "title": "Incantation",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1l4hxdc7PyYgZ0DeZtC0WPU3GOI.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 1014659,
+    "year": 2022,
+    "originalTitle": "The Invitation",
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads",
+      "JustWatch TV",
+      "Plex",
+      "Tubi TV",
+      "Amazon Prime Video Free with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 233,
+    "title": "Possession",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dSxz8VWHVleJXdIce9D0ujkmJNI.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 21484,
+    "year": 2007,
+    "originalTitle": "Postal",
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Shudder",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 234,
+    "title": "Martyrs",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eaaoQLCT38CrKxX53WRpjw1ZPVz.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 9539,
+    "year": 2008,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "BFI Player",
+      "BFI Player Amazon Channel",
+      "BFI Player Apple TV Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 235,
+    "title": "Inside",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7gPOYKxoBzhfC8cLNMU3CKgURcm.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 13312,
+    "year": 2007,
+    "originalTitle": "À l'intérieur",
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 236,
+    "title": "High Tension",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vKeFa7CqSxmWsQDjHP6SJXKoDbj.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 10226,
+    "year": 1987,
+    "originalTitle": "A Nightmare on Elm Street 3: Dream Warriors",
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Shudder",
+      "Shudder Amazon Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 237,
+    "title": "Baskin",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/oNiinNDzPUH0I3K4puCwrJa7Hn1.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 334394,
+    "year": 2015,
+    "originalTitle": "Baskın: Karabasan",
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 238,
+    "title": "Kill List",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qwT2I3ons0oD58jIppKmd4qLtvB.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 74725,
+    "year": 2011,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "STUDIOCANAL PRESENTS Apple TV Channel",
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 239,
+    "title": "A Dark Song",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fguce8M1bZnWjVkRWCFh9P3kt6A.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 409297,
+    "year": 2016,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Icon Film Amazon Channel",
+      "Plex"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 240,
+    "title": "Saint Maud",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ArNYeeDFLVye7JpqLElYdbE6fOa.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 575776,
+    "year": 2020,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 241,
+    "title": "The Lodge",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yake2myhbW7c6dKbmwYDy1i40bm.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 474764,
+    "year": 2020,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 242,
+    "title": "His House",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mM1ELeOF4qmdIFbZh9VSBn685g.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 575774,
+    "year": 2020,
+    "originalTitle": "Яга. Кошмар тёмного леса",
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 243,
+    "title": "The Vigil",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/34nDCQZwaEvsy4CFO5hkGRFDCVU.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 621707,
+    "year": 2020,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads",
+      "Rakuten TV"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 244,
+    "title": "The Autopsy of Jane Doe",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6K0wjP8kPCiPYy9PtXBGuypyt5I.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 397243,
+    "year": 2016,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Lionsgate+ Amazon Channels"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 245,
+    "title": "Hell House LLC",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xUSCQEbbAy3Lv6r00RfXtdxhRDX.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 359246,
+    "year": 2015,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Shudder Amazon Channel",
+      "Plex",
+      "Tubi TV",
+      "FOUND TV"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 246,
+    "title": "Lake Mungo",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7Cel7xcLMkvzlwbzpcx2cGBxDx3.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 27374,
+    "year": 2009,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Shudder Amazon Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 247,
+    "title": "Session 9",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pTiRBOZ2iI4i26A0qNaEkqmZBpO.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 10972,
+    "year": 2001,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "none"
+  },
+  {
+    "id": 248,
+    "title": "The House of the Devil",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4abKUbc9IbsndbaY1hacN1iPM0Y.jpg",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 25983,
+    "year": 2009,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Shudder",
+      "Shudder Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "Plex"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 249,
+    "title": "The Void",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2WhZAPi3vomEQdzAPIYTvmvWaxI.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 378018,
+    "year": 2016,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads",
+      "Plex",
+      "W4free",
+      "Rakuten TV"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 250,
+    "title": "Possessor",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "prime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xC9GZeJZ3NagdkGg9nLQx0aPG6J.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 435615,
+    "year": 2020,
+    "ukProviders": [],
+    "ukProviderLabels": [
+      "Shudder",
+      "Shudder Amazon Channel"
+    ],
+    "ukAvailabilitySource": "tmdb-watch-providers"
+  },
+  {
+    "id": 251,
+    "title": "Calibre",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gCVOQzV7Z556WnJFNeX7y8BFhyW.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 474051,
+    "year": 2018,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 252,
+    "title": "Green Room",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/evZicaR7nXe4LiD9G6QYTorcJGO.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 313922,
+    "year": 2015,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 253,
+    "title": "Cop Car",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6MCvmPcMdbmdsIeRNQhKzLcZorP.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 310133,
+    "year": 2015,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 254,
+    "title": "Cold in July",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1rXkxhubAtKVTZl29Xbnwpfen3H.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 244509,
+    "year": 2014,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 255,
+    "title": "The Night Eats the World",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2rR2PxT0clt1Hhw5Cv0YGk5DD2H.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 457955,
+    "year": 2018,
+    "originalTitle": "La nuit a dévoré le monde",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 256,
+    "title": "Host",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/h7dZpJDORYs5c56dydbrLFkEXpE.jpg",
+    "energy": "high",
+    "weight": "light",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 723072,
+    "year": 2020,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 257,
+    "title": "Timecrimes",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zdxQRP7mzczMJBwKnv8MCPRq7rQ.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 14139,
+    "year": 2007,
+    "originalTitle": "Los Cronocrímenes",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 258,
+    "title": "The Guilty",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/42QPG6p7oLcLd4LQOPeSTLhqfMx.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 486947,
+    "year": 2018,
+    "originalTitle": "Den skyldige",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 259,
+    "title": "Marshland",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vaXobQ6Y1o5sOH9twNz1oUFFRU8.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 236735,
+    "year": 2014,
+    "originalTitle": "La isla mínima",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 260,
+    "title": "Sleep Tight",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/i44Mr6t3reXt7z28OMCPZTllRfr.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 77495,
+    "year": 2011,
+    "originalTitle": "Mientras duermes",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 261,
+    "title": "The Vanishing",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eE5bbuRJluooG2MjEAsLEYyuJoa.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 8740,
+    "year": 1988,
+    "originalTitle": "Spoorloos",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 262,
+    "title": "Headhunters",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/k5DQqsb9T8djkTAOdwNCBBBHrtK.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "heightened",
+    "humor": "low",
+    "tmdbId": 70670,
+    "year": 2011,
+    "originalTitle": "Hodejegerne",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 263,
+    "title": "Tell No One",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fr2wEeO1H8dzx6EDfzYTRBIvZaE.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 10795,
+    "year": 2006,
+    "originalTitle": "Ne le dis à personne",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 264,
+    "title": "Point Blank",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tt2UlArx3joZWBYctJehCGmHGZZ.jpg",
+    "energy": "high",
+    "weight": "light",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 61404,
+    "year": 2010,
+    "originalTitle": "À bout portant",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 265,
+    "title": "The Crimson Rivers",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/npvDhiKkpQBuTaQ8cbWRT2iEfkE.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 60670,
+    "year": 2000,
+    "originalTitle": "Les Rivières pourpres",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 266,
+    "title": "Mesrine: Killer Instinct",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zCyuiyIhbhgEOZde81qTgXbO0pw.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 13635,
+    "year": 2008,
+    "originalTitle": "L'Instinct de mort",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 267,
+    "title": "Mesrine: Public Enemy No. 1",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/k9lhZ0PhY78nzwG034rNpsLXlpW.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 15362,
+    "year": 2008,
+    "originalTitle": "L'Ennemi public n°1",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 268,
+    "title": "Victoria",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9P8QgfoMcFX7vp2Gj2cYFecHVRZ.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 320007,
+    "year": 2015,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 269,
+    "title": "A Prophet",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/x9Jb8kewBHPzjTtgCQvoQoDsy4d.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 21575,
+    "year": 2009,
+    "originalTitle": "Un prophète",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 270,
+    "title": "Elle",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/z446adpGUVXXPxrLpKBGnYBcofk.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "low",
+    "tmdbId": 337674,
+    "year": 2016,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 271,
+    "title": "Bullhead",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/j9XzaLtFAJIozDH4MQwxaR2aDvJ.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 63310,
+    "year": 2011,
+    "originalTitle": "Rundskop",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 272,
+    "title": "The Secret in Their Eyes",
+    "genre": "Thriller",
+    "tone": "emotional",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dkeAwfZzwL3WvToydE3CXiY80E0.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 25376,
+    "year": 2009,
+    "originalTitle": "El secreto de sus ojos",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 273,
+    "title": "The Invisible Guest",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fptnZJbLzKUHeNlYrAynbyoL5YJ.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 411088,
+    "year": 2016,
+    "originalTitle": "Contratiempo",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 274,
+    "title": "Cell 211",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/koap5B3bQHQi3yaZ39vpWR66TGP.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 33273,
+    "year": 2009,
+    "originalTitle": "Celda 211",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 275,
+    "title": "The Blackcoat's Daughter",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jO2aHAiWgQSlpAIPGZikiMDdMXx.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 334536,
+    "year": 2015,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 276,
+    "title": "Hush",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zHzBTd502IZf60x8n2g0TB01vPF.jpg",
+    "energy": "high",
+    "weight": "light",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 376570,
+    "year": 2016,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 277,
+    "title": "Goodnight Mommy",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/u3G2gF7M9dmH4Vcs54PUjieOi0C.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 284303,
+    "year": 2014,
+    "originalTitle": "Ich seh, Ich seh",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 278,
+    "title": "Thelma",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fN2Qq5riCrBiVLfKqgODHC0SwVx.jpg",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 401898,
+    "year": 2017,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 279,
+    "title": "Borgman",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kasPhXDk4BI4FUS3ku5Y4GrgBJY.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "quirky",
+    "humor": "low",
+    "tmdbId": 186929,
+    "year": 2013,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 280,
+    "title": "Watcher",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dXCjoI3jdtBrwPHgVsyNLkl8Rvs.jpg",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 807356,
+    "year": 2022,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 281,
+    "title": "Relic",
+    "genre": "Horror",
+    "tone": "emotional",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3wZ0gxLqsPleneFSTZILmM3BE8Q.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 539181,
+    "year": 2020,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 282,
+    "title": "The Night House",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rqs2CXpc4d5FzeP1EZCYItAVo81.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 547565,
+    "year": 2020,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 283,
+    "title": "Moloch",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3jVzYOnylmvo7ZnGerjfoRj2wFz.jpg",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 959558,
+    "year": 2022,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 284,
+    "title": "Piggy",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pIFeu5gF7ofAxI9NqrWbJAjjKn6.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 848058,
+    "year": 2022,
+    "originalTitle": "Cerdita",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 285,
+    "title": "Hatching",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jgJACjJIpcbFfEEmEglinfQWQPO.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 517302,
+    "year": 2022,
+    "originalTitle": "Pahanhautoja",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 286,
+    "title": "The Innocents",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dqvkxOLmnHgDOqZlT7GgMWEQViR.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 660942,
+    "year": 2021,
+    "originalTitle": "De uskyldige",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 287,
+    "title": "Riders of Justice",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/sshNnwmQLk720iBQ0dZg3GVGKfK.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 663870,
+    "year": 2020,
+    "originalTitle": "Retfærdighedens ryttere",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 288,
+    "title": "The Chaser",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hy49xJiKN1nakkN1ZmKuOf6vQYR.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 13855,
+    "year": 2008,
+    "originalTitle": "Chugyeokja",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 289,
+    "title": "A Bittersweet Life",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iqUGAIQqHMMscatykpR6hVBxezA.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 11344,
+    "year": 2005,
+    "originalTitle": "Dalkomhan insaeng",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 290,
+    "title": "The Yellow Sea",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/16Pkg2ChCdACbBKVIAPAZtLL6eb.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 57361,
+    "year": 2010,
+    "originalTitle": "Hwanghae",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 291,
+    "title": "Memoir of a Murderer",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eTdvO9AwJrxq02iYf4Lu5qA0fNc.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 432836,
+    "year": 2017,
+    "originalTitle": "Salinjaui gieokbeop",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 292,
+    "title": "The Treatment",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nzVhjAjEaugzs0CSmEO50W5mTcc.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 251577,
+    "year": 2014,
+    "originalTitle": "De Behandeling",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 293,
+    "title": "Marrowbone",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iX77zMSqUv2Qt7ToEnN2mmEudEf.jpg",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 399366,
+    "year": 2017,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 294,
+    "title": "The Dry",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zM12bfL2TEqVRXjiQIFUWUMLcCg.jpg",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 567797,
+    "year": 2020,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 295,
+    "title": "The Canal",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5c4FFLSUx4ZBqcS2rq5CLVJdY9E.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 265010,
+    "year": 2014,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 296,
+    "title": "The Borderlands",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dNtkysYSyE3FcUGbdkooDckD16Y.jpg",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 207774,
+    "year": 2013,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 297,
+    "title": "The Taking of Deborah Logan",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/77i7EBUyQKOUiZeYQ5tWDGQb0AI.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 297608,
+    "year": 2014,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 298,
+    "title": "The House at the End of Time",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/88keS5TaMqlbuqCZIgwwusmv4tu.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 207686,
+    "year": 2013,
+    "originalTitle": "La casa del fin de los tiempos",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 299,
+    "title": "Terrified",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eMP4F0POBgrB4icn6XgYeLLIrld.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 489430,
+    "year": 2017,
+    "originalTitle": "Aterrados",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 300,
+    "title": "The Hunt",
+    "genre": "Drama",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jkixsXzRh28q3PCqFoWcf7unghT.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 103663,
+    "year": 2012,
+    "originalTitle": "Jagten",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 301,
+    "title": "Another Round",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aDcIt4NHURLKnAEu7gow51Yd00Q.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "medium",
+    "tmdbId": 580175,
+    "year": 2020,
+    "originalTitle": "Druk",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 302,
+    "title": "The Platform",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iXvQnzy6JCAx1PiQEKXuTY04ZHl.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 619264,
+    "year": 2019,
+    "originalTitle": "El hoyo",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 303,
+    "title": "Columbus",
+    "genre": "Drama",
+    "tone": "emotional",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6tk0xmn9k5HjUeXsnhxIa94sFXP.jpg",
+    "energy": "low",
+    "weight": "light",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 414453,
+    "year": 2017,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 304,
+    "title": "Coherence",
+    "genre": "Sci-Fi",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ezUtb9m5DeLwL2gxi4gktzNCvQv.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 220289,
+    "year": 2013,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 305,
+    "title": "The Gift",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kH3qLP8pn68Xq5XwvmPkCyaAU7W.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 328425,
+    "year": 2015,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 306,
+    "title": "The Handmaiden",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "heightened",
+    "humor": "low",
+    "tmdbId": 290098,
+    "year": 2016,
+    "originalTitle": "Ah-ga-ssi",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 307,
+    "title": "Burning",
+    "genre": "Drama",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hxGv1O2W5SOJTmiBc45CL842mrx.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "none",
+    "tmdbId": 813106,
+    "year": 2018,
+    "originalTitle": "Beoning",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 308,
+    "title": "The Descent",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mxFPI4KYBk5ri9cPteIS8jiDFgj.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 9392,
+    "year": 2005,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 309,
+    "title": "Caveat",
+    "genre": "Horror",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nbug05AceVU8PMXIONDFxMRtq54.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 744746,
+    "year": 2020,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 310,
+    "title": "The Orphanage",
+    "genre": "Horror",
+    "tone": "emotional",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vIpi1KtHLXUOfSVC2m6MqpjSPgL.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 6537,
+    "year": 2007,
+    "originalTitle": "El orfanato",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 311,
+    "title": "Thesis",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dPyONW7fyb3iQ5s4WieNaHSX2id.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 9299,
+    "year": 1996,
+    "originalTitle": "Tesis",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 312,
+    "title": "The Devil's Backbone",
+    "genre": "Horror",
+    "tone": "emotional",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iP1z1aJzPnkP8FHg77TS7ukqoEZ.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 1433,
+    "year": 2001,
+    "originalTitle": "El espinazo del diablo",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 313,
+    "title": "Let the Right One In",
+    "genre": "Horror",
+    "tone": "emotional",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7IG4WjaAOVDlLvLUkh513HSwhW8.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 13310,
+    "year": 2008,
+    "originalTitle": "Lat den ratte komma in",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 314,
+    "title": "A Most Wanted Man",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6B76Z5Ct758RfKFoFg37skVRiMp.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 157849,
+    "year": 2014,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 315,
+    "title": "The Drop",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/olQInYvVCW2wycMSU1ogo9Jshml.jpg",
+    "energy": "low",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 154400,
+    "year": 2014,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 316,
+    "title": "Killing Them Softly",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/heaz45kpFa4Oa7iLis0OBas68ls.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 64689,
+    "year": 2012,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 317,
+    "title": "Out of the Furnace",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cOuQQ4eRpSBxb0G9OXzWE1pHPeq.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 164457,
+    "year": 2013,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 318,
+    "title": "Shot Caller",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qLmLz2wtyYvmW8Ult3l2ngOnW8v.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 339692,
+    "year": 2017,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 319,
+    "title": "The Clovehitch Killer",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6NmsbUJqnopbnLun2E4KvtVNj8T.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 544431,
+    "year": 2018,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 320,
+    "title": "Super Dark Times",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7sJoNicLJ9EZwetp5ucjS8qQ9g1.jpg",
+    "energy": "medium",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 396940,
+    "year": 2017,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 321,
+    "title": "The Killing of a Sacred Deer",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/e4DGlsc9g0h5AyoyvvAuIRnofN7.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "low",
+    "tmdbId": 399057,
+    "year": 2017,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 322,
+    "title": "Good Time",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yE1c9hj5Hf8a9KplAdRdhADqUro.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 429200,
+    "year": 2017,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 323,
+    "title": "Uncut Gems",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6XN1vxHc7kUSqNWtaQKN45J5x2v.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 473033,
+    "year": 2019,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 324,
+    "title": "The Man from Nowhere",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ld19CFIo27t41JXSGZdaPMUGTxh.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 51608,
+    "year": 2010,
+    "originalTitle": "Ajeossi",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 325,
+    "title": "New World",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/v6wvLIF2X9juSXsBb5Ch6tU2LOK.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 165213,
+    "year": 2013,
+    "originalTitle": "Sinsegye",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 326,
+    "title": "The Gangster, the Cop, the Devil",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/oHlM4abRm6BzrRcz9Nup1uidw9H.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "heightened",
+    "humor": "low",
+    "tmdbId": 581528,
+    "year": 2019,
+    "originalTitle": "Akinjeon",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 327,
+    "title": "The Villainess",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tJlOV2SU6qTxR540H9VtoCAOVm.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 437109,
+    "year": 2017,
+    "originalTitle": "Ak-Nyeo",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 328,
+    "title": "Joint Security Area",
+    "genre": "Thriller",
+    "tone": "emotional",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/etoPOj0bXzfw0LBNslCxqO7MHuv.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 2440,
+    "year": 2000,
+    "originalTitle": "Gongdonggyeongbiguyeok JSA",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 329,
+    "title": "Mother",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lkcYWbWC2hlOyiaC649Br4qLjoW.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "low",
+    "tmdbId": 698885,
+    "year": 2009,
+    "originalTitle": "Madeo",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 330,
+    "title": "Decision to Leave",
+    "genre": "Thriller",
+    "tone": "emotional",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zI8KZ4EdLUymWKX1YEkpZ0gtPUa.jpg",
+    "energy": "low",
+    "weight": "heavy",
+    "style": "cerebral",
+    "humor": "low",
+    "tmdbId": 705996,
+    "year": 2022,
+    "originalTitle": "Heojil kyolshim",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 331,
+    "title": "The Berlin File",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bX8OXtPoxbJWcHszHmYQGhLtTmm.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 160704,
+    "year": 2013,
+    "originalTitle": "Bereullin",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 332,
+    "title": "Sleepless Night",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tuqivhp6bF6hEqrBtTBi1QYX9dP.jpg",
+    "energy": "high",
+    "weight": "light",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 79070,
+    "year": 2011,
+    "originalTitle": "Nuit blanche",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 333,
+    "title": "The Crew",
+    "genre": "Action",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zq4QUvbPS2bf6mesCPW04awrBoJ.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 393717,
+    "year": 2015,
+    "originalTitle": "Braqueurs",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 334,
+    "title": "Ganglands",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zq4QUvbPS2bf6mesCPW04awrBoJ.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 393717,
+    "year": 2015,
+    "originalTitle": "Braqueurs",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 335,
+    "title": "The Connection",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kIkmaZATFP4RkQSiWgyL6KGOTq6.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 197950,
+    "year": 2014,
+    "originalTitle": "La French",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 336,
+    "title": "36th Precinct",
+    "genre": "Thriller",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/exD0FsvhkZqetOVOYrfGqwnc7nX.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 7291,
+    "year": 2004,
+    "originalTitle": "36 Quai des Orfèvres",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 337,
+    "title": "The Beat That My Heart Skipped",
+    "genre": "Drama",
+    "tone": "dark",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/w4Y1WJMUP6w2hZo5FnQdZL3OWjN.jpg",
+    "energy": "medium",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 1553,
+    "year": 2005,
+    "originalTitle": "De battre mon coeur s'est arrêté",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 338,
+    "title": "Revenge",
+    "genre": "Thriller",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/AbWKFxt459cWYTNPTcbpB0i2hQp.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "heightened",
+    "humor": "none",
+    "tmdbId": 467938,
+    "year": 2017,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 339,
+    "title": "Frontier(s)",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6GISAjE0XiSucmzXIhb1tdnV2yC.jpg",
+    "energy": "high",
+    "weight": "heavy",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 13492,
+    "year": 2007,
+    "originalTitle": "Frontière(s)",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  },
+  {
+    "id": 340,
+    "title": "Them",
+    "genre": "Horror",
+    "tone": "intense",
+    "streaming": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kEO9nGyCRGLNIb5kPPjdYAqJ4bO.jpg",
+    "energy": "high",
+    "weight": "balanced",
+    "style": "grounded",
+    "humor": "none",
+    "tmdbId": 10832,
+    "year": 2006,
+    "originalTitle": "Ils",
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "nowtv",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "NOW TV",
+      "Disney+"
+    ],
+    "ukAvailabilitySource": "manual-dev"
+  }
+]
