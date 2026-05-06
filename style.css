@@ -1068,3 +1068,6 @@ main {
     grid-template-columns: 1fr;
   }
 }
+.section-card {
+  margin-bottom: 20px;
+}

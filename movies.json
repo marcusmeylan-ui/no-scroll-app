@@ -361,29 +361,41 @@
     "title": "Oblivion",
     "genre": "Sci-Fi",
     "tone": "epic",
-    "streaming": [],
+    "streaming": [
+      "prime"
+    ],
     "poster": "posters/19.png",
     "tmdbId": 75612,
     "year": 2013,
-    "ukProviders": [],
-    "ukProviderLabels": [],
-    "ukAvailabilitySource": "tmdb-none"
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "ukAvailabilitySource": "tmdb"
   },
   {
     "id": 20,
     "title": "Annihilation",
     "genre": "Sci-Fi",
     "tone": "dark",
-    "streaming": [],
+    "streaming": [
+      "prime"
+    ],
     "poster": "posters/20.png",
     "energy": "low",
     "weight": "heavy",
     "style": "cerebral",
     "tmdbId": 300668,
     "year": 2018,
-    "ukProviders": [],
-    "ukProviderLabels": [],
-    "ukAvailabilitySource": "tmdb-none"
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "ukAvailabilitySource": "tmdb"
   },
   {
     "id": 21,
@@ -507,16 +519,22 @@
     "title": "Mad Max: Fury Road",
     "genre": "Action",
     "tone": "epic",
-    "streaming": [],
+    "streaming": [
+      "prime"
+    ],
     "poster": "posters/27.png",
     "energy": "high",
     "weight": "balanced",
     "style": "spectacle",
     "tmdbId": 76341,
     "year": 2015,
-    "ukProviders": [],
-    "ukProviderLabels": [],
-    "ukAvailabilitySource": "tmdb-none"
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "ukAvailabilitySource": "tmdb"
   },
   {
     "id": 28,
@@ -1121,7 +1139,9 @@
     "title": "Game Night",
     "genre": "Comedy",
     "tone": "fun",
-    "streaming": [],
+    "streaming": [
+      "prime"
+    ],
     "poster": "posters/57.png",
     "energy": "high",
     "weight": "light",
@@ -1129,9 +1149,13 @@
     "humor": "high",
     "tmdbId": 445571,
     "year": 2018,
-    "ukProviders": [],
-    "ukProviderLabels": [],
-    "ukAvailabilitySource": "tmdb-none"
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "ukAvailabilitySource": "tmdb"
   },
   {
     "id": 58,
@@ -1344,7 +1368,9 @@
     "title": "The Nice Guys",
     "genre": "Comedy",
     "tone": "fun",
-    "streaming": [],
+    "streaming": [
+      "prime"
+    ],
     "poster": "posters/67.png",
     "energy": "medium",
     "weight": "light",
@@ -1352,9 +1378,13 @@
     "humor": "high",
     "tmdbId": 290250,
     "year": 2016,
-    "ukProviders": [],
-    "ukProviderLabels": [],
-    "ukAvailabilitySource": "tmdb-none"
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "ukAvailabilitySource": "tmdb"
   },
   {
     "id": 68,
@@ -1936,13 +1966,19 @@
     "title": "Emma.",
     "genre": "Romance",
     "tone": "fun",
-    "streaming": [],
+    "streaming": [
+      "prime"
+    ],
     "poster": "posters/96.png",
     "tmdbId": 556678,
     "year": 2020,
-    "ukProviders": [],
-    "ukProviderLabels": [],
-    "ukAvailabilitySource": "tmdb-none"
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "ukAvailabilitySource": "tmdb"
   },
   {
     "id": 97,
@@ -2097,7 +2133,9 @@
     "title": "There Will Be Blood",
     "genre": "Drama",
     "tone": "dark",
-    "streaming": [],
+    "streaming": [
+      "prime"
+    ],
     "poster": "posters/105.png",
     "energy": "low",
     "weight": "heavy",
@@ -2105,9 +2143,13 @@
     "humor": "none",
     "tmdbId": 7345,
     "year": 2007,
-    "ukProviders": [],
-    "ukProviderLabels": [],
-    "ukAvailabilitySource": "tmdb-none"
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "ukAvailabilitySource": "tmdb"
   },
   {
     "id": 106,
@@ -6613,6 +6655,609 @@
     "originalTitle": "Ils",
     "ukProviders": [],
     "ukProviderLabels": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Ocean's Eleven",
+    "tmdbId": 161,
+    "id": 341,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Ocean's Twelve",
+    "tmdbId": 163,
+    "id": 342,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Ocean's Thirteen",
+    "tmdbId": 298,
+    "id": 343,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Catch Me If You Can",
+    "tmdbId": 640,
+    "id": 344,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix"
+    ],
+    "streaming": [
+      "netflix"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Moneyball",
+    "tmdbId": 60308,
+    "id": 345,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Argo",
+    "tmdbId": 68734,
+    "id": 346,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix"
+    ],
+    "streaming": [
+      "netflix"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "tmdbId": 106646,
+    "id": 347,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "American Hustle",
+    "tmdbId": 168672,
+    "id": 348,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "A Few Good Men",
+    "tmdbId": 881,
+    "id": 349,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Apollo 13",
+    "tmdbId": 568,
+    "id": 350,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix"
+    ],
+    "streaming": [
+      "netflix"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Cast Away",
+    "tmdbId": 8358,
+    "id": 351,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "tmdbId": 857,
+    "id": 352,
+    "ukProviders": [
+      "netflix",
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "streaming": [
+      "netflix",
+      "prime"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "The Bourne Identity",
+    "tmdbId": 2501,
+    "id": 353,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "The Bourne Supremacy",
+    "tmdbId": 2502,
+    "id": 354,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Knives Out",
+    "tmdbId": 546554,
+    "id": 355,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix"
+    ],
+    "streaming": [
+      "netflix"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "The Big Short",
+    "tmdbId": 318846,
+    "id": 356,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney+"
+    ],
+    "streaming": [
+      "disney"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "The Imitation Game",
+    "tmdbId": 205596,
+    "id": 357,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Steve Jobs",
+    "tmdbId": 321697,
+    "id": 358,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Hidden Figures",
+    "tmdbId": 381284,
+    "id": 359,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney+"
+    ],
+    "streaming": [
+      "disney"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Erin Brockovich",
+    "tmdbId": 462,
+    "id": 360,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Jerry Maguire",
+    "tmdbId": 9390,
+    "id": 361,
+    "ukProviders": [
+      "prime",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Prime Video",
+      "Disney+"
+    ],
+    "streaming": [
+      "prime",
+      "disney"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "The Terminal",
+    "tmdbId": 594,
+    "id": 362,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Legally Blonde",
+    "tmdbId": 8835,
+    "id": 363,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Wedding Crashers",
+    "tmdbId": 9522,
+    "id": 364,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "The 40-Year-Old Virgin",
+    "tmdbId": 6957,
+    "id": 365,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "streaming": [
+      "prime"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Bridget Jones's Diary",
+    "tmdbId": 634,
+    "id": 366,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "streaming": [
+      "prime"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "The Intern",
+    "tmdbId": 257211,
+    "id": 367,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Chef",
+    "tmdbId": 212778,
+    "id": 368,
+    "ukProviders": [
+      "netflix"
+    ],
+    "ukProviderLabels": [
+      "Netflix"
+    ],
+    "streaming": [
+      "netflix"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "The Town",
+    "tmdbId": 23168,
+    "id": 369,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Casino",
+    "tmdbId": 524,
+    "id": 370,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Scarface",
+    "tmdbId": 111,
+    "id": 371,
+    "ukProviders": [
+      "netflix",
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "streaming": [
+      "netflix",
+      "prime"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Reservoir Dogs",
+    "tmdbId": 500,
+    "id": 372,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney+"
+    ],
+    "streaming": [
+      "disney"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "tmdbId": 16869,
+    "id": 373,
+    "ukProviders": [
+      "netflix",
+      "prime",
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Netflix",
+      "Prime Video",
+      "Disney+"
+    ],
+    "streaming": [
+      "netflix",
+      "prime",
+      "disney"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Django Unchained",
+    "tmdbId": 68718,
+    "id": 374,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "streaming": [
+      "prime"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Once Upon a Time in Hollywood",
+    "tmdbId": 466272,
+    "id": 375,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "streaming": [
+      "prime"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Drive",
+    "tmdbId": 64690,
+    "id": 376,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "streaming": [
+      "prime"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Taken",
+    "tmdbId": 8681,
+    "id": 377,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney+"
+    ],
+    "streaming": [
+      "disney"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "The Equalizer",
+    "tmdbId": 156022,
+    "id": 378,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney+"
+    ],
+    "streaming": [
+      "disney"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Black Swan",
+    "tmdbId": 44214,
+    "id": 379,
+    "ukProviders": [
+      "disney"
+    ],
+    "ukProviderLabels": [
+      "Disney+"
+    ],
+    "streaming": [
+      "disney"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "The Wrestler",
+    "tmdbId": 12163,
+    "id": 380,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Million Dollar Baby",
+    "tmdbId": 70,
+    "id": 381,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "streaming": [
+      "prime"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Gran Torino",
+    "tmdbId": 13223,
+    "id": 382,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "The Blind Side",
+    "tmdbId": 22881,
+    "id": 383,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Captain Phillips",
+    "tmdbId": 109424,
+    "id": 384,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "The Founder",
+    "tmdbId": 310307,
+    "id": 385,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "The Accountant",
+    "tmdbId": 870028,
+    "id": 386,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "streaming": [
+      "prime"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "The Lincoln Lawyer",
+    "tmdbId": 50348,
+    "id": 387,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Inside Man",
+    "tmdbId": 388,
+    "id": 388,
+    "ukProviders": [
+      "prime"
+    ],
+    "ukProviderLabels": [
+      "Prime Video"
+    ],
+    "streaming": [
+      "prime"
+    ],
+    "ukAvailabilitySource": "tmdb"
+  },
+  {
+    "title": "Training Day",
+    "tmdbId": 2034,
+    "id": 389,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
+    "ukAvailabilitySource": "tmdb-none"
+  },
+  {
+    "title": "Public Enemies",
+    "tmdbId": 11322,
+    "id": 390,
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "streaming": [],
     "ukAvailabilitySource": "tmdb-none"
   }
 ]

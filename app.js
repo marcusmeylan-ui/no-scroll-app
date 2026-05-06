@@ -886,18 +886,18 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
     matchedProviderLabels.length > 0
       ? `Available on ${matchedProviderLabels.join(", ")}`
       : "Available on your selected services";
-
+const backupLabels = ["Closest match", "Something different", "Wildcard pick"];
   const alternativesMarkup = currentRecommendations.alternatives
-    .map((movie) => {
+    .map((movie, index) => {
       return `
         <article class="alt-card alt-card-interactive">
           <div class="alt-card-poster">
             ${renderPosterMarkup(movie)}
           </div>
                     <div class="alt-card-body">
-            <p class="alt-card-title">${escapeHtml(movie.title)}</p>
-            <p class="alt-card-meta">${escapeHtml(formatDisplayLabel(movie.genre))} · ${escapeHtml(formatDisplayLabel(movie.tone))}</p>
-            <p class="alt-card-reason">${escapeHtml(buildBackupReason(movie, topPick))}</p>
+<p class="alt-card-title">${escapeHtml(movie.title)}</p>
+<p class="alt-card-reason">${escapeHtml(backupLabels[index] || "Backup pick")}</p>
+<p class="alt-card-meta">${escapeHtml(formatDisplayLabel(movie.genre))} · ${escapeHtml(formatDisplayLabel(movie.tone))}</p>            <p class="alt-card-reason">${escapeHtml(buildBackupReason(movie, topPick))}</p>
 
             <div class="alt-card-actions">
               <button class="ghost-btn" onclick="promoteAlternativeToTopPick(${movie.id})">Pick this instead</button>
@@ -926,8 +926,7 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
         </p>
 
         <div class="pick-confidence-row strong">
-<span class="confidence-pill ${escapeHtml(confidenceClass)}">We're ${confidencePercent}% confident you'll like this</span>
-        <span class="availability-pill">Available tonight in the UK</span>
+<span class="confidence-pill ${escapeHtml(confidenceClass)}">${confidencePercent}% match • tailored to your taste</span>        <span class="availability-pill">Available tonight in the UK</span>
 </div>
 
 
@@ -958,7 +957,7 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
 
         <div class="pick-info-grid">
           <div class="section-card pick-info-card">
-            <h3 class="section-title">Why we think this fits</h3>
+            <h3 class="section-title">Why this works for you</h3>
             <ul class="why-list">
               ${whyList.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
             </ul>
@@ -973,7 +972,7 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
     </section>
 
     <section class="section-card alt-section">
-      <h3 class="section-title">Backup options</h3>
+      <h3 class="section-title">Because you liked this, you might also enjoy:</h3>
       <div class="alt-card-list">
         ${alternativesMarkup || `<p class="section-copy">No alternatives available.</p>`}
       </div>
@@ -993,63 +992,63 @@ function getConfidenceBadgeClass(confidence) {
   return "early";
 }
 function getConfidencePercent(confidence, ratedCount) {
-  const safeRatedCount = Number.isFinite(Number(ratedCount)) ? Number(ratedCount) : 0;
-
-  let basePercent = 58;
-
-  if (confidence === "High") {
-    basePercent = 82;
-  } else if (confidence === "Medium") {
-    basePercent = 70;
+  if (currentRecommendations?.confidencePercent) {
+    return currentRecommendations.confidencePercent;
   }
 
-  const ratingBonus = Math.min(Math.floor(safeRatedCount / 5), 8);
-  return Math.min(basePercent + ratingBonus, 92);
-}
+  const safeRatedCount = Number.isFinite(Number(ratedCount)) ? Number(ratedCount) : 0;
 
-function buildConfidenceReasonList(topPick) {
-  return buildWhyItWorksList(topPick).slice(0, 3);
+  let basePercent = 56;
+
+  if (confidence === "High") {
+    basePercent = 78;
+  } else if (confidence === "Medium") {
+    basePercent = 68;
+  }
+
+  const ratingBonus = Math.min(Math.floor(safeRatedCount / 6), 6);
+  return Math.min(basePercent + ratingBonus, 90);
 }
 function buildWhyItWorksList(topPick) {
   const lines = [];
   const profile = buildPreferenceProfile();
-  const likedMovies = getTopLikedMovies(3);
+  const likedMovies = getTopLikedMovies(5);
 
   const genreScore = profile.genreScores[topPick.genre] || 0;
+  const toneScore = profile.toneScores[topPick.tone] || 0;
   const weightScore = profile.weightScores[topPick.weight] || 0;
-  const styleScore = profile.styleScores[topPick.style] || 0;
-  const humorScore = profile.humorScores[topPick.humor] || 0;
 
-  if (genreScore >= 0.35) {
-    lines.push(`You are rating ${topPick.genre.toLowerCase()} films strongly.`);
-  }
-
-  if (weightScore >= 0.25) {
-    lines.push(`You are leaning toward ${topPick.weight} watches right now.`);
-  }
-
-  if (styleScore >= 0.25) {
-    lines.push(`You are responding well to more ${topPick.style} films.`);
-  }
-
-  if (humorScore >= 0.3 && topPick.humor !== "none") {
-    lines.push(`This also fits the humour level your ratings are pointing toward.`);
-  }
-    const likedMatch = likedMovies.find((movie) => {
+  // 1. Reference actual liked film (strongest trust signal)
+  const strongMatch = likedMovies.find((movie) => {
     return (
       movie.genre === topPick.genre ||
-      movie.style === topPick.style ||
-      movie.weight === topPick.weight ||
-      movie.humor === topPick.humor
+      movie.tone === topPick.tone ||
+      movie.weight === topPick.weight
     );
   });
 
-  if (likedMatch) {
-    lines.push(`It overlaps with films you rated highly like ${likedMatch.title}.`);
+  if (strongMatch) {
+    lines.push(`You loved ${strongMatch.title}`);
   }
 
+  // 2. Tone alignment (this is key for your app)
+  if (toneScore >= 0.35) {
+    lines.push(`Similar ${topPick.tone} tone`);
+  }
+
+  // 3. Genre alignment
+  if (genreScore >= 0.35) {
+    lines.push(`Strong match for your ${topPick.genre.toLowerCase()} preferences`);
+  }
+
+  // 4. Weight (light/heavy)
+  if (weightScore >= 0.3) {
+    lines.push(`You are leaning toward ${topPick.weight} watches right now.`);
+  }
+
+  // 5. Fallback (never leave empty)
   if (lines.length === 0) {
-    lines.push("This was the strongest overall fit from your unseen films.");
+    lines.push("This was the strongest overall match from your unseen films.");
   }
 
   return lines.slice(0, 3);
@@ -1684,7 +1683,11 @@ function scoreCandidateMovie(movie, profile, topLikedMovies) {
   const positiveWeightCount = getDistinctPositiveCount(profile.weightScores, 0.2);
   const positiveHumorCount = getDistinctPositiveCount(profile.humorScores, 0.2);
   const comedyHeavyProfile = isComedyHeavyProfile(profile);
-
+const darkThrillerPreference =
+  (profile.genreScores["Horror"] || 0) >= 0.4 ||
+  (profile.genreScores["Thriller"] || 0) >= 0.4 ||
+  (profile.toneScores["dark"] || 0) >= 0.45 ||
+  (profile.toneScores["intense"] || 0) >= 0.45;
   score += genreScore * 1.4;
   score += energyScore * 0.9;
   score += weightScore * 1.0;
@@ -1836,7 +1839,24 @@ function scoreCandidateMovie(movie, profile, topLikedMovies) {
   if (!comedyHeavyProfile && movie.genre !== "Comedy" && movie.humor === "high" && genreScore < 0.15) {
     score -= 0.2;
   }
+if (darkThrillerPreference && !comedyHeavyProfile) {
+  if (movie.tone === "fun") score -= 1.4;
+  if (movie.weight === "light") score -= 1.2;
+  if (movie.humor === "high") score -= 1.1;
 
+  if (
+    movie.genre !== "Horror" &&
+    movie.genre !== "Thriller" &&
+    movie.tone !== "dark" &&
+    movie.tone !== "intense"
+  ) {
+    score -= 1.2;
+  }
+
+  if (movie.genre === "Fantasy" && movie.tone === "fun") {
+    score -= 1.4;
+  }
+}
   if (exactProfileLikedCount >= 2) {
     score += 0.55;
   }
@@ -1864,35 +1884,38 @@ function pickWithDiversity(sortedMovies, profile) {
 
   const safePick = sortedMovies[0];
 
-  // Slight stretch: similar but not identical
+  // --- STRETCH: similar core, different feel ---
   const stretchPick = sortedMovies.find((movie) => {
-    return (
-      movie.id !== safePick.id &&
-      (
-        movie.genre === safePick.genre ||
-        movie.style === safePick.style ||
-        movie.weight === safePick.weight
-      ) &&
-      (
-        movie.tone !== safePick.tone ||
-        movie.humor !== safePick.humor
-      )
-    );
+    if (movie.id === safePick.id) return false;
+
+    const sharedCore =
+      movie.genre === safePick.genre ||
+      movie.style === safePick.style ||
+      movie.weight === safePick.weight;
+
+    const differentFeel =
+      movie.tone !== safePick.tone ||
+      movie.energy !== safePick.energy ||
+      movie.humor !== safePick.humor;
+
+    return sharedCore && differentFeel;
   });
 
-  // Wildcard: outside profile comfort zone
+  // --- WILDCARD: outside comfort but still not nonsense ---
   const wildcardPick = sortedMovies.find((movie) => {
+    if (movie.id === safePick.id) return false;
+    if (movie.id === stretchPick?.id) return false;
+
     const genreScore = profile.genreScores[movie.genre] || 0;
     const styleScore = profile.styleScores[movie.style] || 0;
-    const weightScore = profile.weightScores[movie.weight] || 0;
 
-    return (
-      movie.id !== safePick.id &&
-      movie.id !== stretchPick?.id &&
-      genreScore < 0.2 &&
-      styleScore < 0.2 &&
-      weightScore < 0.2
-    );
+    const outsideProfile = genreScore < 0.25 && styleScore < 0.25;
+
+    const stillReasonable =
+      movie.energy === safePick.energy ||
+      movie.weight === safePick.weight;
+
+    return outsideProfile && stillReasonable;
   });
 
   const results = [safePick];
@@ -1900,7 +1923,7 @@ function pickWithDiversity(sortedMovies, profile) {
   if (stretchPick) results.push(stretchPick);
   if (wildcardPick) results.push(wildcardPick);
 
-  // fallback if needed
+  // fallback (only if needed)
   for (const movie of sortedMovies) {
     if (results.length >= 3) break;
     if (!results.some((m) => m.id === movie.id)) {
@@ -2029,6 +2052,25 @@ function buildWatchContext(topPick, profile) {
 
   return "A balanced pick from what is available to you right now.";
 }
+function buildConfidencePercent(ratedCount, topScore, secondScore, profile) {
+  const safeRatedCount = Number.isFinite(Number(ratedCount)) ? Number(ratedCount) : 0;
+  const safeTopScore = Number.isFinite(Number(topScore)) ? Number(topScore) : 0;
+  const safeSecondScore = Number.isFinite(Number(secondScore)) ? Number(secondScore) : 0;
+
+  const scoreGap = Math.max(0, safeTopScore - safeSecondScore);
+  const preferenceStrength = calculatePreferenceStrength(profile);
+
+  const ratingConfidence = Math.min(safeRatedCount / 30, 1);
+  const gapConfidence = Math.min(scoreGap / 1.8, 1);
+
+  const rawPercent =
+    52 +
+    ratingConfidence * 14 +
+    preferenceStrength * 18 +
+    gapConfidence * 16;
+
+  return Math.max(52, Math.min(Math.round(rawPercent), 94));
+}
 function buildConfidenceLabel(ratedCount, topScore, secondScore, profile, topPick, topLikedMovies) {
   if (!topPick) return "Low";
 
@@ -2113,10 +2155,21 @@ function generateRecommendations() {
   scored.sort((a, b) => b.recommendationScore - a.recommendationScore);
 
   const selected = pickWithDiversity(scored, profile);
+  if (selected.length < 3) {
+  for (const movie of scored) {
+    if (selected.length >= 3) break;
+    if (!selected.some(m => m.id === movie.id)) {
+      selected.push(movie);
+    }
+  }
+}
   const topPick = selected[0] || null;
   const ratedCount = Object.keys(ratings).length;
   const topScore = scored[0]?.recommendationScore || 0;
   const secondScore = scored[1]?.recommendationScore || 0;
+  const confidencePercent = topPick
+  ? buildConfidencePercent(ratedCount, topScore, secondScore, profile)
+  : 52;
 
   currentRecommendations = {
     topPick,
@@ -2124,6 +2177,7 @@ function generateRecommendations() {
     confidence: topPick
       ? buildConfidenceLabel(ratedCount, topScore, secondScore, profile, topPick, topLikedMovies)
       : "Low",
+      confidencePercent,
     reason: topPick
       ? buildRecommendationReason(topPick, profile, topLikedMovies)
       : "No suitable recommendation reason available.",

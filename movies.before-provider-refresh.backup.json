@@ -361,41 +361,29 @@
     "title": "Oblivion",
     "genre": "Sci-Fi",
     "tone": "epic",
-    "streaming": [
-      "prime"
-    ],
+    "streaming": [],
     "poster": "posters/19.png",
     "tmdbId": 75612,
     "year": 2013,
-    "ukProviders": [
-      "prime"
-    ],
-    "ukProviderLabels": [
-      "Prime Video"
-    ],
-    "ukAvailabilitySource": "tmdb"
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "tmdb-none"
   },
   {
     "id": 20,
     "title": "Annihilation",
     "genre": "Sci-Fi",
     "tone": "dark",
-    "streaming": [
-      "prime"
-    ],
+    "streaming": [],
     "poster": "posters/20.png",
     "energy": "low",
     "weight": "heavy",
     "style": "cerebral",
     "tmdbId": 300668,
     "year": 2018,
-    "ukProviders": [
-      "prime"
-    ],
-    "ukProviderLabels": [
-      "Prime Video"
-    ],
-    "ukAvailabilitySource": "tmdb"
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "tmdb-none"
   },
   {
     "id": 21,
@@ -519,22 +507,16 @@
     "title": "Mad Max: Fury Road",
     "genre": "Action",
     "tone": "epic",
-    "streaming": [
-      "prime"
-    ],
+    "streaming": [],
     "poster": "posters/27.png",
     "energy": "high",
     "weight": "balanced",
     "style": "spectacle",
     "tmdbId": 76341,
     "year": 2015,
-    "ukProviders": [
-      "prime"
-    ],
-    "ukProviderLabels": [
-      "Prime Video"
-    ],
-    "ukAvailabilitySource": "tmdb"
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "tmdb-none"
   },
   {
     "id": 28,
@@ -1139,9 +1121,7 @@
     "title": "Game Night",
     "genre": "Comedy",
     "tone": "fun",
-    "streaming": [
-      "prime"
-    ],
+    "streaming": [],
     "poster": "posters/57.png",
     "energy": "high",
     "weight": "light",
@@ -1149,13 +1129,9 @@
     "humor": "high",
     "tmdbId": 445571,
     "year": 2018,
-    "ukProviders": [
-      "prime"
-    ],
-    "ukProviderLabels": [
-      "Prime Video"
-    ],
-    "ukAvailabilitySource": "tmdb"
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "tmdb-none"
   },
   {
     "id": 58,
@@ -1368,9 +1344,7 @@
     "title": "The Nice Guys",
     "genre": "Comedy",
     "tone": "fun",
-    "streaming": [
-      "prime"
-    ],
+    "streaming": [],
     "poster": "posters/67.png",
     "energy": "medium",
     "weight": "light",
@@ -1378,13 +1352,9 @@
     "humor": "high",
     "tmdbId": 290250,
     "year": 2016,
-    "ukProviders": [
-      "prime"
-    ],
-    "ukProviderLabels": [
-      "Prime Video"
-    ],
-    "ukAvailabilitySource": "tmdb"
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "tmdb-none"
   },
   {
     "id": 68,
@@ -1966,19 +1936,13 @@
     "title": "Emma.",
     "genre": "Romance",
     "tone": "fun",
-    "streaming": [
-      "prime"
-    ],
+    "streaming": [],
     "poster": "posters/96.png",
     "tmdbId": 556678,
     "year": 2020,
-    "ukProviders": [
-      "prime"
-    ],
-    "ukProviderLabels": [
-      "Prime Video"
-    ],
-    "ukAvailabilitySource": "tmdb"
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "tmdb-none"
   },
   {
     "id": 97,
@@ -2133,9 +2097,7 @@
     "title": "There Will Be Blood",
     "genre": "Drama",
     "tone": "dark",
-    "streaming": [
-      "prime"
-    ],
+    "streaming": [],
     "poster": "posters/105.png",
     "energy": "low",
     "weight": "heavy",
@@ -2143,13 +2105,9 @@
     "humor": "none",
     "tmdbId": 7345,
     "year": 2007,
-    "ukProviders": [
-      "prime"
-    ],
-    "ukProviderLabels": [
-      "Prime Video"
-    ],
-    "ukAvailabilitySource": "tmdb"
+    "ukProviders": [],
+    "ukProviderLabels": [],
+    "ukAvailabilitySource": "tmdb-none"
   },
   {
     "id": 106,
@@ -6656,255 +6614,5 @@
     "ukProviders": [],
     "ukProviderLabels": [],
     "ukAvailabilitySource": "tmdb-none"
-  },
-  {
-    "title": "Ocean's Eleven",
-    "tmdbId": 161,
-    "id": 341
-  },
-  {
-    "title": "Ocean's Twelve",
-    "tmdbId": 163,
-    "id": 342
-  },
-  {
-    "title": "Ocean's Thirteen",
-    "tmdbId": 298,
-    "id": 343
-  },
-  {
-    "title": "Catch Me If You Can",
-    "tmdbId": 640,
-    "id": 344
-  },
-  {
-    "title": "Moneyball",
-    "tmdbId": 60308,
-    "id": 345
-  },
-  {
-    "title": "Argo",
-    "tmdbId": 68734,
-    "id": 346
-  },
-  {
-    "title": "The Wolf of Wall Street",
-    "tmdbId": 106646,
-    "id": 347
-  },
-  {
-    "title": "American Hustle",
-    "tmdbId": 168672,
-    "id": 348
-  },
-  {
-    "title": "A Few Good Men",
-    "tmdbId": 881,
-    "id": 349
-  },
-  {
-    "title": "Apollo 13",
-    "tmdbId": 568,
-    "id": 350
-  },
-  {
-    "title": "Cast Away",
-    "tmdbId": 8358,
-    "id": 351
-  },
-  {
-    "title": "Saving Private Ryan",
-    "tmdbId": 857,
-    "id": 352
-  },
-  {
-    "title": "The Bourne Identity",
-    "tmdbId": 2501,
-    "id": 353
-  },
-  {
-    "title": "The Bourne Supremacy",
-    "tmdbId": 2502,
-    "id": 354
-  },
-  {
-    "title": "Knives Out",
-    "tmdbId": 546554,
-    "id": 355
-  },
-  {
-    "title": "The Big Short",
-    "tmdbId": 318846,
-    "id": 356
-  },
-  {
-    "title": "The Imitation Game",
-    "tmdbId": 205596,
-    "id": 357
-  },
-  {
-    "title": "Steve Jobs",
-    "tmdbId": 321697,
-    "id": 358
-  },
-  {
-    "title": "Hidden Figures",
-    "tmdbId": 381284,
-    "id": 359
-  },
-  {
-    "title": "Erin Brockovich",
-    "tmdbId": 462,
-    "id": 360
-  },
-  {
-    "title": "Jerry Maguire",
-    "tmdbId": 9390,
-    "id": 361
-  },
-  {
-    "title": "The Terminal",
-    "tmdbId": 594,
-    "id": 362
-  },
-  {
-    "title": "Legally Blonde",
-    "tmdbId": 8835,
-    "id": 363
-  },
-  {
-    "title": "Wedding Crashers",
-    "tmdbId": 9522,
-    "id": 364
-  },
-  {
-    "title": "The 40-Year-Old Virgin",
-    "tmdbId": 6957,
-    "id": 365
-  },
-  {
-    "title": "Bridget Jones's Diary",
-    "tmdbId": 634,
-    "id": 366
-  },
-  {
-    "title": "The Intern",
-    "tmdbId": 257211,
-    "id": 367
-  },
-  {
-    "title": "Chef",
-    "tmdbId": 212778,
-    "id": 368
-  },
-  {
-    "title": "The Town",
-    "tmdbId": 23168,
-    "id": 369
-  },
-  {
-    "title": "Casino",
-    "tmdbId": 524,
-    "id": 370
-  },
-  {
-    "title": "Scarface",
-    "tmdbId": 111,
-    "id": 371
-  },
-  {
-    "title": "Reservoir Dogs",
-    "tmdbId": 500,
-    "id": 372
-  },
-  {
-    "title": "Inglourious Basterds",
-    "tmdbId": 16869,
-    "id": 373
-  },
-  {
-    "title": "Django Unchained",
-    "tmdbId": 68718,
-    "id": 374
-  },
-  {
-    "title": "Once Upon a Time in Hollywood",
-    "tmdbId": 466272,
-    "id": 375
-  },
-  {
-    "title": "Drive",
-    "tmdbId": 64690,
-    "id": 376
-  },
-  {
-    "title": "Taken",
-    "tmdbId": 8681,
-    "id": 377
-  },
-  {
-    "title": "The Equalizer",
-    "tmdbId": 156022,
-    "id": 378
-  },
-  {
-    "title": "Black Swan",
-    "tmdbId": 44214,
-    "id": 379
-  },
-  {
-    "title": "The Wrestler",
-    "tmdbId": 12163,
-    "id": 380
-  },
-  {
-    "title": "Million Dollar Baby",
-    "tmdbId": 70,
-    "id": 381
-  },
-  {
-    "title": "Gran Torino",
-    "tmdbId": 13223,
-    "id": 382
-  },
-  {
-    "title": "The Blind Side",
-    "tmdbId": 22881,
-    "id": 383
-  },
-  {
-    "title": "Captain Phillips",
-    "tmdbId": 109424,
-    "id": 384
-  },
-  {
-    "title": "The Founder",
-    "tmdbId": 310307,
-    "id": 385
-  },
-  {
-    "title": "The Accountant",
-    "tmdbId": 870028,
-    "id": 386
-  },
-  {
-    "title": "The Lincoln Lawyer",
-    "tmdbId": 50348,
-    "id": 387
-  },
-  {
-    "title": "Inside Man",
-    "tmdbId": 388,
-    "id": 388
-  },
-  {
-    "title": "Training Day",
-    "tmdbId": 2034,
-    "id": 389
-  },
-  {
-    "title": "Public Enemies",
-    "tmdbId": 11322,
-    "id": 390
   }
 ]
