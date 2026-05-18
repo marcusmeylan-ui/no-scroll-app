@@ -28,9 +28,12 @@ const ALLOWED_STYLE_VALUES = new Set([
   "spectacle"
 ]);
 const ALLOWED_HUMOR_VALUES = new Set(["none", "low", "medium", "high"]);
+const ALLOWED_PATHWAY_ROLE_VALUES = new Set(["anchor", "bridge", "discovery"]);
 
 const REQUIRED_FIELDS = [
   "sourceBucket",
+  "pathwayRole",
+  "tags",
   "title",
   "year",
   "genre",
@@ -98,6 +101,22 @@ function validateRequiredFields(entry, index, errors) {
 function validateTypes(entry, index, errors, warnings) {
   if (typeof entry.sourceBucket !== "string" || !entry.sourceBucket.trim()) {
     errors.push(`${formatEntryRef(entry, index)} has invalid sourceBucket`);
+  }
+
+  if (typeof entry.pathwayRole !== "string" || !entry.pathwayRole.trim()) {
+    errors.push(`${formatEntryRef(entry, index)} has invalid pathwayRole`);
+  }
+
+  if (!Array.isArray(entry.tags)) {
+    errors.push(`${formatEntryRef(entry, index)} has invalid tags field (must be array)`);
+  } else if (entry.tags.length === 0) {
+    errors.push(`${formatEntryRef(entry, index)} must have at least one tag`);
+  } else {
+    for (const tag of entry.tags) {
+      if (typeof tag !== "string" || !tag.trim()) {
+        errors.push(`${formatEntryRef(entry, index)} has invalid tag value`);
+      }
+    }
   }
 
   if (typeof entry.title !== "string" || !entry.title.trim()) {
@@ -179,11 +198,16 @@ function validateEnums(entry, index, errors) {
       `${formatEntryRef(entry, index)} has invalid humor "${entry.humor}" (allowed: none, low, medium, high)`
     );
   }
+
+  if (!ALLOWED_PATHWAY_ROLE_VALUES.has(entry.pathwayRole)) {
+    errors.push(
+      `${formatEntryRef(entry, index)} has invalid pathwayRole "${entry.pathwayRole}" (allowed: anchor, bridge, discovery)`
+    );
+  }
 }
 
 function validateWhitespaceAndCleanup(entry, index, warnings) {
-  const fieldsToTrim = ["sourceBucket", "title", "originalTitle", "genre", "tone", "poster"];
-
+  const fieldsToTrim = ["sourceBucket", "pathwayRole", "title", "originalTitle", "genre", "tone", "poster"];
   for (const field of fieldsToTrim) {
     if (typeof entry[field] === "string" && entry[field] !== entry[field].trim()) {
       warnings.push(`${formatEntryRef(entry, index)} field "${field}" has leading/trailing whitespace`);

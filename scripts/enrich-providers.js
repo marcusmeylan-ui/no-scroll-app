@@ -10,8 +10,13 @@ if (!TMDB_API_KEY) {
   process.exit(1);
 }
 
-const INPUT_PATH = path.join(__dirname, "..", "movies.json");
-const OUTPUT_PATH = path.join(__dirname, "..", "movies.providers.json");
+const INPUT_PATH = process.argv[2]
+  ? path.resolve(process.argv[2])
+  : path.join(__dirname, "..", "movies.json");
+
+const OUTPUT_PATH = process.argv[3]
+  ? path.resolve(process.argv[3])
+  : path.join(__dirname, "..", "movies.providers.json");
 
 const SUPPORTED_PROVIDERS = {
   "Netflix": { key: "netflix", label: "Netflix" },
@@ -77,7 +82,7 @@ async function main() {
   const movies = JSON.parse(raw);
 
   if (!Array.isArray(movies)) {
-    throw new Error("movies.json must contain a JSON array.");
+      throw new Error(`${INPUT_PATH} must contain a JSON array.`);
   }
 
   const targetMovies = movies.filter(shouldUpdateMovie);
@@ -147,7 +152,7 @@ async function main() {
   console.log(`Updated with providers: ${updated}`);
   console.log(`No supported providers: ${noProviders}`);
   console.log(`Errors: ${errors}`);
-  console.log(`Output written to: movies.providers.json`);
+  console.log(`Output written to: ${OUTPUT_PATH}`);
 }
 
 main().catch((error) => {

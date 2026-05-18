@@ -1,0 +1,18 @@
+{
+  "name": "NoScroll Provider-First Expansion Batch B",
+  "count": 124,
+  "strategy": "Provider-first medium batch: recognisable anchors and bridges likely to improve UK provider coverage, with selective discovery only.",
+  "dedupeReference": "Deduped against uploaded movies.json and Batch A stage file in ChatGPT sandbox.",
+  "buckets": {
+    "Provider-First Smart Blockbusters": 11,
+    "Provider-First Crime Thrillers": 15,
+    "Provider-First Action Staples": 15,
+    "Provider-First Comedy Anchors": 13,
+    "Provider-First Family & Animation": 15,
+    "Provider-First Emotional Drama": 12,
+    "Provider-First Horror & Thrills": 12,
+    "Provider-First Romance & Warmth": 9,
+    "Provider-First Sci-Fi Bridges": 12,
+    "Provider-First Prestige Crime": 10
+  }
+}

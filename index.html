@@ -3,28 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>NoScroll</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
   <link rel="stylesheet" href="style.css" />
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#0b1b2b">
 </head>
 <body>
   <div class="app-shell">
     <div class="phone-frame">
 
-      <header class="top-bar">
+      <header class="top-bar app-brand-header">
         <div class="brand-block">
           <div class="logo-row">
-            <div class="spotlight-icon"></div>
             <h1>NoScroll</h1>
           </div>
-          <p class="subtitle">Stop scrolling. Start watching.</p>
+          <p class="subtitle">Your next watch, without the endless scrolling.</p>
+          <p id="app-library-stats" class="app-library-stats">Loading film library...</p>
         </div>
-
-        <button id="reset-btn" class="ghost-btn">Reset</button>
       </header>
 
       <main id="app-screen" class="screen"></main>
+<nav class="bottom-nav" aria-label="Primary navigation">
+  <button class="bottom-nav-btn is-active" type="button" data-nav="rate" onclick="goToRatingFlow()">
+    <span class="bottom-nav-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M12 3.5 20.5 12 12 20.5 3.5 12 12 3.5Z"/></svg>
+    </span>
+    <span class="bottom-nav-label">Rate</span>
+  </button>
+
+  <button class="bottom-nav-btn" type="button" data-nav="pick" onclick="goToRecommendationFlow()">
+    <span class="bottom-nav-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5.5"/></svg>
+    </span>
+    <span class="bottom-nav-label">Pick</span>
+  </button>
+
+  <button class="bottom-nav-btn" type="button" data-nav="watchlist" onclick="goToWatchlist()">
+    <span class="bottom-nav-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M7 4.5h10v15l-5-3.2-5 3.2v-15Z"/></svg>
+    </span>
+    <span class="bottom-nav-label">Saved</span>
+  </button>
+
+  <button class="bottom-nav-btn" type="button" data-nav="settings" onclick="goToSettings()">
+    <span class="bottom-nav-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M12 8.25a3.75 3.75 0 1 1 0 7.5 3.75 3.75 0 0 1 0-7.5Z"/><path d="M19.25 12a7.3 7.3 0 0 0-.08-1.05l2-1.55-2-3.45-2.38.95a7.57 7.57 0 0 0-1.8-1.05L14.65 3h-5.3l-.34 2.85a7.57 7.57 0 0 0-1.8 1.05l-2.38-.95-2 3.45 2 1.55a7.3 7.3 0 0 0 0 2.1l-2 1.55 2 3.45 2.38-.95c.54.43 1.15.79 1.8 1.05l.34 2.85h5.3l.34-2.85a7.57 7.57 0 0 0 1.8-1.05l2.38.95 2-3.45-2-1.55c.05-.35.08-.7.08-1.05Z"/></svg>
+    </span>
+    <span class="bottom-nav-label">Settings</span>
+  </button>
+</nav>
 
     </div>
   </div>

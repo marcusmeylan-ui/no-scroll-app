@@ -214,7 +214,6 @@ let pendingFollowUp = null;
 let dismissedRecommendationIds = [];
 let isBrowsingMoreFilms = false;
 let activeView = "rate";
-let forcedRatingMovieId = null;
 // =========================
 // Boot
 // =========================
@@ -259,7 +258,11 @@ function loadMovies() {
       isDataLoaded = true;
       dataLoadError = "";
 
-      pruneSkippedMovieState();
+    
+        if (activeView === "settings") {
+    renderSettingsScreen(screen);
+    return;
+  }
       renderApp();
     })
     .catch((error) => {
@@ -613,12 +616,6 @@ function renderApp() {
   }
 
   pruneSkippedMovieState();
-
-  if (activeView === "settings") {
-    renderSettingsScreen(screen);
-    updateBottomNavState("settings");
-    return;
-  }
 
   const ratedCount = Object.keys(ratings).length;
   const candidateCount = getRecommendationCandidates().length;
@@ -992,34 +989,32 @@ const availableTonightCopy =
           Play this tonight
         </button>
 
-        <div class="v2-secondary-actions v2-icon-actions v2-pick-action-grid">
-          <button class="ghost-btn v2-icon-action" onclick="addRecommendationToWatchlist(${topPick.id})" aria-label="Save for later">
-            <span class="v2-action-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M6 4.75A2.25 2.25 0 0 1 8.25 2.5h7.5A2.25 2.25 0 0 1 18 4.75v16l-6-3.75-6 3.75v-16Z"/></svg>
-            </span>
-            <span>Save</span>
-          </button>
+        <div class="v2-secondary-actions v2-icon-actions">
+  <button class="ghost-btn v2-icon-action" onclick="addRecommendationToWatchlist(${topPick.id})" aria-label="Save for later">
+    <span class="v2-action-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M6 4.75A2.25 2.25 0 0 1 8.25 2.5h7.5A2.25 2.25 0 0 1 18 4.75v16l-6-3.75-6 3.75v-16Z"/></svg>
+    </span>
+    <span>Save</span>
+  </button>
 
-          <button class="ghost-btn v2-icon-action" onclick="shareTonightPick()" aria-label="Share tonight's pick">
-            <span class="v2-action-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M12 3.5v10m0-10 3.75 3.75M12 3.5 8.25 7.25M5 11.5v6.25A2.75 2.75 0 0 0 7.75 20.5h8.5A2.75 2.75 0 0 0 19 17.75V11.5"/></svg>
-            </span>
-            <span>Share</span>
-          </button>
+  <button class="ghost-btn v2-icon-action" onclick="shareTonightPick()" aria-label="Share tonight's pick">
+    <span class="v2-action-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M12 3.5v10m0-10 3.75 3.75M12 3.5 8.25 7.25M5 11.5v6.25A2.75 2.75 0 0 0 7.75 20.5h8.5A2.75 2.75 0 0 0 19 17.75V11.5"/></svg>
+    </span>
+    <span>Share</span>
+  </button>
 
-          <button class="ghost-btn v2-icon-action" onclick="rateRecommendedMovie(${topPick.id})" aria-label="Mark this film as seen">
-            <span class="v2-action-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M2.75 12s3.25-6.25 9.25-6.25S21.25 12 21.25 12 18 18.25 12 18.25 2.75 12 2.75 12Z"/><path d="M12 9.25a2.75 2.75 0 1 1 0 5.5 2.75 2.75 0 0 1 0-5.5Z"/></svg>
-            </span>
-            <span>Mark seen</span>
-          </button>
+  <button class="ghost-btn v2-icon-action" onclick="dismissCurrentTopPick()" aria-label="Not feeling this recommendation">
+    <span class="v2-action-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M10.25 14.25 7.5 20.5a2.1 2.1 0 0 1-2-2.75l1.35-3.5H4.75A2.25 2.25 0 0 1 2.6 11.35l1.25-5.25A2.75 2.75 0 0 1 6.55 4h7.2v10.25h-3.5ZM15.75 4H19a2 2 0 0 1 2 2v6.25a2 2 0 0 1-2 2h-3.25V4Z"/></svg>
+    </span>
+    <span>Not feeling it</span>
+  </button>
+</div>
 
-          <button class="ghost-btn v2-icon-action" onclick="dismissCurrentTopPick()" aria-label="Not feeling this recommendation">
-            <span class="v2-action-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M10.25 14.25 7.5 20.5a2.1 2.1 0 0 1-2-2.75l1.35-3.5H4.75A2.25 2.25 0 0 1 2.6 11.35l1.25-5.25A2.75 2.75 0 0 1 6.55 4h7.2v10.25h-3.5ZM15.75 4H19a2 2 0 0 1 2 2v6.25a2 2 0 0 1-2 2h-3.25V4Z"/></svg>
-            </span>
-            <span>Miss</span>
-          </button>
+        <div class="v2-tertiary-actions">
+          <button onclick="returnToMovieList()">Rate more films / mark seen</button>
+          <button onclick="sendTesterFeedback()">Send feedback</button>
         </div>
 
         <div class="v2-taste-panel">
@@ -1171,18 +1166,6 @@ function markRecommendationSeen(movieId) {
   devProfileMessage = "";
 
   generateRecommendations();
-}
-function rateRecommendedMovie(movieId) {
-  const targetMovie = movies.find((movie) => movie.id === movieId);
-  if (!targetMovie) return;
-
-  forcedRatingMovieId = movieId;
-  currentRecommendations = null;
-  isBrowsingMoreFilms = true;
-  activeView = "rate";
-
-  renderApp();
-  scrollAppToTop();
 }
 function returnToMovieList() {
   currentRecommendations = null;
@@ -1389,16 +1372,6 @@ function getNextRatingMovie() {
   const candidates = getRatingCandidates();
   if (candidates.length === 0) return null;
 
-  if (forcedRatingMovieId) {
-    const forcedMovie = candidates.find((movie) => movie.id === forcedRatingMovieId);
-
-    if (forcedMovie) {
-      return forcedMovie;
-    }
-
-    forcedRatingMovieId = null;
-  }
-
   const ratedCount = Object.keys(ratings).length;
 
   if (ratedCount < MIN_RATINGS) {
@@ -1527,10 +1500,6 @@ function getStableShuffledCandidates(candidates) {
 function rateMovie(movieId, rating) {
   ratings[movieId] = rating;
   seenMovies[movieId] = true;
-
-  if (forcedRatingMovieId === movieId) {
-    forcedRatingMovieId = null;
-  }
   delete skippedMovieState[movieId];
   advanceSessionStep();
 
@@ -1565,10 +1534,6 @@ function addToWatchlistAndAdvance(movieId) {
 
   watchlistMovies[movieId] = true;
   delete skippedMovieState[movieId];
-
-  if (forcedRatingMovieId === movieId) {
-    forcedRatingMovieId = null;
-  }
   advanceSessionStep();
   saveWatchlistMovies();
   clearDailyRecommendation();
@@ -1628,10 +1593,6 @@ function skipMovie(movieId) {
 
   seenMovies[movieId] = true;
   delete watchlistMovies[movieId];
-
-  if (forcedRatingMovieId === movieId) {
-    forcedRatingMovieId = null;
-  }
   delete skippedMovieState[movieId];
 
   advanceSessionStep();
@@ -2783,8 +2744,8 @@ function goToWatchlist() {
 }
 
 function goToSettings() {
+    updateBottomNavState("settings");
   activeView = "settings";
-  updateBottomNavState("settings");
   renderApp();
   scrollAppToTop();
 }
@@ -2811,7 +2772,6 @@ function renderSettingsScreen(screen) {
 
       <section class="section-card settings-card danger-card">
         <h3 class="section-title">App</h3>
-        <button class="ghost-btn" onclick="sendTesterFeedback()">Send feedback</button>
         <button class="ghost-btn danger-btn" onclick="resetApp()">Reset app data</button>
       </section>
     </section>

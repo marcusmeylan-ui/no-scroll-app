@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>NoScroll</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <div class="phone-frame">
+
+      <header class="top-bar app-brand-header">
+        <div class="brand-block">
+          <div class="logo-row">
+            <h1>NoScroll</h1>
+          </div>
+          <p class="subtitle">Your next watch, without the endless scrolling.</p>
+          <p id="app-library-stats" class="app-library-stats">Loading film library...</p>
+        </div>
+      </header>
+
+      <main id="app-screen" class="screen"></main>
+      <nav class="bottom-nav" aria-label="Primary navigation">
+  <button class="bottom-nav-btn" type="button" onclick="goToRatingFlow()">
+    <span class="bottom-nav-icon">◆</span>
+    <span>Rate</span>
+  </button>
+
+  <button class="bottom-nav-btn" type="button" onclick="goToRecommendationFlow()">
+    <span class="bottom-nav-icon">●</span>
+    <span>Pick</span>
+  </button>
+
+  <button class="bottom-nav-btn" type="button" onclick="goToWatchlist()">
+    <span class="bottom-nav-icon">▰</span>
+    <span>Watchlist</span>
+  </button>
+
+  <button class="bottom-nav-btn" type="button" onclick="goToSettings()">
+    <span class="bottom-nav-icon">⚙</span>
+    <span>Settings</span>
+  </button>
+</nav>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

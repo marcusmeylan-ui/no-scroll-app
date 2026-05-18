@@ -1,0 +1,5943 @@
+{
+  "generatedAt": "2026-05-15T07:04:02.639Z",
+  "summary": {
+    "totalMovies": 524,
+    "providerSupported": 241,
+    "missingProviders": 283,
+    "providerCoverage": "46%",
+    "taggedMovies": 135,
+    "taggedMissingProviders": 98
+  },
+  "missingByPathwayRole": {
+    "legacy": 185,
+    "anchor": 28,
+    "bridge": 55,
+    "discovery": 15
+  },
+  "missingByBucket": {
+    "Neo-Noir Crime": 11,
+    "Paranoid Sci-Fi": 10,
+    "Bleak Thriller": 6,
+    "Stylish Action": 4,
+    "Atmospheric Horror": 7,
+    "Sci-Fi Mystery": 8,
+    "Cult Crime & Dark Comedy": 13,
+    "Psychological Descent": 4,
+    "Smart Blockbusters": 12,
+    "Foreign Language Essentials": 4,
+    "Survival & Isolation": 7,
+    "Tech Anxiety & Surveillance": 6,
+    "Revenge & Moral Collapse": 4,
+    "Smart Horror Mainstream": 2
+  },
+  "bucketCoverage": [
+    {
+      "bucket": "Cult Crime & Dark Comedy",
+      "total": 16,
+      "supported": 3,
+      "missing": 13,
+      "coverage": "19%",
+      "missingPercent": "81%"
+    },
+    {
+      "bucket": "Smart Blockbusters",
+      "total": 18,
+      "supported": 6,
+      "missing": 12,
+      "coverage": "33%",
+      "missingPercent": "67%"
+    },
+    {
+      "bucket": "Neo-Noir Crime",
+      "total": 14,
+      "supported": 3,
+      "missing": 11,
+      "coverage": "21%",
+      "missingPercent": "79%"
+    },
+    {
+      "bucket": "Paranoid Sci-Fi",
+      "total": 14,
+      "supported": 4,
+      "missing": 10,
+      "coverage": "29%",
+      "missingPercent": "71%"
+    },
+    {
+      "bucket": "Sci-Fi Mystery",
+      "total": 12,
+      "supported": 4,
+      "missing": 8,
+      "coverage": "33%",
+      "missingPercent": "67%"
+    },
+    {
+      "bucket": "Atmospheric Horror",
+      "total": 8,
+      "supported": 1,
+      "missing": 7,
+      "coverage": "13%",
+      "missingPercent": "88%"
+    },
+    {
+      "bucket": "Survival & Isolation",
+      "total": 11,
+      "supported": 4,
+      "missing": 7,
+      "coverage": "36%",
+      "missingPercent": "64%"
+    },
+    {
+      "bucket": "Bleak Thriller",
+      "total": 7,
+      "supported": 1,
+      "missing": 6,
+      "coverage": "14%",
+      "missingPercent": "86%"
+    },
+    {
+      "bucket": "Tech Anxiety & Surveillance",
+      "total": 6,
+      "supported": 0,
+      "missing": 6,
+      "coverage": "0%",
+      "missingPercent": "100%"
+    },
+    {
+      "bucket": "Foreign Language Essentials",
+      "total": 4,
+      "supported": 0,
+      "missing": 4,
+      "coverage": "0%",
+      "missingPercent": "100%"
+    },
+    {
+      "bucket": "Psychological Descent",
+      "total": 5,
+      "supported": 1,
+      "missing": 4,
+      "coverage": "20%",
+      "missingPercent": "80%"
+    },
+    {
+      "bucket": "Revenge & Moral Collapse",
+      "total": 6,
+      "supported": 2,
+      "missing": 4,
+      "coverage": "33%",
+      "missingPercent": "67%"
+    },
+    {
+      "bucket": "Stylish Action",
+      "total": 11,
+      "supported": 7,
+      "missing": 4,
+      "coverage": "64%",
+      "missingPercent": "36%"
+    },
+    {
+      "bucket": "Smart Horror Mainstream",
+      "total": 3,
+      "supported": 1,
+      "missing": 2,
+      "coverage": "33%",
+      "missingPercent": "67%"
+    }
+  ],
+  "priorityRecovery": [
+    {
+      "title": "Back to the Future",
+      "year": 1985,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 105,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "Men in Black",
+      "year": 1997,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 607,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "Mission: Impossible",
+      "year": 1996,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 954,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "The Fugitive",
+      "year": 1993,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 5503,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "Executive Decision",
+      "year": 1996,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 2320,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "Patriot Games",
+      "year": 1992,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 9869,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "Sneakers",
+      "year": 1992,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 2322,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "The Abyss",
+      "year": 1989,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 2756,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "A Nightmare on Elm Street",
+      "year": 1984,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "anchor",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "anchor"
+      ],
+      "tmdbId": 377,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Blade Runner",
+      "year": 1982,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 78,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Fargo",
+      "year": 1996,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 275,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "In Bruges",
+      "year": 2008,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 8321,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Lock, Stock and Two Smoking Barrels",
+      "year": 1998,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 100,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 680,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Snatch",
+      "year": 2000,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 107,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 280,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "The Exorcist",
+      "year": 1973,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "anchor",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "anchor"
+      ],
+      "tmdbId": 9552,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "The Matrix",
+      "year": 1999,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 603,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "The Shining",
+      "year": 1980,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "anchor",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "anchor"
+      ],
+      "tmdbId": 694,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Total Recall",
+      "year": 1990,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 861,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Trainspotting",
+      "year": 1996,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 627,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Alive",
+      "year": 1993,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "anchor",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "anchor"
+      ],
+      "tmdbId": 7305,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "City of God",
+      "year": 2002,
+      "sourceBucket": "Foreign Language Essentials",
+      "pathwayRole": "anchor",
+      "tags": [
+        "foreign-language",
+        "essential",
+        "crime",
+        "horror",
+        "anchor"
+      ],
+      "tmdbId": 598,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Donnie Brasco",
+      "year": 1997,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "anchor",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "anchor"
+      ],
+      "tmdbId": 9366,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Goodfellas",
+      "year": 1990,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "anchor",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "anchor"
+      ],
+      "tmdbId": 769,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Hereditary",
+      "year": 2018,
+      "sourceBucket": "Smart Horror Mainstream",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-horror",
+        "mainstream-horror",
+        "supernatural",
+        "modern",
+        "anchor"
+      ],
+      "tmdbId": 493922,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Leon: The Professional",
+      "year": 1994,
+      "sourceBucket": "Revenge & Moral Collapse",
+      "pathwayRole": "anchor",
+      "tags": [
+        "revenge",
+        "moral-collapse",
+        "crime",
+        "violent",
+        "anchor"
+      ],
+      "tmdbId": 101,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Oldboy",
+      "year": 2003,
+      "sourceBucket": "Foreign Language Essentials",
+      "pathwayRole": "anchor",
+      "tags": [
+        "foreign-language",
+        "essential",
+        "crime",
+        "horror",
+        "anchor"
+      ],
+      "tmdbId": 670,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Conjuring",
+      "year": 2013,
+      "sourceBucket": "Smart Horror Mainstream",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-horror",
+        "mainstream-horror",
+        "supernatural",
+        "modern",
+        "anchor"
+      ],
+      "tmdbId": 138843,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Grey",
+      "year": 2011,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "anchor",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "anchor"
+      ],
+      "tmdbId": 75174,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Machinist",
+      "year": 2004,
+      "sourceBucket": "Psychological Descent",
+      "pathwayRole": "anchor",
+      "tags": [
+        "psychological",
+        "descent",
+        "identity",
+        "unsettling",
+        "anchor"
+      ],
+      "tmdbId": 4553,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Usual Suspects",
+      "year": 1995,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "anchor",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "anchor"
+      ],
+      "tmdbId": 629,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Copshop",
+      "year": 2021,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 738652,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "Midnight Special",
+      "year": 2016,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 245703,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "Run Lola Run",
+      "year": 1998,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 104,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "The Fall",
+      "year": 2006,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 14784,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "1408",
+      "year": 2007,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "bridge",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "bridge"
+      ],
+      "tmdbId": 3021,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Blackhat",
+      "year": 2015,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 201088,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Brick",
+      "year": 2005,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 9270,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Cam",
+      "year": 2018,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 521935,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Dark City",
+      "year": 1998,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 2666,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Event Horizon",
+      "year": 1997,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 8413,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "eXistenZ",
+      "year": 1999,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 1946,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Gattaca",
+      "year": 1997,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 782,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Kiss Kiss Bang Bang",
+      "year": 2005,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 5236,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Layer Cake",
+      "year": 2004,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 4836,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Out of Sight",
+      "year": 1998,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 1389,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Seven Psychopaths",
+      "year": 2012,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 86838,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Strange Days",
+      "year": 1995,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 281,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Guard",
+      "year": 2011,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 67913,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Limey",
+      "year": 1999,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 10388,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Mist",
+      "year": 2007,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "bridge",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "bridge"
+      ],
+      "tmdbId": 5876,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Net",
+      "year": 1995,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 1642,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Others",
+      "year": 2001,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "bridge",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "bridge"
+      ],
+      "tmdbId": 1933,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Ring",
+      "year": 2002,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "bridge",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "bridge"
+      ],
+      "tmdbId": 565,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "127 Hours",
+      "year": 2010,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "bridge",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "bridge"
+      ],
+      "tmdbId": 44115,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "A Simple Plan",
+      "year": 1998,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 10223,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "All Is Lost",
+      "year": 2013,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "bridge",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "bridge"
+      ],
+      "tmdbId": 152747,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Arlington Road",
+      "year": 1999,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 1073,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Breakdown",
+      "year": 1997,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 2163,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Contact",
+      "year": 1997,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "bridge",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "bridge"
+      ],
+      "tmdbId": 686,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Cop Land",
+      "year": 1997,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 2142,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Death Sentence",
+      "year": 2007,
+      "sourceBucket": "Revenge & Moral Collapse",
+      "pathwayRole": "bridge",
+      "tags": [
+        "revenge",
+        "moral-collapse",
+        "crime",
+        "violent",
+        "bridge"
+      ],
+      "tmdbId": 11835,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Don't Look Now",
+      "year": 1973,
+      "sourceBucket": "Psychological Descent",
+      "pathwayRole": "bridge",
+      "tags": [
+        "psychological",
+        "descent",
+        "identity",
+        "unsettling",
+        "bridge"
+      ],
+      "tmdbId": 931,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Elite Squad",
+      "year": 2007,
+      "sourceBucket": "Foreign Language Essentials",
+      "pathwayRole": "bridge",
+      "tags": [
+        "foreign-language",
+        "essential",
+        "crime",
+        "horror",
+        "bridge"
+      ],
+      "tmdbId": 7347,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Enemy Mine",
+      "year": 1985,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "bridge",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "bridge"
+      ],
+      "tmdbId": 11864,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Frailty",
+      "year": 2001,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 12149,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Frequency",
+      "year": 2000,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "bridge",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "bridge"
+      ],
+      "tmdbId": 10559,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Hard Boiled",
+      "year": 1992,
+      "sourceBucket": "Stylish Action",
+      "pathwayRole": "bridge",
+      "tags": [
+        "stylish-action",
+        "crime",
+        "kinetic",
+        "cult",
+        "bridge"
+      ],
+      "tmdbId": 11782,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Haywire",
+      "year": 2011,
+      "sourceBucket": "Stylish Action",
+      "pathwayRole": "bridge",
+      "tags": [
+        "stylish-action",
+        "crime",
+        "kinetic",
+        "cult",
+        "bridge"
+      ],
+      "tmdbId": 70435,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Insomnia",
+      "year": 2002,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 320,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Jacob's Ladder",
+      "year": 1990,
+      "sourceBucket": "Psychological Descent",
+      "pathwayRole": "bridge",
+      "tags": [
+        "psychological",
+        "descent",
+        "identity",
+        "unsettling",
+        "bridge"
+      ],
+      "tmdbId": 2291,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Manhunter",
+      "year": 1986,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 11454,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Memories of Murder",
+      "year": 2003,
+      "sourceBucket": "Foreign Language Essentials",
+      "pathwayRole": "bridge",
+      "tags": [
+        "foreign-language",
+        "essential",
+        "crime",
+        "horror",
+        "bridge"
+      ],
+      "tmdbId": 11423,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "One False Move",
+      "year": 1992,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 21128,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Open Water",
+      "year": 2003,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "bridge",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "bridge"
+      ],
+      "tmdbId": 83,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Payback",
+      "year": 1999,
+      "sourceBucket": "Revenge & Moral Collapse",
+      "pathwayRole": "bridge",
+      "tags": [
+        "revenge",
+        "moral-collapse",
+        "crime",
+        "violent",
+        "bridge"
+      ],
+      "tmdbId": 2112,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Pi",
+      "year": 1998,
+      "sourceBucket": "Psychological Descent",
+      "pathwayRole": "bridge",
+      "tags": [
+        "psychological",
+        "descent",
+        "identity",
+        "unsettling",
+        "bridge"
+      ],
+      "tmdbId": 473,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Predestination",
+      "year": 2014,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "bridge",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "bridge"
+      ],
+      "tmdbId": 206487,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Ravenous",
+      "year": 1999,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "bridge",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "bridge"
+      ],
+      "tmdbId": 10212,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Rolling Thunder",
+      "year": 1977,
+      "sourceBucket": "Revenge & Moral Collapse",
+      "pathwayRole": "bridge",
+      "tags": [
+        "revenge",
+        "moral-collapse",
+        "crime",
+        "violent",
+        "bridge"
+      ],
+      "tmdbId": 21948,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Ronin",
+      "year": 1998,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 8195,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "The Conversation",
+      "year": 1974,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 592,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "The Friends of Eddie Coyle",
+      "year": 1973,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 25680,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "The Killer",
+      "year": 1989,
+      "sourceBucket": "Stylish Action",
+      "pathwayRole": "bridge",
+      "tags": [
+        "stylish-action",
+        "crime",
+        "kinetic",
+        "cult",
+        "bridge"
+      ],
+      "tmdbId": 10835,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "The Way of the Gun",
+      "year": 2000,
+      "sourceBucket": "Stylish Action",
+      "pathwayRole": "bridge",
+      "tags": [
+        "stylish-action",
+        "crime",
+        "kinetic",
+        "cult",
+        "bridge"
+      ],
+      "tmdbId": 1619,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "To Live and Die in L.A.",
+      "year": 1985,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 9846,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Aniara",
+      "year": 2018,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "discovery",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "discovery"
+      ],
+      "tmdbId": 496743,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 85
+    },
+    {
+      "title": "Dual",
+      "year": 2022,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "discovery",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "discovery"
+      ],
+      "tmdbId": 698128,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 85
+    },
+    {
+      "title": "Prospect",
+      "year": 2018,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "discovery",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "discovery"
+      ],
+      "tmdbId": 506072,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 85
+    },
+    {
+      "title": "The Artifice Girl",
+      "year": 2022,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "discovery",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "discovery"
+      ],
+      "tmdbId": 983282,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 85
+    },
+    {
+      "title": "Black Mountain Side",
+      "year": 2014,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "discovery",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "discovery"
+      ],
+      "tmdbId": 267852,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "Dragged Across Concrete",
+      "year": 2018,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "discovery",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "discovery"
+      ],
+      "tmdbId": 438674,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "Primer",
+      "year": 2004,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "discovery",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "discovery"
+      ],
+      "tmdbId": 14337,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "Resolution",
+      "year": 2012,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "discovery",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "discovery"
+      ],
+      "tmdbId": 121606,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "Sexy Beast",
+      "year": 2000,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "discovery",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "discovery"
+      ],
+      "tmdbId": 11826,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "Synchronic",
+      "year": 2019,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "discovery",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "discovery"
+      ],
+      "tmdbId": 549294,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "The Endless",
+      "year": 2017,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "discovery",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "discovery"
+      ],
+      "tmdbId": 430231,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "21 Jump Street",
+      "year": 2012,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 64688,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "22 Jump Street",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 187017,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "36th Precinct",
+      "year": 2004,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 7291,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "A Beautiful Mind",
+      "year": 2001,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 453,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "A Dark Song",
+      "year": 2016,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 409297,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "A Few Good Men",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 881,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "A Most Wanted Man",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 157849,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "A Prophet",
+      "year": 2009,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 21575,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "A Quiet Place",
+      "year": 2018,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 447332,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "A Quiet Place Part II",
+      "year": 2021,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 520763,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "A Tale of Two Sisters",
+      "year": 2007,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 4552,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Amélie",
+      "year": 2001,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 194,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "American Hustle",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 168672,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Another Round",
+      "year": 2020,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 580175,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Audition",
+      "year": 2000,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 11075,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Baskin",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 334394,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Bedevilled",
+      "year": 2003,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 59421,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Before Sunrise",
+      "year": 1995,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 76,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Before Sunset",
+      "year": 2004,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 80,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Blue Ruin",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 188166,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Borgman",
+      "year": 2013,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 186929,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Brooklyn",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 167073,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Bullhead",
+      "year": 2011,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 63310,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Burning",
+      "year": 2018,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 813106,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Cape Fear",
+      "year": 1991,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 1598,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Captain Phillips",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 109424,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Carol",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 258480,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Casino",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 524,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Cast Away",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 8358,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Caveat",
+      "year": 2020,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 744746,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Cell 211",
+      "year": 2009,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 33273,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Children of Men",
+      "year": 2006,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 9693,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Coherence",
+      "year": 2013,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 220289,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Cold in July",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 244509,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Columbus",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 414453,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Cop Car",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 310133,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Coraline",
+      "year": 2009,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 14836,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Crazy Rich Asians",
+      "year": 2018,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 455207,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Cure",
+      "year": 1989,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 36095,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Dark Water",
+      "year": 1969,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 12205,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Decision to Leave",
+      "year": 2022,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 705996,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "District 9",
+      "year": 2009,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 17654,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Dragonheart",
+      "year": 1996,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 8840,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Dredd",
+      "year": 2012,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 49049,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Easy A",
+      "year": 2010,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 37735,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Elle",
+      "year": 2016,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 337674,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Enemy",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 181886,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Erin Brockovich",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 462,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Ex Machina",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 264660,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Ganglands",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 393717,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Good Time",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 429200,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Good Will Hunting",
+      "year": 1997,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 489,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Goodnight Mommy",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 284303,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Gran Torino",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 13223,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "year": 2011,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 12445,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Harry Potter and the Goblet of Fire",
+      "year": 2005,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 674,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "year": 2004,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 673,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Hatching",
+      "year": 2022,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 517302,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Headhunters",
+      "year": 2011,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 70670,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Hell House LLC",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 359246,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Her",
+      "year": 2013,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 152601,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Host",
+      "year": 2020,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 723072,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Hush",
+      "year": 2016,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 376570,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "I Saw the Devil",
+      "year": 2010,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 49797,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Impetigore",
+      "year": 2019,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 572468,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Inside",
+      "year": 2007,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 13312,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Joint Security Area",
+      "year": 2000,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 2440,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Ju-On: The Grudge",
+      "year": 2002,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 11838,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Kill List",
+      "year": 2011,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 74725,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Killing Them Softly",
+      "year": 2012,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 64689,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Legally Blonde",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 8835,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Legend",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 276907,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Looper",
+      "year": 2012,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 59967,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Love and Basketball",
+      "year": 2000,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 14736,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Marrowbone",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 399366,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Marshland",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 236735,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Martyrs",
+      "year": 2008,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 9539,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Memento",
+      "year": 2000,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 77,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Memoir of a Murderer",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 432836,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Mesrine: Killer Instinct",
+      "year": 2008,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 13635,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Mesrine: Public Enemy No. 1",
+      "year": 2008,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 15362,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Misery",
+      "year": 1990,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 1700,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Mission: Impossible - Fallout",
+      "year": 2018,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 353081,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Moana",
+      "year": 2026,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 1108427,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Moloch",
+      "year": 2022,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 959558,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Moneyball",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 60308,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Moonlight",
+      "year": 2016,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 376867,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Mother",
+      "year": 2009,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 698885,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "New World",
+      "year": 2013,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 165213,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Noroi: The Curse",
+      "year": 2005,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 21506,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Ocean's Eleven",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 161,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Ocean's Thirteen",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 298,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Ocean's Twelve",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 163,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "One Cut of the Dead",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 513434,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Out of the Furnace",
+      "year": 2013,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 164457,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Pan's Labyrinth",
+      "year": 2006,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 1417,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Panic Room",
+      "year": 2002,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 4547,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Piggy",
+      "year": 2022,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 848058,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Point Blank",
+      "year": 2010,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 61404,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Possessor",
+      "year": 2020,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 435615,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Primal Fear",
+      "year": 1996,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 1592,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Public Enemies",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 11322,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Pulse",
+      "year": 2001,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 27324,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Raw",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 393519,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Revenge",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 467938,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Riders of Justice",
+      "year": 2020,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 663870,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Saint Maud",
+      "year": 2020,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 575776,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Satan's Slaves",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 467012,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Session 9",
+      "year": 2001,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 10972,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Shaun of the Dead",
+      "year": 2004,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 747,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Shutter",
+      "year": 2006,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 17111,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Sicario",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 273481,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Silver Linings Playbook",
+      "year": 2012,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 82693,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Sleep Tight",
+      "year": 2011,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 77495,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Sleepless Night",
+      "year": 2011,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 79070,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Source Code",
+      "year": 2011,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 45612,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Speak No Evil",
+      "year": 2022,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 833339,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Spotlight",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 314365,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Step Brothers",
+      "year": 2008,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 12133,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Steve Jobs",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 321697,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Super Dark Times",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 396940,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Tell No One",
+      "year": 2006,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 10795,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Tenet",
+      "year": 2020,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 577922,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Terrified",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 489430,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Autopsy of Jane Doe",
+      "year": 2016,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 397243,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Beat That My Heart Skipped",
+      "year": 2005,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 1553,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Berlin File",
+      "year": 2013,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 160704,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Blackcoat's Daughter",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 334536,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Blind Side",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 22881,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Bourne Identity",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 2501,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Bourne Supremacy",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 2502,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Connection",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 197950,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Crew",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 393717,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Crimson Rivers",
+      "year": 2000,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 60670,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Departed",
+      "year": 2006,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 1422,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Devil's Backbone",
+      "year": 2001,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 1433,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Dry",
+      "year": 2020,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 567797,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Fighter",
+      "year": 2010,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 45317,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Founder",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 310307,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Game",
+      "year": 1997,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 2649,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Gangster, the Cop, the Devil",
+      "year": 2019,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 581528,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Gift",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 328425,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Girl with the Dragon Tattoo",
+      "year": 2011,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 65754,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Guilty",
+      "year": 2018,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 486947,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Handmaiden",
+      "year": 2016,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 290098,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Host",
+      "year": 2006,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 1255,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The House at the End of Time",
+      "year": 2013,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 207686,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Hunt",
+      "year": 2012,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 103663,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Imitation Game",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 205596,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Innocents",
+      "year": 2021,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 660942,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Intern",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 257211,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Invisible Guest",
+      "year": 2016,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 411088,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Killing of a Sacred Deer",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 399057,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The King's Speech",
+      "year": 2010,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 45269,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Lincoln Lawyer",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 50348,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Lodge",
+      "year": 2020,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 474764,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Man from Nowhere",
+      "year": 2010,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 51608,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Medium",
+      "year": 2021,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 745881,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Notebook",
+      "year": 2004,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 11036,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Orphanage",
+      "year": 2007,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 6537,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Prestige",
+      "year": 2006,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 1124,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Queen of Black Magic",
+      "year": 2023,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 590593,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Raid 2",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 180299,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Sadness",
+      "year": 2022,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 776797,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Secret in Their Eyes",
+      "year": 2009,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 25376,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Terminal",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 594,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Town",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 23168,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Treatment",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 251577,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Vanishing",
+      "year": 1988,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 8740,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Villainess",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 437109,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Wolf of Wall Street",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 106646,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Wrestler",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 12163,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "The Yellow Sea",
+      "year": 2010,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 57361,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Thelma",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 401898,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Them",
+      "year": 2006,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 10832,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Thesis",
+      "year": 1996,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 9299,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Titane",
+      "year": 2022,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 630240,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "year": 2022,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 361743,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Training Day",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 2034,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Victoria",
+      "year": 2015,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 320007,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Watcher",
+      "year": 2022,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 807356,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Wedding Crashers",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 9522,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Whiplash",
+      "year": 2014,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 244786,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Wind River",
+      "year": 2017,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 395834,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    },
+    {
+      "title": "Your Name",
+      "year": null,
+      "sourceBucket": null,
+      "pathwayRole": null,
+      "tags": [],
+      "tmdbId": 553301,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 15
+    }
+  ],
+  "top50PriorityRecovery": [
+    {
+      "title": "Back to the Future",
+      "year": 1985,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 105,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "Men in Black",
+      "year": 1997,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 607,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "Mission: Impossible",
+      "year": 1996,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 954,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "The Fugitive",
+      "year": 1993,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 5503,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "Executive Decision",
+      "year": 1996,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 2320,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "Patriot Games",
+      "year": 1992,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 9869,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "Sneakers",
+      "year": 1992,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 2322,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "The Abyss",
+      "year": 1989,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 2756,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "A Nightmare on Elm Street",
+      "year": 1984,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "anchor",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "anchor"
+      ],
+      "tmdbId": 377,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Blade Runner",
+      "year": 1982,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 78,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Fargo",
+      "year": 1996,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 275,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "In Bruges",
+      "year": 2008,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 8321,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Lock, Stock and Two Smoking Barrels",
+      "year": 1998,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 100,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 680,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Snatch",
+      "year": 2000,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 107,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 280,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "The Exorcist",
+      "year": 1973,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "anchor",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "anchor"
+      ],
+      "tmdbId": 9552,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "The Matrix",
+      "year": 1999,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 603,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "The Shining",
+      "year": 1980,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "anchor",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "anchor"
+      ],
+      "tmdbId": 694,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Total Recall",
+      "year": 1990,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 861,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Trainspotting",
+      "year": 1996,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 627,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Alive",
+      "year": 1993,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "anchor",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "anchor"
+      ],
+      "tmdbId": 7305,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "City of God",
+      "year": 2002,
+      "sourceBucket": "Foreign Language Essentials",
+      "pathwayRole": "anchor",
+      "tags": [
+        "foreign-language",
+        "essential",
+        "crime",
+        "horror",
+        "anchor"
+      ],
+      "tmdbId": 598,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Donnie Brasco",
+      "year": 1997,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "anchor",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "anchor"
+      ],
+      "tmdbId": 9366,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Goodfellas",
+      "year": 1990,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "anchor",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "anchor"
+      ],
+      "tmdbId": 769,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Hereditary",
+      "year": 2018,
+      "sourceBucket": "Smart Horror Mainstream",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-horror",
+        "mainstream-horror",
+        "supernatural",
+        "modern",
+        "anchor"
+      ],
+      "tmdbId": 493922,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Leon: The Professional",
+      "year": 1994,
+      "sourceBucket": "Revenge & Moral Collapse",
+      "pathwayRole": "anchor",
+      "tags": [
+        "revenge",
+        "moral-collapse",
+        "crime",
+        "violent",
+        "anchor"
+      ],
+      "tmdbId": 101,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Oldboy",
+      "year": 2003,
+      "sourceBucket": "Foreign Language Essentials",
+      "pathwayRole": "anchor",
+      "tags": [
+        "foreign-language",
+        "essential",
+        "crime",
+        "horror",
+        "anchor"
+      ],
+      "tmdbId": 670,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Conjuring",
+      "year": 2013,
+      "sourceBucket": "Smart Horror Mainstream",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-horror",
+        "mainstream-horror",
+        "supernatural",
+        "modern",
+        "anchor"
+      ],
+      "tmdbId": 138843,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Grey",
+      "year": 2011,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "anchor",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "anchor"
+      ],
+      "tmdbId": 75174,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Machinist",
+      "year": 2004,
+      "sourceBucket": "Psychological Descent",
+      "pathwayRole": "anchor",
+      "tags": [
+        "psychological",
+        "descent",
+        "identity",
+        "unsettling",
+        "anchor"
+      ],
+      "tmdbId": 4553,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Usual Suspects",
+      "year": 1995,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "anchor",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "anchor"
+      ],
+      "tmdbId": 629,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Copshop",
+      "year": 2021,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 738652,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "Midnight Special",
+      "year": 2016,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 245703,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "Run Lola Run",
+      "year": 1998,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 104,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "The Fall",
+      "year": 2006,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 14784,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "1408",
+      "year": 2007,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "bridge",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "bridge"
+      ],
+      "tmdbId": 3021,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Blackhat",
+      "year": 2015,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 201088,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Brick",
+      "year": 2005,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 9270,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Cam",
+      "year": 2018,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 521935,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Dark City",
+      "year": 1998,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 2666,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Event Horizon",
+      "year": 1997,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 8413,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "eXistenZ",
+      "year": 1999,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 1946,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Gattaca",
+      "year": 1997,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 782,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Kiss Kiss Bang Bang",
+      "year": 2005,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 5236,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Layer Cake",
+      "year": 2004,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 4836,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Out of Sight",
+      "year": 1998,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 1389,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Seven Psychopaths",
+      "year": 2012,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 86838,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Strange Days",
+      "year": 1995,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 281,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Guard",
+      "year": 2011,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 67913,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    }
+  ],
+  "missingAnchors": [
+    {
+      "title": "Back to the Future",
+      "year": 1985,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 105,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "Men in Black",
+      "year": 1997,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 607,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "Mission: Impossible",
+      "year": 1996,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 954,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "The Fugitive",
+      "year": 1993,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "anchor"
+      ],
+      "tmdbId": 5503,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 225
+    },
+    {
+      "title": "A Nightmare on Elm Street",
+      "year": 1984,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "anchor",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "anchor"
+      ],
+      "tmdbId": 377,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Blade Runner",
+      "year": 1982,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 78,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Fargo",
+      "year": 1996,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 275,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "In Bruges",
+      "year": 2008,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 8321,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Lock, Stock and Two Smoking Barrels",
+      "year": 1998,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 100,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 680,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Snatch",
+      "year": 2000,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 107,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 280,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "The Exorcist",
+      "year": 1973,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "anchor",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "anchor"
+      ],
+      "tmdbId": 9552,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "The Matrix",
+      "year": 1999,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 603,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "The Shining",
+      "year": 1980,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "anchor",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "anchor"
+      ],
+      "tmdbId": 694,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Total Recall",
+      "year": 1990,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "anchor",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "anchor"
+      ],
+      "tmdbId": 861,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Trainspotting",
+      "year": 1996,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "anchor",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "anchor"
+      ],
+      "tmdbId": 627,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 175
+    },
+    {
+      "title": "Alive",
+      "year": 1993,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "anchor",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "anchor"
+      ],
+      "tmdbId": 7305,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "City of God",
+      "year": 2002,
+      "sourceBucket": "Foreign Language Essentials",
+      "pathwayRole": "anchor",
+      "tags": [
+        "foreign-language",
+        "essential",
+        "crime",
+        "horror",
+        "anchor"
+      ],
+      "tmdbId": 598,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Donnie Brasco",
+      "year": 1997,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "anchor",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "anchor"
+      ],
+      "tmdbId": 9366,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Goodfellas",
+      "year": 1990,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "anchor",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "anchor"
+      ],
+      "tmdbId": 769,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Hereditary",
+      "year": 2018,
+      "sourceBucket": "Smart Horror Mainstream",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-horror",
+        "mainstream-horror",
+        "supernatural",
+        "modern",
+        "anchor"
+      ],
+      "tmdbId": 493922,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Leon: The Professional",
+      "year": 1994,
+      "sourceBucket": "Revenge & Moral Collapse",
+      "pathwayRole": "anchor",
+      "tags": [
+        "revenge",
+        "moral-collapse",
+        "crime",
+        "violent",
+        "anchor"
+      ],
+      "tmdbId": 101,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "Oldboy",
+      "year": 2003,
+      "sourceBucket": "Foreign Language Essentials",
+      "pathwayRole": "anchor",
+      "tags": [
+        "foreign-language",
+        "essential",
+        "crime",
+        "horror",
+        "anchor"
+      ],
+      "tmdbId": 670,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Conjuring",
+      "year": 2013,
+      "sourceBucket": "Smart Horror Mainstream",
+      "pathwayRole": "anchor",
+      "tags": [
+        "smart-horror",
+        "mainstream-horror",
+        "supernatural",
+        "modern",
+        "anchor"
+      ],
+      "tmdbId": 138843,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Grey",
+      "year": 2011,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "anchor",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "anchor"
+      ],
+      "tmdbId": 75174,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Machinist",
+      "year": 2004,
+      "sourceBucket": "Psychological Descent",
+      "pathwayRole": "anchor",
+      "tags": [
+        "psychological",
+        "descent",
+        "identity",
+        "unsettling",
+        "anchor"
+      ],
+      "tmdbId": 4553,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    },
+    {
+      "title": "The Usual Suspects",
+      "year": 1995,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "anchor",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "anchor"
+      ],
+      "tmdbId": 629,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 155
+    }
+  ],
+  "missingBridges": [
+    {
+      "title": "Executive Decision",
+      "year": 1996,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 2320,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "Patriot Games",
+      "year": 1992,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 9869,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "Sneakers",
+      "year": 1992,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 2322,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "The Abyss",
+      "year": 1989,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "bridge",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "bridge"
+      ],
+      "tmdbId": 2756,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 180
+    },
+    {
+      "title": "1408",
+      "year": 2007,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "bridge",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "bridge"
+      ],
+      "tmdbId": 3021,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Blackhat",
+      "year": 2015,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 201088,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Brick",
+      "year": 2005,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 9270,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Cam",
+      "year": 2018,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 521935,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Dark City",
+      "year": 1998,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 2666,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Event Horizon",
+      "year": 1997,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 8413,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "eXistenZ",
+      "year": 1999,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 1946,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Gattaca",
+      "year": 1997,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 782,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Kiss Kiss Bang Bang",
+      "year": 2005,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 5236,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Layer Cake",
+      "year": 2004,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 4836,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Out of Sight",
+      "year": 1998,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 1389,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Seven Psychopaths",
+      "year": 2012,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 86838,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "Strange Days",
+      "year": 1995,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "bridge",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "bridge"
+      ],
+      "tmdbId": 281,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Guard",
+      "year": 2011,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 67913,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Limey",
+      "year": 1999,
+      "sourceBucket": "Cult Crime & Dark Comedy",
+      "pathwayRole": "bridge",
+      "tags": [
+        "cult-crime",
+        "dark-comedy",
+        "crime",
+        "offbeat",
+        "bridge"
+      ],
+      "tmdbId": 10388,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Mist",
+      "year": 2007,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "bridge",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "bridge"
+      ],
+      "tmdbId": 5876,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Net",
+      "year": 1995,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "bridge",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "bridge"
+      ],
+      "tmdbId": 1642,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Others",
+      "year": 2001,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "bridge",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "bridge"
+      ],
+      "tmdbId": 1933,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "The Ring",
+      "year": 2002,
+      "sourceBucket": "Atmospheric Horror",
+      "pathwayRole": "bridge",
+      "tags": [
+        "atmospheric-horror",
+        "unsettling",
+        "supernatural",
+        "slow-burn",
+        "bridge"
+      ],
+      "tmdbId": 565,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 130
+    },
+    {
+      "title": "127 Hours",
+      "year": 2010,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "bridge",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "bridge"
+      ],
+      "tmdbId": 44115,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "A Simple Plan",
+      "year": 1998,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 10223,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "All Is Lost",
+      "year": 2013,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "bridge",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "bridge"
+      ],
+      "tmdbId": 152747,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Arlington Road",
+      "year": 1999,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 1073,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Breakdown",
+      "year": 1997,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 2163,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Contact",
+      "year": 1997,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "bridge",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "bridge"
+      ],
+      "tmdbId": 686,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Cop Land",
+      "year": 1997,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 2142,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Death Sentence",
+      "year": 2007,
+      "sourceBucket": "Revenge & Moral Collapse",
+      "pathwayRole": "bridge",
+      "tags": [
+        "revenge",
+        "moral-collapse",
+        "crime",
+        "violent",
+        "bridge"
+      ],
+      "tmdbId": 11835,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Don't Look Now",
+      "year": 1973,
+      "sourceBucket": "Psychological Descent",
+      "pathwayRole": "bridge",
+      "tags": [
+        "psychological",
+        "descent",
+        "identity",
+        "unsettling",
+        "bridge"
+      ],
+      "tmdbId": 931,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Elite Squad",
+      "year": 2007,
+      "sourceBucket": "Foreign Language Essentials",
+      "pathwayRole": "bridge",
+      "tags": [
+        "foreign-language",
+        "essential",
+        "crime",
+        "horror",
+        "bridge"
+      ],
+      "tmdbId": 7347,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Enemy Mine",
+      "year": 1985,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "bridge",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "bridge"
+      ],
+      "tmdbId": 11864,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Frailty",
+      "year": 2001,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 12149,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Frequency",
+      "year": 2000,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "bridge",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "bridge"
+      ],
+      "tmdbId": 10559,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Hard Boiled",
+      "year": 1992,
+      "sourceBucket": "Stylish Action",
+      "pathwayRole": "bridge",
+      "tags": [
+        "stylish-action",
+        "crime",
+        "kinetic",
+        "cult",
+        "bridge"
+      ],
+      "tmdbId": 11782,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Haywire",
+      "year": 2011,
+      "sourceBucket": "Stylish Action",
+      "pathwayRole": "bridge",
+      "tags": [
+        "stylish-action",
+        "crime",
+        "kinetic",
+        "cult",
+        "bridge"
+      ],
+      "tmdbId": 70435,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Insomnia",
+      "year": 2002,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 320,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Jacob's Ladder",
+      "year": 1990,
+      "sourceBucket": "Psychological Descent",
+      "pathwayRole": "bridge",
+      "tags": [
+        "psychological",
+        "descent",
+        "identity",
+        "unsettling",
+        "bridge"
+      ],
+      "tmdbId": 2291,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Manhunter",
+      "year": 1986,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 11454,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Memories of Murder",
+      "year": 2003,
+      "sourceBucket": "Foreign Language Essentials",
+      "pathwayRole": "bridge",
+      "tags": [
+        "foreign-language",
+        "essential",
+        "crime",
+        "horror",
+        "bridge"
+      ],
+      "tmdbId": 11423,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "One False Move",
+      "year": 1992,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 21128,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Open Water",
+      "year": 2003,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "bridge",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "bridge"
+      ],
+      "tmdbId": 83,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Payback",
+      "year": 1999,
+      "sourceBucket": "Revenge & Moral Collapse",
+      "pathwayRole": "bridge",
+      "tags": [
+        "revenge",
+        "moral-collapse",
+        "crime",
+        "violent",
+        "bridge"
+      ],
+      "tmdbId": 2112,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Pi",
+      "year": 1998,
+      "sourceBucket": "Psychological Descent",
+      "pathwayRole": "bridge",
+      "tags": [
+        "psychological",
+        "descent",
+        "identity",
+        "unsettling",
+        "bridge"
+      ],
+      "tmdbId": 473,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Predestination",
+      "year": 2014,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "bridge",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "bridge"
+      ],
+      "tmdbId": 206487,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Ravenous",
+      "year": 1999,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "bridge",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "bridge"
+      ],
+      "tmdbId": 10212,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Rolling Thunder",
+      "year": 1977,
+      "sourceBucket": "Revenge & Moral Collapse",
+      "pathwayRole": "bridge",
+      "tags": [
+        "revenge",
+        "moral-collapse",
+        "crime",
+        "violent",
+        "bridge"
+      ],
+      "tmdbId": 21948,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "Ronin",
+      "year": 1998,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 8195,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "The Conversation",
+      "year": 1974,
+      "sourceBucket": "Bleak Thriller",
+      "pathwayRole": "bridge",
+      "tags": [
+        "bleak",
+        "thriller",
+        "crime",
+        "psychological",
+        "bridge"
+      ],
+      "tmdbId": 592,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "The Friends of Eddie Coyle",
+      "year": 1973,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 25680,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "The Killer",
+      "year": 1989,
+      "sourceBucket": "Stylish Action",
+      "pathwayRole": "bridge",
+      "tags": [
+        "stylish-action",
+        "crime",
+        "kinetic",
+        "cult",
+        "bridge"
+      ],
+      "tmdbId": 10835,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "The Way of the Gun",
+      "year": 2000,
+      "sourceBucket": "Stylish Action",
+      "pathwayRole": "bridge",
+      "tags": [
+        "stylish-action",
+        "crime",
+        "kinetic",
+        "cult",
+        "bridge"
+      ],
+      "tmdbId": 1619,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    },
+    {
+      "title": "To Live and Die in L.A.",
+      "year": 1985,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "bridge",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "bridge"
+      ],
+      "tmdbId": 9846,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 110
+    }
+  ],
+  "missingDiscoveries": [
+    {
+      "title": "Copshop",
+      "year": 2021,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 738652,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "Midnight Special",
+      "year": 2016,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 245703,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "Run Lola Run",
+      "year": 1998,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 104,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "The Fall",
+      "year": 2006,
+      "sourceBucket": "Smart Blockbusters",
+      "pathwayRole": "discovery",
+      "tags": [
+        "smart-blockbuster",
+        "mainstream",
+        "90s",
+        "rewatchable",
+        "discovery"
+      ],
+      "tmdbId": 14784,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 135
+    },
+    {
+      "title": "Aniara",
+      "year": 2018,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "discovery",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "discovery"
+      ],
+      "tmdbId": 496743,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 85
+    },
+    {
+      "title": "Dual",
+      "year": 2022,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "discovery",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "discovery"
+      ],
+      "tmdbId": 698128,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 85
+    },
+    {
+      "title": "Prospect",
+      "year": 2018,
+      "sourceBucket": "Paranoid Sci-Fi",
+      "pathwayRole": "discovery",
+      "tags": [
+        "paranoid",
+        "sci-fi",
+        "high-concept",
+        "tech-anxiety",
+        "discovery"
+      ],
+      "tmdbId": 506072,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 85
+    },
+    {
+      "title": "The Artifice Girl",
+      "year": 2022,
+      "sourceBucket": "Tech Anxiety & Surveillance",
+      "pathwayRole": "discovery",
+      "tags": [
+        "tech-anxiety",
+        "surveillance",
+        "paranoid",
+        "modern",
+        "discovery"
+      ],
+      "tmdbId": 983282,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 85
+    },
+    {
+      "title": "Black Mountain Side",
+      "year": 2014,
+      "sourceBucket": "Survival & Isolation",
+      "pathwayRole": "discovery",
+      "tags": [
+        "survival",
+        "isolation",
+        "bleak",
+        "contained",
+        "discovery"
+      ],
+      "tmdbId": 267852,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "Dragged Across Concrete",
+      "year": 2018,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "discovery",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "discovery"
+      ],
+      "tmdbId": 438674,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "Primer",
+      "year": 2004,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "discovery",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "discovery"
+      ],
+      "tmdbId": 14337,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "Resolution",
+      "year": 2012,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "discovery",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "discovery"
+      ],
+      "tmdbId": 121606,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "Sexy Beast",
+      "year": 2000,
+      "sourceBucket": "Neo-Noir Crime",
+      "pathwayRole": "discovery",
+      "tags": [
+        "neo-noir",
+        "crime",
+        "procedural",
+        "80s-90s",
+        "discovery"
+      ],
+      "tmdbId": 11826,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "Synchronic",
+      "year": 2019,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "discovery",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "discovery"
+      ],
+      "tmdbId": 549294,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    },
+    {
+      "title": "The Endless",
+      "year": 2017,
+      "sourceBucket": "Sci-Fi Mystery",
+      "pathwayRole": "discovery",
+      "tags": [
+        "sci-fi",
+        "mystery",
+        "high-concept",
+        "cerebral",
+        "discovery"
+      ],
+      "tmdbId": 430231,
+      "ukAvailabilitySource": "tmdb-none",
+      "priorityScore": 65
+    }
+  ]
+}

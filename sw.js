@@ -1,4 +1,4 @@
-const CACHE_NAME = "noscroll-v16";
+const CACHE_NAME = "noscroll-v20";
 
 const APP_SHELL_FILES = [
   "/",
@@ -7,7 +7,8 @@ const APP_SHELL_FILES = [
   "/style.css",
   "/manifest.json",
   "/icon-192.png",
-  "/icon-512.png"
+  "/icon-512.png",
+  "/movies.json"
 ];
 
 self.addEventListener("install", (event) => {

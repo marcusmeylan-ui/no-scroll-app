@@ -213,8 +213,7 @@ let ratingSessionStep = 0;
 let pendingFollowUp = null;
 let dismissedRecommendationIds = [];
 let isBrowsingMoreFilms = false;
-let activeView = "rate";
-let forcedRatingMovieId = null;
+
 // =========================
 // Boot
 // =========================
@@ -595,8 +594,6 @@ function renderApp() {
   const screen = document.getElementById("app-screen");
   if (!screen) return;
 
-  updateAppChrome();
-
   if (!isDataLoaded) {
     screen.innerHTML = `
       <section class="section-card">
@@ -613,12 +610,6 @@ function renderApp() {
   }
 
   pruneSkippedMovieState();
-
-  if (activeView === "settings") {
-    renderSettingsScreen(screen);
-    updateBottomNavState("settings");
-    return;
-  }
 
   const ratedCount = Object.keys(ratings).length;
   const candidateCount = getRecommendationCandidates().length;
@@ -741,29 +732,14 @@ function renderRatingScreen(screen, ratedCount, candidateCount) {
         <p class="movie-title">${escapeHtml(currentMovie.title)}</p>
         <p class="movie-meta">${escapeHtml(formatDisplayLabel(currentMovie.genre))} · ${escapeHtml(formatDisplayLabel(currentMovie.tone))}</p>
         <p class="service-meta">${escapeHtml(streamingLabels)}</p>
-        <p class="section-copy" style="margin-top: 12px;">What does this film say about your taste?</p>
+        <p class="section-copy" style="margin-top: 12px;">How much do you like this film?</p>
 
-        <div class="stacked-rating-row taste-rating-row">
-          <button class="rating-btn taste-rating-btn taste-rating-negative" onclick="rateMovieAndAdvance(${currentMovie.id}, 1)">
-            <span class="taste-rating-icon">✕</span>
-            <span>Not for me</span>
-          </button>
-          <button class="rating-btn taste-rating-btn taste-rating-watchable" onclick="rateMovieAndAdvance(${currentMovie.id}, 2)">
-            <span class="taste-rating-icon">◉</span>
-            <span>Watchable</span>
-          </button>
-          <button class="rating-btn taste-rating-btn taste-rating-liked" onclick="rateMovieAndAdvance(${currentMovie.id}, 3)">
-            <span class="taste-rating-icon">♡</span>
-            <span>Liked it</span>
-          </button>
-          <button class="rating-btn taste-rating-btn taste-rating-rewatch" onclick="rateMovieAndAdvance(${currentMovie.id}, 4)">
-            <span class="taste-rating-icon">↻</span>
-            <span>Would rewatch</span>
-          </button>
-          <button class="rating-btn taste-rating-btn taste-rating-recommend" onclick="rateMovieAndAdvance(${currentMovie.id}, 5)">
-            <span class="taste-rating-icon">★</span>
-            <span>Would recommend</span>
-          </button>
+        <div class="stacked-rating-row">
+          <button class="rating-btn" onclick="rateMovieAndAdvance(${currentMovie.id}, 1)">1</button>
+          <button class="rating-btn" onclick="rateMovieAndAdvance(${currentMovie.id}, 2)">2</button>
+          <button class="rating-btn" onclick="rateMovieAndAdvance(${currentMovie.id}, 3)">3</button>
+          <button class="rating-btn" onclick="rateMovieAndAdvance(${currentMovie.id}, 4)">4</button>
+          <button class="rating-btn" onclick="rateMovieAndAdvance(${currentMovie.id}, 5)">5</button>
         </div>
 
         <div class="stacked-actions">
@@ -910,11 +886,10 @@ function renderPickScreen(screen, ratedCount, candidateCount) {
   const confidencePercent = getConfidencePercent(currentRecommendations.confidence, ratedCount);
   const whyList = buildWhyItWorksList(topPick);
   const matchedProviderLabels = getMatchedUkProviderLabels(topPick);
-const matchedProviderKeys = getDisplayServicesForMovie(topPick);
-const availableTonightCopy =
-  matchedProviderLabels.length > 0
-    ? `Available on ${matchedProviderLabels.join(", ")}`
-    : "Available on your selected services";
+  const availableTonightCopy =
+    matchedProviderLabels.length > 0
+      ? `Available on ${matchedProviderLabels.join(", ")}`
+      : "Available on your selected services";
 
   const backupLabels = ["Closest match", "Something different", "Wildcard pick"];
 
@@ -976,50 +951,28 @@ const availableTonightCopy =
             <p>Availability can vary by subscription tier and provider catalogue updates.</p>
           </div>
 
-          <div class="v2-provider-row v2-provider-icon-row">
-  ${matchedProviderKeys.length > 0
-    ? matchedProviderKeys
-        .map((serviceKey) => `
-          <span class="v2-provider-icon-tile" title="${escapeAttribute(SERVICE_LABELS[serviceKey] || serviceKey)}">
-            ${renderServiceLogoMarkup(serviceKey, "small")}
-          </span>
-        `)
-        .join("")
-    : `<span class="provider-chip">${escapeHtml(availableTonightCopy)}</span>`}
-</div>
+          <div class="v2-provider-row">
+            ${matchedProviderLabels.length > 0
+              ? matchedProviderLabels
+                  .map((label) => `<span class="provider-chip">${escapeHtml(label)}</span>`)
+                  .join("")
+              : `<span class="provider-chip">${escapeHtml(availableTonightCopy)}</span>`}
+          </div>
+        </div>
 
         <button class="primary-btn v2-primary-watch-btn" onclick="markRecommendationSeen(${topPick.id})">
           Play this tonight
         </button>
 
-        <div class="v2-secondary-actions v2-icon-actions v2-pick-action-grid">
-          <button class="ghost-btn v2-icon-action" onclick="addRecommendationToWatchlist(${topPick.id})" aria-label="Save for later">
-            <span class="v2-action-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M6 4.75A2.25 2.25 0 0 1 8.25 2.5h7.5A2.25 2.25 0 0 1 18 4.75v16l-6-3.75-6 3.75v-16Z"/></svg>
-            </span>
-            <span>Save</span>
-          </button>
+        <div class="v2-secondary-actions">
+          <button class="ghost-btn" onclick="addRecommendationToWatchlist(${topPick.id})">Save</button>
+          <button class="ghost-btn" onclick="shareTonightPick()">Share</button>
+          <button class="ghost-btn" onclick="dismissCurrentTopPick()">Not feeling it</button>
+        </div>
 
-          <button class="ghost-btn v2-icon-action" onclick="shareTonightPick()" aria-label="Share tonight's pick">
-            <span class="v2-action-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M12 3.5v10m0-10 3.75 3.75M12 3.5 8.25 7.25M5 11.5v6.25A2.75 2.75 0 0 0 7.75 20.5h8.5A2.75 2.75 0 0 0 19 17.75V11.5"/></svg>
-            </span>
-            <span>Share</span>
-          </button>
-
-          <button class="ghost-btn v2-icon-action" onclick="rateRecommendedMovie(${topPick.id})" aria-label="Mark this film as seen">
-            <span class="v2-action-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M2.75 12s3.25-6.25 9.25-6.25S21.25 12 21.25 12 18 18.25 12 18.25 2.75 12 2.75 12Z"/><path d="M12 9.25a2.75 2.75 0 1 1 0 5.5 2.75 2.75 0 0 1 0-5.5Z"/></svg>
-            </span>
-            <span>Mark seen</span>
-          </button>
-
-          <button class="ghost-btn v2-icon-action" onclick="dismissCurrentTopPick()" aria-label="Not feeling this recommendation">
-            <span class="v2-action-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M10.25 14.25 7.5 20.5a2.1 2.1 0 0 1-2-2.75l1.35-3.5H4.75A2.25 2.25 0 0 1 2.6 11.35l1.25-5.25A2.75 2.75 0 0 1 6.55 4h7.2v10.25h-3.5ZM15.75 4H19a2 2 0 0 1 2 2v6.25a2 2 0 0 1-2 2h-3.25V4Z"/></svg>
-            </span>
-            <span>Miss</span>
-          </button>
+        <div class="v2-tertiary-actions">
+          <button onclick="returnToMovieList()">Rate more films / mark seen</button>
+          <button onclick="sendTesterFeedback()">Send feedback</button>
         </div>
 
         <div class="v2-taste-panel">
@@ -1171,18 +1124,6 @@ function markRecommendationSeen(movieId) {
   devProfileMessage = "";
 
   generateRecommendations();
-}
-function rateRecommendedMovie(movieId) {
-  const targetMovie = movies.find((movie) => movie.id === movieId);
-  if (!targetMovie) return;
-
-  forcedRatingMovieId = movieId;
-  currentRecommendations = null;
-  isBrowsingMoreFilms = true;
-  activeView = "rate";
-
-  renderApp();
-  scrollAppToTop();
 }
 function returnToMovieList() {
   currentRecommendations = null;
@@ -1389,16 +1330,6 @@ function getNextRatingMovie() {
   const candidates = getRatingCandidates();
   if (candidates.length === 0) return null;
 
-  if (forcedRatingMovieId) {
-    const forcedMovie = candidates.find((movie) => movie.id === forcedRatingMovieId);
-
-    if (forcedMovie) {
-      return forcedMovie;
-    }
-
-    forcedRatingMovieId = null;
-  }
-
   const ratedCount = Object.keys(ratings).length;
 
   if (ratedCount < MIN_RATINGS) {
@@ -1527,10 +1458,6 @@ function getStableShuffledCandidates(candidates) {
 function rateMovie(movieId, rating) {
   ratings[movieId] = rating;
   seenMovies[movieId] = true;
-
-  if (forcedRatingMovieId === movieId) {
-    forcedRatingMovieId = null;
-  }
   delete skippedMovieState[movieId];
   advanceSessionStep();
 
@@ -1565,10 +1492,6 @@ function addToWatchlistAndAdvance(movieId) {
 
   watchlistMovies[movieId] = true;
   delete skippedMovieState[movieId];
-
-  if (forcedRatingMovieId === movieId) {
-    forcedRatingMovieId = null;
-  }
   advanceSessionStep();
   saveWatchlistMovies();
   clearDailyRecommendation();
@@ -1628,10 +1551,6 @@ function skipMovie(movieId) {
 
   seenMovies[movieId] = true;
   delete watchlistMovies[movieId];
-
-  if (forcedRatingMovieId === movieId) {
-    forcedRatingMovieId = null;
-  }
   delete skippedMovieState[movieId];
 
   advanceSessionStep();
@@ -2287,25 +2206,6 @@ function generateRecommendations() {
   renderApp();
   scrollAppToTop();
 }
-function renderServiceLogoMarkup(serviceKey, size = "large") {
-  const label = SERVICE_LABELS[serviceKey] || serviceKey;
-  const safeServiceKey = escapeAttribute(serviceKey);
-  const safeLabel = escapeHtml(label);
-
-  const logoText = {
-    netflix: "N",
-    prime: "prime",
-    nowtv: "NOW",
-    disney: "Disney+"
-  }[serviceKey] || safeLabel;
-
-  return `
-    <span class="service-logo service-logo-${safeServiceKey} service-logo-${escapeAttribute(size)}" aria-hidden="true">
-      ${escapeHtml(logoText)}
-    </span>
-  `;
-}
-
 function renderServiceCheckboxes() {
   const container = document.getElementById("service-controls");
   if (!container) return;
@@ -2313,15 +2213,12 @@ function renderServiceCheckboxes() {
   container.innerHTML = SUPPORTED_SERVICES
     .map((serviceKey) => {
       const checked = availableServices[serviceKey] ? "checked" : "";
-      const selectedClass = availableServices[serviceKey] ? "is-selected" : "";
       const label = SERVICE_LABELS[serviceKey] || serviceKey;
 
       return `
-        <label class="v2-service-tile ${selectedClass}">
+        <label>
           <input type="checkbox" value="${escapeAttribute(serviceKey)}" ${checked} />
-          <span class="v2-service-check" aria-hidden="true">✓</span>
-          ${renderServiceLogoMarkup(serviceKey)}
-          <span class="v2-service-name">${escapeHtml(label)}</span>
+          ${escapeHtml(label)}
         </label>
       `;
     })
@@ -2699,134 +2596,12 @@ function loadServicePreferences() {
     localStorage.removeItem(SERVICES_STORAGE_KEY);
   }
 }
-function updateAppChrome() {
-  const statsElement = document.getElementById("app-library-stats");
-
-  if (statsElement) {
-    if (!isDataLoaded || !Array.isArray(movies) || movies.length === 0) {
-      statsElement.textContent = "Loading film library...";
-    } else {
-      const providerBackedCount = movies.filter((movie) => {
-        return Array.isArray(movie.ukProviders) && movie.ukProviders.length > 0;
-      }).length;
-
-      statsElement.textContent = `${movies.length} films • ${providerBackedCount} streaming now`;
-    }
-  }
-
-  updateBottomNavState();
-}
-
-function updateBottomNavState(activeKey) {
-  const navButtons = document.querySelectorAll(".bottom-nav-btn");
-  if (!navButtons.length) return;
-
-  let resolvedActiveKey = activeKey;
-
-  if (!resolvedActiveKey) {
-    if (typeof activeView === "string" && activeView) {
-      resolvedActiveKey = activeView;
-    } else if (currentRecommendations) {
-      resolvedActiveKey = "pick";
-    } else {
-      resolvedActiveKey = "rate";
-    }
-  }
-
-  navButtons.forEach((button) => {
-    button.classList.toggle("is-active", button.dataset.nav === resolvedActiveKey);
-  });
-}
-
-function goToRatingFlow() {
-    updateBottomNavState("rate");
-  activeView = "rate";
-  currentRecommendations = null;
-  isBrowsingMoreFilms = true;
-  renderApp();
-  scrollAppToTop();
-}
-
-function goToRecommendationFlow() {
-    updateBottomNavState("pick");
-  activeView = "pick";
-
-  const ratedCount = Object.keys(ratings).length;
-
-  if (currentRecommendations) {
-    renderApp();
-    scrollAppToTop();
-    return;
-  }
-
-  if (ratedCount >= MIN_RATINGS) {
-    isBrowsingMoreFilms = false;
-    renderApp();
-    scrollAppToTop();
-    return;
-  }
-
-  goToRatingFlow();
-}
-
-function goToWatchlist() {
-    updateBottomNavState("watchlist");
-  activeView = "watchlist";
-  renderApp();
-
-  setTimeout(() => {
-    const watchlistSection = document.querySelector(".watchlist-section");
-    if (watchlistSection) {
-      watchlistSection.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  }, 0);
-}
-
-function goToSettings() {
-  activeView = "settings";
-  updateBottomNavState("settings");
-  renderApp();
-  scrollAppToTop();
-}
-
-function renderSettingsScreen(screen) {
-  screen.innerHTML = `
-    <section class="settings-screen">
-      <div class="settings-header">
-        <h2 class="settings-title">Settings</h2>
-        <p class="settings-copy">Manage your services and app data.</p>
-      </div>
-
-      <section class="section-card settings-card">
-        <h3 class="section-title">Streaming services</h3>
-        <p class="section-copy">Choose the services you want NoScroll to recommend from.</p>
-        <div class="service-controls settings-service-controls" id="service-controls"></div>
-      </section>
-
-      <section class="section-card settings-card">
-        <h3 class="section-title">Coming later</h3>
-        <div class="settings-row">Profile</div>
-        <div class="settings-row">Social</div>
-      </section>
-
-      <section class="section-card settings-card danger-card">
-        <h3 class="section-title">App</h3>
-        <button class="ghost-btn" onclick="sendTesterFeedback()">Send feedback</button>
-        <button class="ghost-btn danger-btn" onclick="resetApp()">Reset app data</button>
-      </section>
-    </section>
-  `;
-
-  renderServiceCheckboxes();
-}
-
 function connectResetButton() {
   const btn = document.getElementById("reset-btn");
   if (!btn) return;
 
   btn.addEventListener("click", resetApp);
 }
-
 function resetApp() {
   const confirmReset = confirm(
     "Are you sure you want to reset all ratings, watched state, services, and recommendations?"

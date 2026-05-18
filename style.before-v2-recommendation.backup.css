@@ -1,0 +1,1632 @@
+:root {
+  --bg: #0b0f19;
+  --bg-elevated: rgba(255, 255, 255, 0.05);
+  --bg-elevated-strong: rgba(255, 255, 255, 0.08);
+  --bg-soft: rgba(255, 255, 255, 0.04);
+  --bg-dark-soft: rgba(0, 0, 0, 0.24);
+
+  --border: rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  --text: #f7f8fb;
+  --text-soft: rgba(255, 255, 255, 0.72);
+  --text-muted: rgba(255, 255, 255, 0.52);
+
+  --accent: #ffffff;
+  --accent-dark: #0b0f19;
+
+  --emerald-bg: rgba(16, 185, 129, 0.16);
+  --emerald-border: rgba(52, 211, 153, 0.28);
+  --emerald-text: #b8f7d7;
+
+  --sky-bg: rgba(56, 189, 248, 0.16);
+  --sky-border: rgba(125, 211, 252, 0.28);
+  --sky-text: #c9efff;
+
+  --purple-glow: rgba(113, 87, 255, 0.28);
+  --blue-glow: rgba(35, 163, 255, 0.18);
+
+  --shadow-xl: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.24);
+
+  --radius-xl: 28px;
+  --radius-lg: 24px;
+  --radius-md: 18px;
+  --radius-sm: 14px;
+  --radius-pill: 999px;
+
+  --content-width: 1180px;
+  --transition: 160ms ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top right, rgba(113, 87, 255, 0.16), transparent 28%),
+    radial-gradient(circle at bottom left, rgba(35, 163, 255, 0.10), transparent 30%),
+    var(--bg);
+  color: var(--text);
+  line-height: 1.45;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+#app,
+.app-shell,
+main {
+  width: 100%;
+}
+
+#app-screen {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+}
+
+/* Global rhythm */
+#app-screen > * + *,
+#main-content > * + *,
+.section-stack > * + * {
+  margin-top: 24px;
+}
+
+/* Typography */
+.hero-kicker,
+.pick-label,
+.section-eyebrow,
+.section-overline {
+  font-size: 0.78rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+}
+
+.hero-title,
+.pick-title {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.04;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.hero-text,
+.section-copy,
+.pick-subtext,
+.movie-meta,
+.service-meta,
+.alt-card-meta,
+.alt-card-reason,
+.movie-rating {
+  color: var(--text-soft);
+}
+
+.hero-text,
+.section-copy {
+  margin: 10px 0 0;
+  line-height: 1.65;
+}
+
+.movie-title,
+.alt-card-title {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.movie-meta,
+.service-meta,
+.alt-card-meta,
+.alt-card-reason,
+.movie-rating {
+  margin: 6px 0 0;
+  font-size: 0.94rem;
+}
+
+/* Card system */
+.section-card,
+.hero-card,
+.pick-card,
+.movie-card,
+.alt-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(10px);
+}
+
+.section-card,
+.hero-card,
+.pick-card {
+  border-radius: var(--radius-xl);
+}
+
+.movie-card,
+.alt-card {
+  border-radius: var(--radius-lg);
+}
+
+.section-card {
+  padding: 24px;
+}
+
+.hero-card {
+  padding: 30px 28px;
+}
+
+.pick-card {
+  padding: 30px;
+}
+
+.premium-pick-card {
+  background:
+    radial-gradient(circle at top right, var(--purple-glow), transparent 32%),
+    radial-gradient(circle at bottom left, var(--blue-glow), transparent 34%),
+    var(--bg-elevated);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: var(--shadow-xl);
+}
+
+.pick-spotlight {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at top right, rgba(113, 87, 255, 0.16), transparent 30%),
+    radial-gradient(circle at bottom left, rgba(35, 163, 255, 0.10), transparent 32%);
+}
+
+.pick-main-content,
+.alt-card-body,
+.stacked-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero / top sections */
+.hero-card .progress-pill + .progress-pill {
+  margin-left: 10px;
+}
+
+.progress-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  margin-right: 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-soft);
+  font-size: 0.88rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.rating-progress-track {
+  width: 100%;
+  height: 10px;
+  margin-top: 18px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.rating-progress-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #7e6cff 0%, #40c4ff 100%);
+}
+
+/* Buttons */
+.primary-btn,
+.ghost-btn,
+.rating-btn,
+.seen-btn {
+  appearance: none;
+  border: 1px solid transparent;
+  transition:
+    transform var(--transition),
+    background var(--transition),
+    border-color var(--transition),
+    color var(--transition),
+    opacity var(--transition);
+}
+
+.primary-btn:hover,
+.ghost-btn:hover,
+.rating-btn:hover,
+.seen-btn:hover {
+  transform: translateY(-1px);
+}
+
+.primary-btn:active,
+.ghost-btn:active,
+.rating-btn:active,
+.seen-btn:active {
+  transform: translateY(0);
+}
+
+.primary-btn {
+  padding: 14px 20px;
+  border-radius: var(--radius-md);
+  background: var(--accent);
+  color: var(--accent-dark);
+  font-weight: 600;
+  box-shadow: 0 10px 28px rgba(255, 255, 255, 0.10);
+}
+
+.primary-btn:hover {
+  opacity: 0.96;
+}
+
+.ghost-btn {
+  padding: 13px 18px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.ghost-btn:hover {
+  background: rgba(255, 255, 255, 0.11);
+  border-color: var(--border-strong);
+}
+
+.rating-btn {
+  min-width: 52px;
+  height: 48px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--border);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.rating-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(125, 211, 252, 0.35);
+}
+
+.seen-btn {
+  width: 100%;
+  margin-top: 14px;
+  padding: 13px 16px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.07);
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.seen-btn.seen {
+  background: var(--emerald-bg);
+  border-color: var(--emerald-border);
+  color: var(--emerald-text);
+}
+
+/* Service selection */
+.service-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.service-controls label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  color: var(--text);
+  transition:
+    background var(--transition),
+    border-color var(--transition),
+    transform var(--transition);
+}
+
+.service-controls label:hover {
+  background: rgba(255, 255, 255, 0.10);
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+}
+
+.service-controls input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #7e6cff;
+}
+
+/* Rating flow */
+.stacked-rating-card {
+  display: grid;
+  grid-template-columns: minmax(220px, 260px) minmax(0, 1fr);
+  gap: 28px;
+  padding: 26px;
+}
+
+.stacked-poster-wrap {
+  min-width: 0;
+}
+
+.stacked-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stacked-rating-row,
+.rating-row,
+.pick-action-row,
+.reveal-action-row,
+.stacked-actions,
+.alt-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.stacked-rating-row,
+.rating-row {
+  margin-top: 16px;
+}
+
+.stacked-actions,
+.alt-card-actions,
+.reveal-action-row,
+.pick-action-row {
+  margin-top: 18px;
+}
+
+/* Recommendation screen */
+.pick-card {
+  padding: 32px;
+}
+
+.pick-card .pick-poster-wrap {
+  width: min(100%, 240px);
+  flex-shrink: 0;
+}
+
+.pick-card .pick-main-content {
+  min-width: 0;
+}
+
+.pick-confidence-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.confidence-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid transparent;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.confidence-pill.strong {
+  background: var(--emerald-bg);
+  border-color: var(--emerald-border);
+  color: var(--emerald-text);
+}
+
+.confidence-pill.good {
+  background: var(--sky-bg);
+  border-color: var(--sky-border);
+  color: var(--sky-text);
+}
+
+.confidence-pill.early {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--border);
+  color: var(--text-soft);
+}
+
+.pick-watch-box,
+.availability-box {
+  margin-top: 18px;
+  padding: 18px 18px 16px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: var(--bg-dark-soft);
+}
+
+.pick-watch-copy {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+.pick-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.pick-info-card {
+  min-height: 100%;
+}
+
+.why-list {
+  margin: 14px 0 0;
+  padding-left: 18px;
+  color: var(--text-soft);
+  line-height: 1.65;
+}
+
+.why-list li + li {
+  margin-top: 8px;
+}
+
+/* Backup options / alt cards */
+.alt-section .alt-card-list,
+.watchlist-section .alt-card-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.alt-card {
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
+
+.alt-card-interactive:hover {
+  border-color: var(--border-strong);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.alt-card-poster {
+  min-width: 0;
+}
+
+.alt-card-body {
+  min-width: 0;
+}
+
+/* Poster system */
+.poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.28);
+}
+
+.poster-fallback {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    linear-gradient(160deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03)),
+    linear-gradient(180deg, #1a2030, #0f1421);
+  color: var(--text-soft);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 18px;
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.28);
+}
+
+.poster-fallback-title {
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--text-muted);
+}
+
+.poster-fallback-brand {
+  margin-top: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+/* Dev mode */
+#dev-test-panel input[type="text"] {
+  width: 100%;
+  color: var(--text);
+}
+
+#dev-test-panel input[type="text"]::placeholder {
+  color: var(--text-muted);
+}
+
+/* Utility boxes for availability feature */
+.provider-chip,
+.availability-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+
+.availability-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--sky-bg);
+  border: 1px solid var(--sky-border);
+  color: var(--sky-text);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+/* Legacy list compatibility */
+.movie-card-header {
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+#movie-list {
+  display: grid;
+  gap: 18px;
+}
+
+#load-more-btn {
+  display: inline-flex;
+}
+
+/* Hidden dev toggle / reset safety */
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  #app-screen {
+    padding-top: 24px;
+  }
+
+  .pick-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 820px) {
+  .stacked-rating-card,
+  .pick-card,
+  .premium-pick-card {
+    padding: 22px;
+  }
+
+  .stacked-rating-card {
+    grid-template-columns: 1fr;
+  }
+
+  .alt-card,
+  .movie-card-header {
+    grid-template-columns: 88px minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  #app-screen {
+    padding: 18px 14px 64px;
+  }
+
+  .section-card,
+  .hero-card,
+  .pick-card {
+    padding: 18px;
+  }
+
+  .alt-card {
+    grid-template-columns: 1fr;
+  }
+
+  .alt-card-poster,
+  .stacked-poster-wrap,
+  .pick-poster-wrap {
+    max-width: 240px;
+  }
+
+  .hero-title,
+  .pick-title {
+    font-size: 2rem;
+  }
+
+  .primary-btn,
+  .ghost-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .reveal-action-row,
+  .pick-action-row,
+  .stacked-actions,
+  .alt-card-actions {
+    flex-direction: column;
+  }
+
+  .service-controls {
+    flex-direction: column;
+  }
+
+  .service-controls label {
+    width: 100%;
+  }
+}
+
+/* ===== NoScroll layout rebalance patch ===== */
+
+/* Slightly tighter app shell so non-pick pages don't feel too stretched */
+#app-screen {
+  max-width: 980px;
+}
+
+/* Reduce excess vertical air on standard cards */
+.section-card {
+  padding: 20px;
+}
+
+.hero-card {
+  padding: 24px 24px;
+}
+
+/* Make the rating card feel more intentional and use width better */
+.stacked-rating-card {
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+  padding: 22px;
+}
+
+/* Keep poster from dominating smaller pages */
+.stacked-poster-wrap {
+  max-width: 180px;
+}
+
+/* Let text/actions breathe and fill the row better */
+.stacked-content {
+  width: 100%;
+}
+
+.stacked-content .movie-title {
+  font-size: 1.9rem;
+  line-height: 1.02;
+  margin-bottom: 8px;
+}
+
+.stacked-content .movie-meta,
+.stacked-content .service-meta {
+  font-size: 0.98rem;
+}
+
+/* Make the rating buttons and actions feel more balanced across the row */
+.stacked-rating-row {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  width: 100%;
+  max-width: 520px;
+}
+
+.stacked-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+  max-width: 520px;
+}
+
+/* Tighter service selector section */
+.service-controls {
+  gap: 10px;
+}
+
+.service-controls label {
+  padding: 10px 14px;
+}
+
+/* Better spacing rhythm between top sections */
+#app-screen > * + * {
+  margin-top: 18px;
+}
+
+/* Mobile/tablet adjustments */
+@media (max-width: 820px) {
+  #app-screen {
+    max-width: 100%;
+  }
+
+  .stacked-rating-card {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .stacked-poster-wrap {
+    max-width: 220px;
+  }
+
+  .stacked-content .movie-title {
+    font-size: 1.6rem;
+  }
+
+  .stacked-rating-row {
+    max-width: 100%;
+  }
+
+  .stacked-actions {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .stacked-rating-row {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .stacked-actions {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Header upgrade ===== */
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+/* Left side (title + tagline) */
+.app-header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main title */
+.app-title {
+  font-size: 1.9rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  margin: 0;
+  background: linear-gradient(90deg, #ffffff, #c9d6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Tagline */
+.app-tagline {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+  letter-spacing: 0.01em;
+}
+
+/* Reset button alignment + style */
+.reset-btn {
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.9rem;
+  transition: all var(--transition);
+}
+
+.reset-btn:hover {
+  background: rgba(255, 255, 255, 0.10);
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+}
+
+/* ===== Header tidy patch ===== */
+
+.phone-frame {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.top-bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 0 18px;
+}
+
+.brand-block {
+  min-width: 0;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-row h1 {
+  margin: 0;
+  font-size: 1.9rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  color: var(--text-muted);
+}
+
+#reset-btn {
+  flex-shrink: 0;
+  margin: 0;
+}
+
+/* ===== Header final alignment tweak ===== */
+
+.top-bar {
+  align-items: center; /* instead of flex-start */
+}
+
+.brand-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-row h1 {
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  margin-top: 4px;
+}
+
+/* ===== Fix poster overlap on recommendation card ===== */
+
+.pick-main-content {
+  padding-top: 6px;
+}
+
+.pick-card .pick-poster-wrap {
+  margin-top: 6px;
+}
+
+/* ===== UK availability trust layer ===== */
+
+.availability-box {
+  margin-top: 18px;
+  padding: 18px;
+  border-radius: 22px;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.availability-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.16);
+  border: 1px solid rgba(125, 211, 252, 0.28);
+  color: #c9efff;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.provider-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+/* ===== Recommendation layout alignment fix ===== */
+
+.pick-card.premium-pick-card {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.pick-card .pick-poster-wrap {
+  width: 100%;
+  max-width: 220px;
+  margin: 0;
+  align-self: start;
+}
+
+.pick-card .pick-main-content {
+  width: 100%;
+  min-width: 0;
+  padding-top: 4px;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.pick-label {
+  margin-bottom: 10px;
+}
+
+.pick-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.pick-subtext {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pick-confidence-row {
+  justify-content: flex-start;
+}
+
+.pick-action-row {
+  justify-content: flex-start;
+}
+
+.pick-info-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+/* Keep the recommendation screen roomy without over-centering */
+.pick-watch-box,
+.availability-box {
+  width: 100%;
+}
+
+/* Tablet/mobile fallback */
+@media (max-width: 820px) {
+  .pick-card.premium-pick-card {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .pick-card .pick-poster-wrap {
+    max-width: 240px;
+  }
+
+  .pick-card .pick-main-content {
+    padding-top: 0;
+  }
+
+  .pick-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.section-card {
+  margin-bottom: 20px;
+}
+/* =========================================================
+   NoScroll V2 Foundation — Controlled Cinematic Direction
+   Safe CSS-only visual foundation pass
+   ========================================================= */
+
+:root {
+  --bg: #070b14;
+  --bg-elevated: rgba(255, 255, 255, 0.045);
+  --bg-elevated-strong: rgba(255, 255, 255, 0.075);
+  --bg-soft: rgba(255, 255, 255, 0.035);
+  --bg-dark-soft: rgba(0, 0, 0, 0.22);
+
+  --border: rgba(255, 255, 255, 0.085);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  --text: #f8f7fb;
+  --text-soft: rgba(248, 247, 251, 0.72);
+  --text-muted: rgba(248, 247, 251, 0.50);
+
+  --accent: #ffffff;
+  --accent-dark: #080b13;
+
+  --violet-bg: rgba(139, 92, 246, 0.18);
+  --violet-border: rgba(167, 139, 250, 0.30);
+  --violet-text: #d8c7ff;
+
+  --purple-glow: rgba(126, 87, 255, 0.22);
+  --blue-glow: rgba(28, 147, 255, 0.12);
+
+  --shadow-xl: 0 28px 70px rgba(0, 0, 0, 0.42);
+  --shadow-lg: 0 18px 46px rgba(0, 0, 0, 0.30);
+
+  --content-width: 980px;
+
+  --font-ui: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  font-family: var(--font-ui);
+  background:
+    radial-gradient(circle at 82% 0%, rgba(126, 87, 255, 0.14), transparent 30%),
+    radial-gradient(circle at 8% 100%, rgba(35, 163, 255, 0.08), transparent 34%),
+    linear-gradient(180deg, #070b14 0%, #08111d 100%);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* App shell / mobile chrome */
+.app-shell {
+  min-height: 100vh;
+  padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+}
+
+.phone-frame {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 18px 20px 4px;
+}
+
+.brand-block {
+  min-width: 0;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-row h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 5vw, 1.9rem);
+  line-height: 1;
+  font-weight: 750;
+  letter-spacing: -0.045em;
+}
+
+.subtitle {
+  margin: 5px 0 0;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.spotlight-icon {
+  display: none;
+}
+
+#reset-btn {
+  width: auto;
+  flex: 0 0 auto;
+  min-height: 42px;
+  padding: 10px 15px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.055);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  box-shadow: none;
+}
+
+/* Main screen rhythm */
+#app-screen {
+  max-width: var(--content-width);
+  padding: 22px 20px 88px;
+}
+
+#app-screen > * + *,
+#main-content > * + *,
+.section-stack > * + * {
+  margin-top: 18px;
+}
+
+/* Typography hierarchy */
+.hero-kicker,
+.pick-label,
+.section-eyebrow,
+.section-overline {
+  color: var(--violet-text);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  font-weight: 650;
+}
+
+.hero-title,
+.pick-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.85rem, 7vw, 3rem);
+  line-height: 1.02;
+  font-weight: 760;
+  letter-spacing: -0.055em;
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.hero-text,
+.section-copy {
+  line-height: 1.55;
+}
+
+.movie-title,
+.alt-card-title {
+  font-weight: 740;
+  letter-spacing: -0.035em;
+}
+
+/* Calmer surfaces */
+.section-card,
+.hero-card,
+.pick-card,
+.movie-card,
+.alt-card {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.052), rgba(255, 255, 255, 0.034));
+  border-color: var(--border);
+  box-shadow: var(--shadow-lg);
+}
+
+.section-card,
+.hero-card,
+.pick-card {
+  border-radius: 26px;
+}
+
+.movie-card,
+.alt-card {
+  border-radius: 24px;
+}
+
+.section-card {
+  padding: 20px;
+}
+
+.hero-card {
+  padding: 24px;
+}
+
+.pick-card {
+  padding: 24px;
+}
+
+/* V2 controlled cinematic spotlight */
+.premium-pick-card {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(139, 92, 246, 0.24), transparent 38%),
+    radial-gradient(circle at 0% 100%, rgba(28, 147, 255, 0.10), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.032));
+  border-color: rgba(167, 139, 250, 0.18);
+}
+
+.pick-spotlight {
+  opacity: 0.75;
+}
+
+/* Pills and chips */
+.progress-pill,
+.confidence-pill,
+.availability-pill,
+.provider-chip,
+.availability-chip {
+  min-height: 38px;
+  padding: 9px 13px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.055);
+  border-color: rgba(255, 255, 255, 0.085);
+}
+
+.confidence-pill.strong,
+.confidence-pill.good,
+.confidence-pill.early {
+  background: var(--violet-bg);
+  border-color: var(--violet-border);
+  color: var(--violet-text);
+}
+
+.availability-pill {
+  background: rgba(56, 189, 248, 0.13);
+}
+
+/* Buttons */
+.primary-btn,
+.ghost-btn,
+.rating-btn,
+.seen-btn {
+  min-height: 48px;
+  border-radius: 18px;
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, #ffffff 0%, #f2e6d3 100%);
+  color: #080b13;
+  font-weight: 750;
+  box-shadow: 0 14px 34px rgba(255, 255, 255, 0.10);
+}
+
+.ghost-btn {
+  background: rgba(255, 255, 255, 0.055);
+  border-color: rgba(255, 255, 255, 0.085);
+}
+
+.rating-btn {
+  min-width: 50px;
+  height: 50px;
+  border-radius: 17px;
+  font-size: 1rem;
+}
+
+/* Rating screen refinement */
+.stacked-rating-card {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.052), rgba(255, 255, 255, 0.032));
+}
+
+.stacked-content .movie-title {
+  font-size: clamp(1.55rem, 6vw, 2rem);
+}
+
+.stacked-rating-row {
+  gap: 10px;
+}
+
+/* Recommendation supporting boxes */
+.pick-watch-box,
+.availability-box {
+  background: rgba(0, 0, 0, 0.18);
+  border-color: rgba(255, 255, 255, 0.075);
+}
+
+.pick-info-card {
+  background: rgba(255, 255, 255, 0.038);
+}
+
+/* Service selector polish */
+.service-controls {
+  gap: 10px;
+}
+
+.service-controls label {
+  min-height: 48px;
+  border-radius: 17px;
+  background: rgba(255, 255, 255, 0.045);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Poster refinement */
+.poster,
+.poster-fallback {
+  border-radius: 22px;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.34);
+}
+
+/* Mobile foundation */
+@media (max-width: 640px) {
+  .top-bar {
+    padding: 16px 16px 2px;
+  }
+
+  .logo-row h1 {
+    font-size: 1.65rem;
+  }
+
+  .subtitle {
+    max-width: 210px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #reset-btn {
+    min-height: 40px;
+    padding: 9px 14px;
+    font-size: 0.88rem;
+  }
+
+  #app-screen {
+    padding: 18px 14px 88px;
+  }
+
+  #app-screen > * + *,
+  #main-content > * + *,
+  .section-stack > * + * {
+    margin-top: 16px;
+  }
+
+  .section-card,
+  .hero-card,
+  .pick-card {
+    padding: 18px;
+    border-radius: 24px;
+  }
+
+  .hero-title,
+  .pick-title {
+    font-size: clamp(1.85rem, 10vw, 2.35rem);
+  }
+
+  .hero-text,
+  .section-copy {
+    font-size: 0.96rem;
+    line-height: 1.52;
+  }
+
+  .progress-pill {
+    margin-top: 10px;
+    margin-right: 6px;
+    white-space: normal;
+  }
+
+  .primary-btn,
+  .ghost-btn {
+    width: 100%;
+    min-height: 52px;
+    justify-content: center;
+  }
+
+  .rating-btn {
+    min-width: 0;
+    width: 100%;
+    height: 50px;
+  }
+
+  .stacked-rating-row {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .stacked-actions,
+  .reveal-action-row,
+  .pick-action-row,
+  .alt-card-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .stacked-poster-wrap,
+  .pick-poster-wrap {
+    max-width: 230px;
+    margin: 0 auto;
+  }
+
+  .alt-card {
+    grid-template-columns: 92px minmax(0, 1fr);
+    align-items: start;
+    padding: 14px;
+  }
+
+  .alt-card-poster {
+    max-width: 92px;
+  }
+
+  .alt-card-actions {
+    margin-top: 12px;
+  }
+
+  .service-controls {
+    flex-direction: column;
+  }
+
+  .service-controls label {
+    width: 100%;
+  }
+}
+/* =========================================================
+   NoScroll V2 — Recommendation Hierarchy Refinement
+   ========================================================= */
+
+/* Primary recommendation CTA */
+.pick-primary-action {
+  margin-top: 22px;
+}
+
+.cinematic-primary-btn {
+  width: 100%;
+  min-height: 58px;
+  border-radius: 22px;
+  font-size: 1rem;
+  font-weight: 760;
+  letter-spacing: -0.02em;
+  background:
+    linear-gradient(135deg, #ffffff 0%, #efe2cb 100%);
+  box-shadow:
+    0 18px 42px rgba(255,255,255,0.10),
+    0 8px 18px rgba(0,0,0,0.28);
+}
+
+/* Secondary actions */
+.pick-secondary-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.compact-action-btn {
+  min-height: 46px;
+  border-radius: 16px;
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  font-weight: 640;
+}
+
+/* Tertiary utility actions */
+.pick-tertiary-actions {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.text-action-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition:
+    color var(--transition),
+    opacity var(--transition);
+}
+
+.text-action-btn:hover {
+  color: var(--text);
+}
+
+/* Recommendation card refinement */
+.pick-subtext {
+  margin-top: 10px;
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.pick-confidence-row {
+  margin-top: 16px;
+}
+
+/* Reduce vertical heaviness */
+.pick-watch-box,
+.availability-box,
+.pick-info-card {
+  margin-top: 16px;
+}
+
+/* Alternative recommendation refinement */
+.alt-card {
+  align-items: center;
+}
+
+.compact-alt-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.compact-alt-actions .compact-action-btn {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 40px;
+  font-size: 0.84rem;
+  padding: 8px 10px;
+}
+
+/* Cleaner metadata rhythm */
+.alt-card-title {
+  font-size: 1rem;
+}
+
+.alt-card-meta,
+.alt-card-reason {
+  line-height: 1.35;
+}
+
+/* Mobile refinement */
+@media (max-width: 640px) {
+  .pick-secondary-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .pick-tertiary-actions {
+    gap: 10px;
+  }
+
+  .text-action-btn {
+    width: 100%;
+    min-height: 36px;
+  }
+
+  .compact-alt-actions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .compact-alt-actions .compact-action-btn {
+    width: 100%;
+  }
+}
